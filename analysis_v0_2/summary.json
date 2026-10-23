@@ -1,0 +1,117 @@
+{
+  "input": "C:\\Users\\LENOVO\\Downloads\\independent_decompiler_v1\\independent_decompiler_v1\\sample2.exe",
+  "architecture": "x86-64",
+  "bits": 64,
+  "image_base": "0x140000000",
+  "entry_point": "0x140001480",
+  "file_size_bytes": 39616,
+  "section_count": 9,
+  "sections": [
+    {
+      "name": ".text",
+      "start": "0x140001000",
+      "virtual_size": 4336,
+      "raw_size": 4608,
+      "executable": true
+    },
+    {
+      "name": ".data",
+      "start": "0x140003000",
+      "virtual_size": 144,
+      "raw_size": 512,
+      "executable": false
+    },
+    {
+      "name": ".rdata",
+      "start": "0x140004000",
+      "virtual_size": 2568,
+      "raw_size": 3072,
+      "executable": false
+    },
+    {
+      "name": ".pdata",
+      "start": "0x140005000",
+      "virtual_size": 408,
+      "raw_size": 512,
+      "executable": false
+    },
+    {
+      "name": ".xdata",
+      "start": "0x140006000",
+      "virtual_size": 288,
+      "raw_size": 512,
+      "executable": false
+    },
+    {
+      "name": ".bss",
+      "start": "0x140007000",
+      "virtual_size": 248,
+      "raw_size": 0,
+      "executable": false
+    },
+    {
+      "name": ".idata",
+      "start": "0x140008000",
+      "virtual_size": 1796,
+      "raw_size": 2048,
+      "executable": false
+    },
+    {
+      "name": ".rsrc",
+      "start": "0x140009000",
+      "virtual_size": 800,
+      "raw_size": 1024,
+      "executable": false
+    },
+    {
+      "name": ".reloc",
+      "start": "0x14000a000",
+      "virtual_size": 68,
+      "raw_size": 512,
+      "executable": false
+    }
+  ],
+  "instruction_count": 1241,
+  "basic_block_count": 302,
+  "function_candidates": 60,
+  "pseudocode_functions_emitted": 60,
+  "pseudocode_instructions_emitted": 961,
+  "per_function_block_cap": 1000,
+  "max_pseudocode_instructions": 200000,
+  "string_count": 90,
+  "import_count": 32,
+  "import_xref_count": 38,
+  "string_xref_count": 18,
+  "dataflow_functions_analyzed": 60,
+  "dataflow_rows": 961,
+  "dataflow_enabled": true,
+  "max_dataflow_instructions": 200000,
+  "max_dataflow_functions": 500,
+  "windows_x64_runtime_function_records": 34,
+  "executable_sections_scanned_for_strings": false,
+  "output_files": [
+    "functions.json",
+    "cfg.json",
+    "strings.json",
+    "imports.json",
+    "xrefs.csv",
+    "pseudocode.c.txt",
+    "value_flow.jsonl",
+    "dataflow_summary.json"
+  ],
+  "warnings": [
+    "Decoder skip-data mode is enabled; .byte records are placeholders, not confirmed instructions.",
+    "Linear-sweep disassembly may decode embedded data as instructions and may miss code after alignment/data regions.",
+    "Function starts are heuristic: PE entry, exports, and direct CALL targets; indirect calls and computed jumps may be missed.",
+    "Pseudocode is register-level and conservative. Structured loops, types, variables, and original source names are not generally recovered."
+  ],
+  "timings_seconds": {
+    "load_pe_and_symbols": 0.003784,
+    "string_scan": 0.000828,
+    "disassembly": 0.041065,
+    "cfg_and_xrefs": 0.003327,
+    "dataflow": 0.051629,
+    "output_export": 0.04303,
+    "total": 0.144442
+  }
+}

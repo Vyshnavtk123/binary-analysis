@@ -1,0 +1,549 @@
+{
+  "functions_analyzed": 60,
+  "value_flow_rows": 961,
+  "row_budget": 200000,
+  "function_budget": 500,
+  "per_function": [
+    {
+      "entry": "0x140001000",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001010",
+      "blocks_reachable": 3,
+      "analysis_steps": 13,
+      "rows": 11,
+      "known_register_values_at_block_entries": 13,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001030",
+      "blocks_reachable": 2,
+      "analysis_steps": 3,
+      "rows": 3,
+      "known_register_values_at_block_entries": 8,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001040",
+      "blocks_reachable": 6,
+      "analysis_steps": 27,
+      "rows": 26,
+      "known_register_values_at_block_entries": 21,
+      "known_stack_values_at_block_entries": 8,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400010a0",
+      "blocks_reachable": 49,
+      "analysis_steps": 525,
+      "rows": 215,
+      "known_register_values_at_block_entries": 240,
+      "known_stack_values_at_block_entries": 16,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001460",
+      "blocks_reachable": 1,
+      "analysis_steps": 3,
+      "rows": 3,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001480",
+      "blocks_reachable": 1,
+      "analysis_steps": 3,
+      "rows": 3,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400014a0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400014b0",
+      "blocks_reachable": 1,
+      "analysis_steps": 2,
+      "rows": 2,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400014c0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400014d0",
+      "blocks_reachable": 1,
+      "analysis_steps": 7,
+      "rows": 7,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400014df",
+      "blocks_reachable": 4,
+      "analysis_steps": 24,
+      "rows": 24,
+      "known_register_values_at_block_entries": 12,
+      "known_stack_values_at_block_entries": 6,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001540",
+      "blocks_reachable": 4,
+      "analysis_steps": 25,
+      "rows": 16,
+      "known_register_values_at_block_entries": 16,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001590",
+      "blocks_reachable": 8,
+      "analysis_steps": 41,
+      "rows": 26,
+      "known_register_values_at_block_entries": 39,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400015f0",
+      "blocks_reachable": 3,
+      "analysis_steps": 6,
+      "rows": 6,
+      "known_register_values_at_block_entries": 14,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001610",
+      "blocks_reachable": 1,
+      "analysis_steps": 2,
+      "rows": 2,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001620",
+      "blocks_reachable": 4,
+      "analysis_steps": 38,
+      "rows": 38,
+      "known_register_values_at_block_entries": 20,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001720",
+      "blocks_reachable": 1,
+      "analysis_steps": 24,
+      "rows": 24,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001780",
+      "blocks_reachable": 16,
+      "analysis_steps": 238,
+      "rows": 89,
+      "known_register_values_at_block_entries": 47,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400018f0",
+      "blocks_reachable": 51,
+      "analysis_steps": 433,
+      "rows": 225,
+      "known_register_values_at_block_entries": 340,
+      "known_stack_values_at_block_entries": 6,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001c90",
+      "blocks_reachable": 3,
+      "analysis_steps": 17,
+      "rows": 15,
+      "known_register_values_at_block_entries": 11,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001cd0",
+      "blocks_reachable": 2,
+      "analysis_steps": 3,
+      "rows": 3,
+      "known_register_values_at_block_entries": 8,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001ce0",
+      "blocks_reachable": 1,
+      "analysis_steps": 2,
+      "rows": 2,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001cf0",
+      "blocks_reachable": 11,
+      "analysis_steps": 48,
+      "rows": 33,
+      "known_register_values_at_block_entries": 40,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001d70",
+      "blocks_reachable": 5,
+      "analysis_steps": 15,
+      "rows": 13,
+      "known_register_values_at_block_entries": 23,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001da0",
+      "blocks_reachable": 4,
+      "analysis_steps": 15,
+      "rows": 13,
+      "known_register_values_at_block_entries": 18,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001dd0",
+      "blocks_reachable": 3,
+      "analysis_steps": 25,
+      "rows": 15,
+      "known_register_values_at_block_entries": 10,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001e10",
+      "blocks_reachable": 1,
+      "analysis_steps": 19,
+      "rows": 19,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001e50",
+      "blocks_reachable": 1,
+      "analysis_steps": 25,
+      "rows": 25,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001eb0",
+      "blocks_reachable": 1,
+      "analysis_steps": 22,
+      "rows": 22,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001f00",
+      "blocks_reachable": 1,
+      "analysis_steps": 2,
+      "rows": 2,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001f10",
+      "blocks_reachable": 1,
+      "analysis_steps": 3,
+      "rows": 3,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001f20",
+      "blocks_reachable": 1,
+      "analysis_steps": 14,
+      "rows": 14,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001f50",
+      "blocks_reachable": 1,
+      "analysis_steps": 33,
+      "rows": 33,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fb0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fc0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fc8",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fd0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fd8",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001fe8",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001ff0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140001ff8",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002000",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002008",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002010",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002018",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002020",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002028",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002030",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002038",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002040",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002048",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002050",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002058",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002060",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002080",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002090",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x140002098",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400020a0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    },
+    {
+      "entry": "0x1400020e0",
+      "blocks_reachable": 1,
+      "analysis_steps": 1,
+      "rows": 1,
+      "known_register_values_at_block_entries": 4,
+      "known_stack_values_at_block_entries": 0,
+      "warnings": []
+    }
+  ],
+  "warnings": []
+}

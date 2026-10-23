@@ -1,0 +1,757 @@
+{
+  "input": "C:\\Users\\LENOVO\\Downloads\\cryptoscan-windows-amd64.exe",
+  "architecture": "x86-64",
+  "bits": 64,
+  "artifact_identity": {
+    "filename": "cryptoscan-windows-amd64.exe",
+    "sha256": "acc599ddcc9b4fc3121e8ed73825bc1bc5f1fa4ab4165f6e0cc697479cabec23",
+    "file_size_bytes": 9656320,
+    "file_version": null,
+    "go_runtime_version": "go1.22.2"
+  },
+  "analysis_complete": true,
+  "cancelled": false,
+  "cancelled_stage": null,
+  "image_base": "0x400000",
+  "entry_point": "0x46dcc0",
+  "file_size_bytes": 9656320,
+  "section_count": 8,
+  "sections": [
+    {
+      "name": ".text",
+      "start": "0x401000",
+      "virtual_size": 3406348,
+      "raw_size": 3406848,
+      "executable": true
+    },
+    {
+      "name": ".rdata",
+      "start": "0x741000",
+      "virtual_size": 5821568,
+      "raw_size": 5821952,
+      "executable": false
+    },
+    {
+      "name": ".data",
+      "start": "0xccf000",
+      "virtual_size": 867040,
+      "raw_size": 285184,
+      "executable": false
+    },
+    {
+      "name": ".pdata",
+      "start": "0xda3000",
+      "virtual_size": 73776,
+      "raw_size": 74240,
+      "executable": false
+    },
+    {
+      "name": ".xdata",
+      "start": "0xdb6000",
+      "virtual_size": 180,
+      "raw_size": 512,
+      "executable": false
+    },
+    {
+      "name": ".idata",
+      "start": "0xdb7000",
+      "virtual_size": 1364,
+      "raw_size": 1536,
+      "executable": false
+    },
+    {
+      "name": ".reloc",
+      "start": "0xdb8000",
+      "virtual_size": 63822,
+      "raw_size": 64000,
+      "executable": false
+    },
+    {
+      "name": ".symtab",
+      "start": "0xdc8000",
+      "virtual_size": 4,
+      "raw_size": 512,
+      "executable": false
+    }
+  ],
+  "instruction_count": 500000,
+  "basic_block_count": 83574,
+  "function_candidates": 1000,
+  "pseudocode_functions_emitted": 100,
+  "isolated_jump_thunk_candidates": [],
+  "pseudocode_instructions_emitted": 7701,
+  "function_signatures_recovered": 100,
+  "nonvoid_function_signatures": 84,
+  "per_function_block_cap": 1000,
+  "max_pseudocode_instructions": 200000,
+  "string_count": 26475,
+  "crypto_indicator_summary": {
+    "analyzer": {
+      "name": "Independent Decompiler Engine",
+      "version": "0.4.0-dev"
+    },
+    "algorithm_names_found": [
+      "3DES",
+      "AES",
+      "AES-CBC",
+      "AES-ECB",
+      "AES-GCM",
+      "Argon2",
+      "BLAKE2",
+      "BLAKE3",
+      "Blowfish",
+      "CMAC",
+      "ChaCha20",
+      "ChaCha20-Poly1305",
+      "DES",
+      "DHE",
+      "DSA",
+      "DTLS",
+      "Diffie-Hellman",
+      "ECDH",
+      "ECDHE",
+      "ECDSA",
+      "Ed25519",
+      "FN-DSA",
+      "GMAC",
+      "HKDF",
+      "HMAC",
+      "HMAC-MD5",
+      "HMAC-SHA1",
+      "HMAC-SHA2",
+      "HMAC-SHA3",
+      "Hybrid-KEM",
+      "Hybrid-TLS",
+      "KMAC",
+      "Keccak",
+      "Kyber",
+      "LMS",
+      "MD5",
+      "ML-DSA",
+      "ML-DSA-44",
+      "ML-DSA-65",
+      "ML-KEM",
+      "ML-KEM-512",
+      "ML-KEM-768",
+      "Mutual TLS",
+      "PBKDF2",
+      "PKCS",
+      "Poly1305",
+      "RC4",
+      "RSA",
+      "RSA-PSS",
+      "SHA-1",
+      "SHA-2",
+      "SHA-256",
+      "SHA-3",
+      "SHA-384",
+      "SHA-512",
+      "SHAKE128",
+      "SHAKE256",
+      "SLH-DSA",
+      "SSL",
+      "TLS",
+      "X.509",
+      "X25519",
+      "XChaCha20",
+      "XMSS",
+      "scrypt"
+    ],
+    "algorithm_use_states": {
+      "3DES": [
+        "string_only"
+      ],
+      "AES": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "AES-CBC": [
+        "string_only"
+      ],
+      "AES-ECB": [
+        "string_only"
+      ],
+      "AES-GCM": [
+        "string_only"
+      ],
+      "Argon2": [
+        "string_only"
+      ],
+      "BLAKE2": [
+        "string_only"
+      ],
+      "BLAKE3": [
+        "string_only"
+      ],
+      "Blowfish": [
+        "string_only"
+      ],
+      "CMAC": [
+        "string_only"
+      ],
+      "ChaCha20": [
+        "string_only"
+      ],
+      "ChaCha20-Poly1305": [
+        "string_only"
+      ],
+      "DES": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "DHE": [
+        "string_only"
+      ],
+      "DSA": [
+        "string_only"
+      ],
+      "DTLS": [
+        "string_only"
+      ],
+      "Diffie-Hellman": [
+        "string_only"
+      ],
+      "ECC": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "ECDH": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "ECDHE": [
+        "string_only"
+      ],
+      "ECDSA": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "Ed25519": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "FN-DSA": [
+        "string_only"
+      ],
+      "GMAC": [
+        "string_only"
+      ],
+      "HKDF": [
+        "string_only"
+      ],
+      "HMAC": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "HMAC-MD5": [
+        "string_only"
+      ],
+      "HMAC-SHA1": [
+        "string_only"
+      ],
+      "HMAC-SHA2": [
+        "string_only"
+      ],
+      "HMAC-SHA3": [
+        "string_only"
+      ],
+      "Hybrid-KEM": [
+        "string_only"
+      ],
+      "Hybrid-TLS": [
+        "string_only"
+      ],
+      "KMAC": [
+        "string_only"
+      ],
+      "Keccak": [
+        "string_only"
+      ],
+      "Kyber": [
+        "string_only"
+      ],
+      "LMS": [
+        "string_only"
+      ],
+      "MD5": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "ML-DSA": [
+        "string_only"
+      ],
+      "ML-DSA-44": [
+        "string_only"
+      ],
+      "ML-DSA-65": [
+        "string_only"
+      ],
+      "ML-KEM": [
+        "string_only"
+      ],
+      "ML-KEM-512": [
+        "string_only"
+      ],
+      "ML-KEM-768": [
+        "string_only"
+      ],
+      "Mutual TLS": [
+        "string_only"
+      ],
+      "PBKDF2": [
+        "string_only"
+      ],
+      "PKCS": [
+        "string_only"
+      ],
+      "Poly1305": [
+        "string_only"
+      ],
+      "RC4": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "RSA": [
+        "symbol_present",
+        "call_site_found",
+        "statically_reachable"
+      ],
+      "RSA-PSS": [
+        "string_only"
+      ],
+      "SHA-1": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "SHA-2": [
+        "string_only"
+      ],
+      "SHA-256": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "SHA-3": [
+        "string_only"
+      ],
+      "SHA-384": [
+        "string_only"
+      ],
+      "SHA-512": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "SHAKE128": [
+        "string_only"
+      ],
+      "SHAKE256": [
+        "string_only"
+      ],
+      "SLH-DSA": [
+        "string_only"
+      ],
+      "SSL": [
+        "string_only"
+      ],
+      "TLS": [
+        "symbol_present",
+        "call_site_found",
+        "statically_reachable"
+      ],
+      "X.509": [
+        "symbol_present",
+        "call_site_found"
+      ],
+      "X25519": [
+        "string_only"
+      ],
+      "XChaCha20": [
+        "string_only"
+      ],
+      "XMSS": [
+        "string_only"
+      ],
+      "cipher API": [
+        "symbol_present"
+      ],
+      "scrypt": [
+        "string_only"
+      ]
+    },
+    "algorithm_families": {
+      "3DES": [
+        "3DES"
+      ],
+      "AES": [
+        "AES",
+        "AES-CBC",
+        "AES-ECB",
+        "AES-GCM"
+      ],
+      "Argon2": [
+        "Argon2"
+      ],
+      "BLAKE2": [
+        "BLAKE2"
+      ],
+      "BLAKE3": [
+        "BLAKE3"
+      ],
+      "Blowfish": [
+        "Blowfish"
+      ],
+      "CMAC": [
+        "CMAC"
+      ],
+      "ChaCha20": [
+        "ChaCha20",
+        "ChaCha20-Poly1305",
+        "XChaCha20"
+      ],
+      "DES": [
+        "DES"
+      ],
+      "DHE": [
+        "DHE"
+      ],
+      "DSA": [
+        "DSA"
+      ],
+      "DTLS": [
+        "DTLS"
+      ],
+      "Diffie-Hellman": [
+        "Diffie-Hellman"
+      ],
+      "ECDH": [
+        "ECDH"
+      ],
+      "ECDHE": [
+        "ECDHE"
+      ],
+      "ECDSA": [
+        "ECDSA"
+      ],
+      "Ed25519": [
+        "Ed25519"
+      ],
+      "GMAC": [
+        "GMAC"
+      ],
+      "HKDF": [
+        "HKDF"
+      ],
+      "HMAC": [
+        "HMAC",
+        "HMAC-MD5",
+        "HMAC-SHA1",
+        "HMAC-SHA2",
+        "HMAC-SHA3"
+      ],
+      "Hybrid-KEM": [
+        "Hybrid-KEM"
+      ],
+      "Hybrid-TLS": [
+        "Hybrid-TLS"
+      ],
+      "KMAC": [
+        "KMAC"
+      ],
+      "Keccak": [
+        "Keccak"
+      ],
+      "LMS": [
+        "LMS"
+      ],
+      "MD5": [
+        "MD5"
+      ],
+      "ML-DSA": [
+        "FN-DSA",
+        "ML-DSA",
+        "ML-DSA-44",
+        "ML-DSA-65"
+      ],
+      "ML-KEM": [
+        "Kyber",
+        "ML-KEM",
+        "ML-KEM-512",
+        "ML-KEM-768"
+      ],
+      "Mutual TLS": [
+        "Mutual TLS"
+      ],
+      "PBKDF2": [
+        "PBKDF2"
+      ],
+      "PKCS": [
+        "PKCS"
+      ],
+      "Poly1305": [
+        "Poly1305"
+      ],
+      "RC4": [
+        "RC4"
+      ],
+      "RSA": [
+        "RSA",
+        "RSA-PSS"
+      ],
+      "SHA-1": [
+        "SHA-1"
+      ],
+      "SHA-2": [
+        "SHA-2",
+        "SHA-256",
+        "SHA-3",
+        "SHA-384",
+        "SHA-512"
+      ],
+      "SHA-3": [
+        "SHAKE128",
+        "SHAKE256"
+      ],
+      "SLH-DSA": [
+        "SLH-DSA"
+      ],
+      "SSL": [
+        "SSL"
+      ],
+      "TLS": [
+        "TLS"
+      ],
+      "X.509": [
+        "X.509"
+      ],
+      "X25519": [
+        "X25519"
+      ],
+      "XMSS": [
+        "XMSS"
+      ],
+      "scrypt": [
+        "scrypt"
+      ]
+    },
+    "go_function_symbol_names": [
+      "AES",
+      "DES",
+      "ECC",
+      "ECDH",
+      "ECDSA",
+      "Ed25519",
+      "HMAC",
+      "MD5",
+      "RC4",
+      "RSA",
+      "SHA-1",
+      "SHA-256",
+      "SHA-512",
+      "TLS",
+      "X.509"
+    ],
+    "algorithm_string_hits": 1758,
+    "keyword_string_hits": 2184,
+    "cryptography_api_imports": 0,
+    "package_path_string_evidence": {
+      "algorithm_names": [
+        "AES",
+        "ChaCha20",
+        "ChaCha20-Poly1305",
+        "DES",
+        "DSA",
+        "ECC",
+        "ECDH",
+        "ECDSA",
+        "Ed25519",
+        "HKDF",
+        "HMAC",
+        "MD5",
+        "RC4",
+        "RSA",
+        "SHA-1",
+        "SHA-256",
+        "SHA-512",
+        "TLS",
+        "X.509"
+      ],
+      "package_path_counts": {
+        "crypto/aes": 41,
+        "crypto/cipher": 29,
+        "crypto/des": 22,
+        "crypto/dsa": 3,
+        "crypto/ecdh": 46,
+        "crypto/ecdsa": 39,
+        "crypto/ed25519": 6,
+        "crypto/elliptic": 69,
+        "crypto/hmac": 11,
+        "crypto/md5": 16,
+        "crypto/rc4": 9,
+        "crypto/rsa": 23,
+        "crypto/sha1": 23,
+        "crypto/sha256": 22,
+        "crypto/sha512": 22,
+        "crypto/tls": 420,
+        "crypto/x509": 133,
+        "golang.org/x/crypto/chacha20": 13,
+        "golang.org/x/crypto/chacha20poly1305": 20,
+        "golang.org/x/crypto/hkdf": 5
+      },
+      "package_path_hit_count": 972,
+      "interpretation": "Package path strings suggest linked or retained package metadata; they do not prove runtime execution."
+    },
+    "compiled_function_symbol_string_evidence": {
+      "unique_symbols": 599,
+      "symbol_occurrences": 781,
+      "algorithm_names": [
+        "AES",
+        "DES",
+        "ECC",
+        "ECDH",
+        "ECDSA",
+        "Ed25519",
+        "HMAC",
+        "MD5",
+        "RC4",
+        "RSA",
+        "SHA-1",
+        "SHA-256",
+        "SHA-512",
+        "TLS",
+        "X.509"
+      ],
+      "interpretation": "These are symbol-shaped strings and remain string evidence unless independently recovered from pclntab."
+    },
+    "finding_count": 6857,
+    "disassembly_call_sites_to_crypto_functions_or_imports": 643,
+    "go_call_graph": {
+      "edge_count": 34795,
+      "direct_edge_count": 34795,
+      "resolved_indirect_edge_count": 0,
+      "reachable_function_count": 738,
+      "crypto_functions_reachable_from_roots": [
+        "crypto/rsa.map.init.0",
+        "crypto/tls.map.init.0",
+        "crypto/tls.map.init.1"
+      ],
+      "unresolved_indirect_call_count": 1414
+    }
+  },
+  "import_count": 47,
+  "import_xref_count": 105,
+  "string_xref_count": 254,
+  "dataflow_functions_analyzed": 100,
+  "dataflow_rows": 7701,
+  "dataflow_enabled": true,
+  "indirect_call_discovery": {
+    "enabled": true,
+    "row_budget": 20000,
+    "function_budget": 100,
+    "functions_available": 100,
+    "rows_scanned": 7701,
+    "functions_scanned": 100,
+    "budget_exhausted": false,
+    "function_budget_exhausted": false,
+    "targets_resolved": [],
+    "tail_jump_targets": [],
+    "callback_targets": [],
+    "new_function_candidates": [],
+    "newly_decoded_targets": [],
+    "rejected_non_executable_targets": [
+      "0x0",
+      "0x1",
+      "0x2",
+      "0x3",
+      "0x4",
+      "0x6",
+      "0x8",
+      "0x9",
+      "0xa",
+      "0xd",
+      "0xe",
+      "0xf",
+      "0x10",
+      "0x14",
+      "0x16",
+      "0x18",
+      "0x1b",
+      "0x1c",
+      "0x10a",
+      "0x12c"
+    ]
+  },
+  "static_pointer_scan": {
+    "slots_scanned": 20000,
+    "pointer_slots_found": 2076,
+    "slot_budget": 20000,
+    "budget_exhausted": true
+  },
+  "indirect_control_transfers_recorded": 0,
+  "normalized_ir_operations": 7701,
+  "ssa_operations": 10825,
+  "ssa_phi_nodes": 3124,
+  "ssa_functions_analyzed": 100,
+  "ssa_enabled": true,
+  "max_dataflow_instructions": 20000,
+  "max_dataflow_functions": 100,
+  "windows_x64_runtime_function_records": 6148,
+  "windows_x64_exception_handler_targets": 1,
+  "windows_x64_exception_handler_candidates": 0,
+  "runtime_function_records_with_handler": 1,
+  "unwind_metadata_records": 6148,
+  "executable_sections_scanned_for_strings": false,
+  "code_discovery": {
+    "method": "recursive_control_flow_with_linear_sweep_candidates",
+    "recursive_seed_count": 6936,
+    "recursive_instruction_count": 500000,
+    "linear_sweep_candidate_instruction_count": 500000,
+    "cfg_instruction_boundary_confidence": [
+      "confirmed_reachable"
+    ],
+    "application_root_function_count": 1,
+    "application_reachable_function_count": 1,
+    "unknown_application_reachability_function_count": 999
+  },
+  "output_files": [
+    "program.json",
+    "decompiler.jsonl",
+    "normalized_ir.jsonl",
+    "ssa_ir.jsonl",
+    "ssa_cfg.json",
+    "ssa_summary.json",
+    "functions.json",
+    "function_signatures.json",
+    "cfg.json",
+    "strings.json",
+    "crypto_findings.json",
+    "crypto_cbom.cyclonedx.json",
+    "imports.json",
+    "xrefs.csv",
+    "pseudocode.c.txt",
+    "value_flow.jsonl",
+    "dataflow_summary.json"
+  ],
+  "warnings": [
+    "Decoder skip-data mode is enabled; .byte records are placeholders, not confirmed instructions.",
+    "Instruction cap reached (500,000); analysis is partial.",
+    "Recursive decode instruction cap reached (500,000); analysis is partial.",
+    "Function cap reached (1,000); function output is partial.",
+    "Pseudocode function cap reached (100); functions.json remains broader than pseudocode.c.txt.",
+    "The CFG uses recursively reached instruction boundaries. Linear-sweep candidates remain available in assembly output and may include embedded data; unreachable code can be omitted.",
+    "Function starts are heuristic: PE entry, exports, runtime metadata, direct calls, and bounded value-flow-resolved indirect calls; unresolved indirect calls and computed jumps may be missed.",
+    "Pseudocode is conservative; structured source control flow, full type recovery and original source names are not generally recovered.",
+    "Return types and call arguments are heuristic; full ABI typing and arbitrary memory-held function pointers are not yet recovered.",
+    "Indirect-call discovery is bounded by the value-flow row/function budgets and requires a concrete target matching a decoded instruction start.",
+    "Windows x64 unwind operations and handler references are reported; exceptional control-flow edges are not modeled."
+  ],
+  "timings_seconds": {
+    "load_pe_and_symbols": 0.180473,
+    "string_scan": 0.322715,
+    "disassembly": 343.894946,
+    "static_pointer_scan": 0.024464,
+    "cfg_and_xrefs": 5.690577,
+    "dataflow": 3.685506,
+    "normalized_ir_and_ssa": 2.180886,
+    "output_export": 3.9201,
+    "total": 395.25304
+  }
+}

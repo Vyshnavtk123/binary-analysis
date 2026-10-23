@@ -1,0 +1,426 @@
+{
+  "input": "C:\\Users\\LENOVO\\Downloads\\cryptoscan-windows-amd64.exe",
+  "architecture": "x86-64",
+  "bits": 64,
+  "analysis_complete": true,
+  "cancelled": false,
+  "cancelled_stage": null,
+  "image_base": "0x400000",
+  "entry_point": "0x46dcc0",
+  "file_size_bytes": 9656320,
+  "section_count": 8,
+  "sections": [
+    {
+      "name": ".text",
+      "start": "0x401000",
+      "virtual_size": 3406348,
+      "raw_size": 3406848,
+      "executable": true
+    },
+    {
+      "name": ".rdata",
+      "start": "0x741000",
+      "virtual_size": 5821568,
+      "raw_size": 5821952,
+      "executable": false
+    },
+    {
+      "name": ".data",
+      "start": "0xccf000",
+      "virtual_size": 867040,
+      "raw_size": 285184,
+      "executable": false
+    },
+    {
+      "name": ".pdata",
+      "start": "0xda3000",
+      "virtual_size": 73776,
+      "raw_size": 74240,
+      "executable": false
+    },
+    {
+      "name": ".xdata",
+      "start": "0xdb6000",
+      "virtual_size": 180,
+      "raw_size": 512,
+      "executable": false
+    },
+    {
+      "name": ".idata",
+      "start": "0xdb7000",
+      "virtual_size": 1364,
+      "raw_size": 1536,
+      "executable": false
+    },
+    {
+      "name": ".reloc",
+      "start": "0xdb8000",
+      "virtual_size": 63822,
+      "raw_size": 64000,
+      "executable": false
+    },
+    {
+      "name": ".symtab",
+      "start": "0xdc8000",
+      "virtual_size": 4,
+      "raw_size": 512,
+      "executable": false
+    }
+  ],
+  "instruction_count": 852786,
+  "basic_block_count": 133826,
+  "function_candidates": 2000,
+  "pseudocode_functions_emitted": 500,
+  "isolated_jump_thunk_candidates": [],
+  "pseudocode_instructions_emitted": 48134,
+  "function_signatures_recovered": 500,
+  "nonvoid_function_signatures": 379,
+  "per_function_block_cap": 1000,
+  "max_pseudocode_instructions": 200000,
+  "string_count": 26475,
+  "crypto_indicator_summary": {
+    "algorithm_names_found": [
+      "3DES",
+      "AES",
+      "AES-CBC",
+      "AES-ECB",
+      "AES-GCM",
+      "Argon2",
+      "BLAKE2",
+      "BLAKE3",
+      "Blowfish",
+      "CMAC",
+      "ChaCha20",
+      "ChaCha20-Poly1305",
+      "DES",
+      "DHE",
+      "DSA",
+      "DTLS",
+      "Diffie-Hellman",
+      "ECDH",
+      "ECDHE",
+      "ECDSA",
+      "Ed25519",
+      "FN-DSA",
+      "GMAC",
+      "HKDF",
+      "HMAC",
+      "HMAC-MD5",
+      "HMAC-SHA1",
+      "HMAC-SHA2",
+      "HMAC-SHA3",
+      "Hybrid-KEM",
+      "Hybrid-TLS",
+      "KMAC",
+      "Keccak",
+      "Kyber",
+      "LMS",
+      "MD5",
+      "ML-DSA",
+      "ML-DSA-44",
+      "ML-DSA-65",
+      "ML-KEM",
+      "ML-KEM-512",
+      "ML-KEM-768",
+      "Mutual TLS",
+      "PBKDF2",
+      "PKCS",
+      "Poly1305",
+      "RC4",
+      "RSA",
+      "RSA-PSS",
+      "SHA-1",
+      "SHA-2",
+      "SHA-256",
+      "SHA-3",
+      "SHA-384",
+      "SHA-512",
+      "SHAKE128",
+      "SHAKE256",
+      "SLH-DSA",
+      "SSL",
+      "TLS",
+      "X.509",
+      "X25519",
+      "XChaCha20",
+      "XMSS",
+      "scrypt"
+    ],
+    "algorithm_families": {
+      "3DES": [
+        "3DES"
+      ],
+      "AES": [
+        "AES",
+        "AES-CBC",
+        "AES-ECB",
+        "AES-GCM"
+      ],
+      "Argon2": [
+        "Argon2"
+      ],
+      "BLAKE2": [
+        "BLAKE2"
+      ],
+      "BLAKE3": [
+        "BLAKE3"
+      ],
+      "Blowfish": [
+        "Blowfish"
+      ],
+      "CMAC": [
+        "CMAC"
+      ],
+      "ChaCha20": [
+        "ChaCha20",
+        "ChaCha20-Poly1305",
+        "XChaCha20"
+      ],
+      "DES": [
+        "DES"
+      ],
+      "DHE": [
+        "DHE"
+      ],
+      "DSA": [
+        "DSA"
+      ],
+      "DTLS": [
+        "DTLS"
+      ],
+      "Diffie-Hellman": [
+        "Diffie-Hellman"
+      ],
+      "ECDH": [
+        "ECDH"
+      ],
+      "ECDHE": [
+        "ECDHE"
+      ],
+      "ECDSA": [
+        "ECDSA"
+      ],
+      "Ed25519": [
+        "Ed25519"
+      ],
+      "GMAC": [
+        "GMAC"
+      ],
+      "HKDF": [
+        "HKDF"
+      ],
+      "HMAC": [
+        "HMAC",
+        "HMAC-MD5",
+        "HMAC-SHA1",
+        "HMAC-SHA2",
+        "HMAC-SHA3"
+      ],
+      "Hybrid-KEM": [
+        "Hybrid-KEM"
+      ],
+      "Hybrid-TLS": [
+        "Hybrid-TLS"
+      ],
+      "KMAC": [
+        "KMAC"
+      ],
+      "Keccak": [
+        "Keccak"
+      ],
+      "LMS": [
+        "LMS"
+      ],
+      "MD5": [
+        "MD5"
+      ],
+      "ML-DSA": [
+        "FN-DSA",
+        "ML-DSA",
+        "ML-DSA-44",
+        "ML-DSA-65"
+      ],
+      "ML-KEM": [
+        "Kyber",
+        "ML-KEM",
+        "ML-KEM-512",
+        "ML-KEM-768"
+      ],
+      "Mutual TLS": [
+        "Mutual TLS"
+      ],
+      "PBKDF2": [
+        "PBKDF2"
+      ],
+      "PKCS": [
+        "PKCS"
+      ],
+      "Poly1305": [
+        "Poly1305"
+      ],
+      "RC4": [
+        "RC4"
+      ],
+      "RSA": [
+        "RSA",
+        "RSA-PSS"
+      ],
+      "SHA-1": [
+        "SHA-1"
+      ],
+      "SHA-2": [
+        "SHA-2",
+        "SHA-256",
+        "SHA-3",
+        "SHA-384",
+        "SHA-512"
+      ],
+      "SHA-3": [
+        "SHAKE128",
+        "SHAKE256"
+      ],
+      "SLH-DSA": [
+        "SLH-DSA"
+      ],
+      "SSL": [
+        "SSL"
+      ],
+      "TLS": [
+        "TLS"
+      ],
+      "X.509": [
+        "X.509"
+      ],
+      "X25519": [
+        "X25519"
+      ],
+      "XMSS": [
+        "XMSS"
+      ],
+      "scrypt": [
+        "scrypt"
+      ]
+    },
+    "go_function_symbol_names": [
+      "AES",
+      "DES",
+      "ECC",
+      "ECDH",
+      "ECDSA",
+      "Ed25519",
+      "HMAC",
+      "MD5",
+      "RC4",
+      "RSA",
+      "SHA-1",
+      "SHA-256",
+      "SHA-512",
+      "TLS",
+      "X.509"
+    ],
+    "algorithm_string_hits": 1758,
+    "keyword_string_hits": 2184,
+    "cryptography_api_imports": 0,
+    "disassembly_call_sites_to_crypto_functions": 713,
+    "go_pclntab": {
+      "format": "go1.20+",
+      "function_count": 6936,
+      "warnings": [],
+      "pclntab_file_offset": "0x6f7060"
+    },
+    "go_function_symbols": 709,
+    "finding_count": 5009,
+    "disassembly_call_sites_to_crypto_functions_or_imports": 713,
+    "go_runtime_version": "go1.22.2"
+  },
+  "import_count": 47,
+  "import_xref_count": 105,
+  "string_xref_count": 387,
+  "dataflow_functions_analyzed": 500,
+  "dataflow_rows": 48027,
+  "dataflow_enabled": true,
+  "indirect_call_discovery": {
+    "enabled": true,
+    "row_budget": 200000,
+    "function_budget": 500,
+    "functions_available": 500,
+    "rows_scanned": 48027,
+    "functions_scanned": 500,
+    "budget_exhausted": false,
+    "function_budget_exhausted": false,
+    "targets_resolved": [
+      "0x42dc60"
+    ],
+    "tail_jump_targets": [],
+    "callback_targets": [],
+    "new_function_candidates": []
+  },
+  "static_pointer_scan": {
+    "slots_scanned": 200000,
+    "pointer_slots_found": 20888,
+    "slot_budget": 200000,
+    "budget_exhausted": true
+  },
+  "indirect_control_transfers_recorded": 56,
+  "normalized_ir_operations": 48134,
+  "ssa_operations": 72048,
+  "ssa_phi_nodes": 23914,
+  "ssa_functions_analyzed": 500,
+  "ssa_enabled": true,
+  "max_dataflow_instructions": 200000,
+  "max_dataflow_functions": 500,
+  "windows_x64_runtime_function_records": 6148,
+  "windows_x64_exception_handler_targets": 1,
+  "windows_x64_exception_handler_candidates": 1,
+  "runtime_function_records_with_handler": 1,
+  "unwind_metadata_records": 6148,
+  "executable_sections_scanned_for_strings": false,
+  "output_files": [
+    "program.json",
+    "decompiler.jsonl",
+    "normalized_ir.jsonl",
+    "ssa_ir.jsonl",
+    "ssa_cfg.json",
+    "ssa_summary.json",
+    "functions.json",
+    "function_signatures.json",
+    "cfg.json",
+    "strings.json",
+    "crypto_findings.json",
+    "imports.json",
+    "xrefs.csv",
+    "pseudocode.c.txt",
+    "value_flow.jsonl",
+    "dataflow_summary.json",
+    "crypto_cbom.cyclonedx.json"
+  ],
+  "warnings": [
+    "Decoder skip-data mode is enabled; .byte records are placeholders, not confirmed instructions.",
+    "Function cap reached (2,000); function output is partial.",
+    "Pseudocode function cap reached (500); functions.json remains broader than pseudocode.c.txt.",
+    "Linear-sweep disassembly may decode embedded data as instructions and may miss code after alignment/data regions.",
+    "Function starts are heuristic: PE entry, exports, runtime metadata, direct calls, and bounded value-flow-resolved indirect calls; unresolved indirect calls and computed jumps may be missed.",
+    "Pseudocode is conservative; structured source control flow, full type recovery and original source names are not generally recovered.",
+    "Return types and call arguments are heuristic; full ABI typing and arbitrary memory-held function pointers are not yet recovered.",
+    "Indirect-call discovery is bounded by the value-flow row/function budgets and requires a concrete target matching a decoded instruction start.",
+    "Windows x64 unwind operations and handler references are reported; exceptional control-flow edges are not modeled."
+  ],
+  "timings_seconds": {
+    "load_pe_and_symbols": 0.040226,
+    "string_scan": 21.974055,
+    "disassembly": 15.557479,
+    "static_pointer_scan": 0.115881,
+    "cfg_and_xrefs": 11.27382,
+    "dataflow": 8.760528,
+    "normalized_ir_and_ssa": 4.762384,
+    "output_export": 10.062876,
+    "total": 74.681708
+  },
+  "artifact_identity": {
+    "filename": "cryptoscan-windows-amd64.exe",
+    "sha256": "acc599ddcc9b4fc3121e8ed73825bc1bc5f1fa4ab4165f6e0cc697479cabec23",
+    "file_size_bytes": 9656320,
+    "file_version": null,
+    "go_runtime_version": "go1.22.2"
+  }
+}

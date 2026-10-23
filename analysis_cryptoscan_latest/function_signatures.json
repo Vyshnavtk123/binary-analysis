@@ -1,0 +1,6504 @@
+[
+  {
+    "address": "0x401080",
+    "name": "internal/abi.Kind.String",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401140",
+    "name": "internal/abi.(*Type).ExportedMethods",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4011e0",
+    "name": "internal/abi.(*Type).NumMethod",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401240",
+    "name": "internal/abi.Name.IsBlank",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4012c0",
+    "name": "internal/abi.Name.Name",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401380",
+    "name": "internal/abi.Name.Tag",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4014a0",
+    "name": "internal/abi.NewName",
+    "parameter_count": 4,
+    "register_parameter_count": 4,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "arg4"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg4",
+        "register": "r9",
+        "position": 3,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx",
+        "r9"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401920",
+    "name": "internal/abi.(*Kind).String",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401a40",
+    "name": "internal/abi.(*FuncType).NumMethod",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401b40",
+    "name": "internal/abi.(*PtrType).NumMethod",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401c00",
+    "name": "type:.eq.internal/abi.RegArgs",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401c40",
+    "name": "internal/cpu.Initialize",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x401ca0",
+    "name": "internal/cpu.processOptions",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4021e0",
+    "name": "internal/cpu.doinit",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x402b40",
+    "name": "internal/cpu.cpuid",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x402b60",
+    "name": "internal/cpu.xgetbv",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x402b80",
+    "name": "internal/cpu.getGOAMD64level",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x402ba0",
+    "name": "type:.eq.internal/cpu.option",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x402c20",
+    "name": "type:.eq.[6]internal/cpu.option",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x402f00",
+    "name": "runtime/internal/sys.OnesCount64",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x402fa0",
+    "name": "internal/bytealg.countGenericString",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403260",
+    "name": "internal/bytealg.Compare",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403280",
+    "name": "runtime.cmpstring",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403480",
+    "name": "internal/bytealg.CountString",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 6,
+    "return_paths_with_value": 3,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x403620",
+    "name": "runtime.memequal",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 6,
+    "return_paths_with_value": 6,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403980",
+    "name": "internal/bytealg.Index",
+    "parameter_count": 5,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "stack_arg_28",
+      "stack_arg_38"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28",
+      "stack_arg_38"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx",
+        "r8"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4039c0",
+    "name": "internal/bytealg.IndexString",
+    "parameter_count": 4,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "stack_arg_28"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx",
+        "r8"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x403b40",
+    "name": "internal/bytealg.IndexByte",
+    "parameter_count": 3,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "stack_arg_28"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 6,
+    "return_paths_with_value": 2,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x403b60",
+    "name": "internal/bytealg.IndexByteString",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 6,
+    "return_paths_with_value": 2,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x403b80",
+    "name": "internal/bytealg.countGenericString",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403bc0",
+    "name": "internal/chacha8rand.(*State).Init",
+    "parameter_count": 2,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1",
+      "stack_arg_28"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403c60",
+    "name": "internal/chacha8rand.(*State).Refill",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403d40",
+    "name": "internal/chacha8rand.(*State).Reseed",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x403e40",
+    "name": "internal/chacha8rand.block",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404400",
+    "name": "type:.eq.internal/chacha8rand.State",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404440",
+    "name": "runtime.init",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4045a0",
+    "name": "runtime.memhash8",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4045e0",
+    "name": "runtime.memhash16",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x404620",
+    "name": "runtime.memhash128",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x404660",
+    "name": "runtime.memhash_varlen",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x404680",
+    "name": "runtime.strhashFallback",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4046c0",
+    "name": "runtime.f32hash",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "xmm1",
+        "position": 1,
+        "type": "vector128_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [
+        "xmm1"
+      ],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 3,
+    "return_paths_with_value": 2,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x404780",
+    "name": "runtime.f64hash",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "xmm1",
+        "position": 1,
+        "type": "vector128_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [
+        "xmm1"
+      ],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 3,
+    "return_paths_with_value": 2,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x404840",
+    "name": "runtime.c64hash",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4048a0",
+    "name": "runtime.c128hash",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404900",
+    "name": "runtime.interhash",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404a00",
+    "name": "runtime.nilinterhash",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404b00",
+    "name": "runtime.typehash",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 12,
+    "return_paths_with_value": 12,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x404d60",
+    "name": "runtime.mapKeyError2",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 12,
+    "return_paths_with_value": 12,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405120",
+    "name": "runtime.strequal",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405180",
+    "name": "runtime.interequal",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4051e0",
+    "name": "runtime.nilinterequal",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405240",
+    "name": "runtime.efaceeq",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405300",
+    "name": "runtime.ifaceeq",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4053c0",
+    "name": "runtime.alginit",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405460",
+    "name": "runtime.init.0",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4054c0",
+    "name": "runtime.(*mspan).setUserArenaChunkToFault",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405660",
+    "name": "runtime.(*mspan).setUserArenaChunkToFault.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4056c0",
+    "name": "runtime.inUserArenaChunk",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405740",
+    "name": "runtime.atomicwb",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4057c0",
+    "name": "runtime.cgocall",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4058a0",
+    "name": "runtime.callbackUpdateSystemStack",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x405ac0",
+    "name": "runtime.cgocallbackg",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x405ca0",
+    "name": "runtime.cgocallbackg1",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406000",
+    "name": "runtime.cgocallbackg1.deferwrap2",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4060a0",
+    "name": "runtime.unwindm",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x406160",
+    "name": "runtime.makechan",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406340",
+    "name": "runtime.chansend1",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406360",
+    "name": "runtime.chansend",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 6,
+    "return_paths_with_value": 6,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406900",
+    "name": "runtime.chansend.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406940",
+    "name": "runtime.send",
+    "parameter_count": 1,
+    "register_parameter_count": 0,
+    "parameters": [
+      "stack_arg_28"
+    ],
+    "register_parameters": [],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406ac0",
+    "name": "runtime.send.goready.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406b00",
+    "name": "runtime.sendDirect",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406b80",
+    "name": "runtime.recvDirect",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x406c00",
+    "name": "runtime.closechan",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407040",
+    "name": "runtime.closechan.goready.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407080",
+    "name": "runtime.chanrecv1",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4070a0",
+    "name": "runtime.chanrecv2",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4070c0",
+    "name": "runtime.chanrecv",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 8,
+    "return_paths_with_value": 8,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4076c0",
+    "name": "runtime.chanrecv.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407700",
+    "name": "runtime.recv",
+    "parameter_count": 2,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1",
+      "stack_arg_28"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407920",
+    "name": "runtime.recv.goready.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407960",
+    "name": "runtime.chanparkcommit",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4079c0",
+    "name": "runtime.selectnbsend",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407a00",
+    "name": "runtime.selectnbrecv",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407aa0",
+    "name": "runtime.GOMAXPROCS",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407b40",
+    "name": "runtime.debugCallCheck",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407c20",
+    "name": "runtime.debugCallCheck.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x407f40",
+    "name": "runtime.debugCallWrap",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408040",
+    "name": "runtime.debugCallWrap.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408180",
+    "name": "runtime.debugCallWrap1",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408200",
+    "name": "runtime.debugCallWrap2",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4082c0",
+    "name": "runtime.debugCallWrap2.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x408320",
+    "name": "runtime.dumpregs",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4088a0",
+    "name": "runtime.gogetenv",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4089c0",
+    "name": "runtime.(*TypeAssertionError).Error",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408d60",
+    "name": "runtime.errorString.Error",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408dc0",
+    "name": "runtime.errorAddressString.Error",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x408e40",
+    "name": "runtime.boundsError.Error",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x409460",
+    "name": "runtime.printany",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4098a0",
+    "name": "runtime.printanycustomtype",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x409fc0",
+    "name": "runtime.panicwrap",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 0,
+    "return_paths_with_value": 0,
+    "return_analysis": "not yet analyzed"
+  },
+  {
+    "address": "0x40a3a0",
+    "name": "runtime.runExitHooks",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40a4e0",
+    "name": "runtime.Caller",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40a6c0",
+    "name": "runtime.memhashFallback",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40a9a0",
+    "name": "runtime.(*timeHistogram).record",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 3,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40aa60",
+    "name": "runtime.(*timeHistogram).write",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ac40",
+    "name": "runtime.timeHistogramMetricsBuckets",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40adc0",
+    "name": "runtime.getitab",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b060",
+    "name": "runtime.(*itabTableType).find",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b0c0",
+    "name": "runtime.itabAdd",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b200",
+    "name": "runtime.(*itabTableType).add",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40b260",
+    "name": "runtime.(*itab).init",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b660",
+    "name": "runtime.itabsinit",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b740",
+    "name": "runtime.panicdottypeE",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 0,
+    "return_paths_with_value": 0,
+    "return_analysis": "not yet analyzed"
+  },
+  {
+    "address": "0x40b800",
+    "name": "runtime.panicdottypeI",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 0,
+    "return_paths_with_value": 0,
+    "return_analysis": "not yet analyzed"
+  },
+  {
+    "address": "0x40b8c0",
+    "name": "runtime.panicnildottype",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 0,
+    "return_paths_with_value": 0,
+    "return_analysis": "not yet analyzed"
+  },
+  {
+    "address": "0x40b940",
+    "name": "runtime.convT",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40b9c0",
+    "name": "runtime.convTnoptr",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ba40",
+    "name": "runtime.convT16",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bac0",
+    "name": "runtime.convT32",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bb20",
+    "name": "runtime.convT64",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bba0",
+    "name": "runtime.convTstring",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bc40",
+    "name": "runtime.convTslice",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bd00",
+    "name": "runtime.typeAssert",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40bec0",
+    "name": "runtime.buildTypeAssertCache",
+    "parameter_count": 4,
+    "register_parameter_count": 4,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "arg4"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg4",
+        "register": "r9",
+        "position": 3,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "r8",
+        "r9"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c0e0",
+    "name": "runtime.interfaceSwitch",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c2e0",
+    "name": "runtime.buildInterfaceSwitchCache",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c520",
+    "name": "runtime.iterate_itabs",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40c5a0",
+    "name": "runtime.unreachableMethod",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 0,
+    "return_paths_with_value": 0,
+    "return_analysis": "not yet analyzed"
+  },
+  {
+    "address": "0x40c5e0",
+    "name": "runtime.(*lfstack).push",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c740",
+    "name": "runtime.lfnodeValidate",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c820",
+    "name": "runtime.lock",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40c860",
+    "name": "runtime.lock2",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ca80",
+    "name": "runtime.unlock",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40cac0",
+    "name": "runtime.unlock2",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40cbc0",
+    "name": "runtime.notewakeup",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40cc40",
+    "name": "runtime.notesleep",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40cd80",
+    "name": "runtime.notetsleep_internal",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 5,
+    "return_paths_with_value": 5,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40d000",
+    "name": "runtime.notetsleep",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40d080",
+    "name": "runtime.notetsleepg",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40d180",
+    "name": "runtime.mallocinit",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40d500",
+    "name": "runtime.(*mheap).sysAlloc",
+    "parameter_count": 4,
+    "register_parameter_count": 4,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "arg4"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg4",
+        "register": "r9",
+        "position": 3,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx",
+        "r8",
+        "r9"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40dcc0",
+    "name": "runtime.sysReserveAligned",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 3,
+    "return_paths_with_value": 2,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40de00",
+    "name": "runtime.(*mheap).enableMetadataHugePages",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40dea0",
+    "name": "runtime.(*mcache).nextFree",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40e0a0",
+    "name": "runtime.mallocgc",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 4,
+    "return_paths_with_value": 4,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40e9a0",
+    "name": "runtime.deductAssistCredit",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ea20",
+    "name": "runtime.memclrNoHeapPointersChunked",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40eac0",
+    "name": "runtime.newobject",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40eb00",
+    "name": "runtime.newarray",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40eba0",
+    "name": "runtime.profilealloc",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ec60",
+    "name": "runtime.fastexprand",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "xmm0",
+        "position": 0,
+        "type": "vector128_t"
+      },
+      {
+        "name": "arg2",
+        "register": "xmm1",
+        "position": 1,
+        "type": "vector128_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [
+        "xmm0",
+        "xmm1"
+      ],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint32_t",
+    "return_register": "eax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ed80",
+    "name": "runtime.persistentalloc",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ee40",
+    "name": "runtime.persistentalloc.func1",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40ee80",
+    "name": "runtime.persistentalloc1",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40f140",
+    "name": "runtime.(*linearAlloc).alloc",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40f240",
+    "name": "runtime.(*hmap).incrnoverflow",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x40f2c0",
+    "name": "runtime.(*hmap).newoverflow",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40f540",
+    "name": "runtime.makemap_small",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40f580",
+    "name": "runtime.makemap",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40f720",
+    "name": "runtime.makeBucketArray",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40f9a0",
+    "name": "runtime.mapaccess1",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40fbe0",
+    "name": "runtime.mapaccess2",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x40fe20",
+    "name": "runtime.mapaccessK",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x410000",
+    "name": "runtime.mapassign",
+    "parameter_count": 4,
+    "register_parameter_count": 4,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3",
+      "arg4"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg4",
+        "register": "r9",
+        "position": 3,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x410540",
+    "name": "runtime.mapdelete",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 2,
+    "return_paths_with_value": 2,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x410920",
+    "name": "runtime.mapiterinit",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x410b40",
+    "name": "runtime.mapiternext",
+    "parameter_count": 2,
+    "register_parameter_count": 2,
+    "parameters": [
+      "arg1",
+      "arg2"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x411020",
+    "name": "runtime.hashGrow",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x411220",
+    "name": "runtime.growWork",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4112c0",
+    "name": "runtime.evacuate",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x411860",
+    "name": "runtime.advanceEvacuationMark",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x411940",
+    "name": "runtime.mapaccess1_fast32",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x411ac0",
+    "name": "runtime.mapaccess2_fast32",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x411c40",
+    "name": "runtime.mapassign_fast32",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x411f60",
+    "name": "runtime.mapdelete_fast32",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx",
+        "r8"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x412220",
+    "name": "runtime.growWork_fast32",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4122c0",
+    "name": "runtime.evacuate_fast32",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x412680",
+    "name": "runtime.mapaccess1_fast64",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x412820",
+    "name": "runtime.mapaccess2_fast64",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4129c0",
+    "name": "runtime.mapassign_fast64",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x412ce0",
+    "name": "runtime.mapassign_fast64ptr",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x413020",
+    "name": "runtime.mapdelete_fast64",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx",
+        "r8"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x413300",
+    "name": "runtime.growWork_fast64",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4133a0",
+    "name": "runtime.evacuate_fast64",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4137e0",
+    "name": "runtime.mapaccess1_faststr",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 8,
+    "return_paths_with_value": 8,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x413ba0",
+    "name": "runtime.mapaccess2_faststr",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 8,
+    "return_paths_with_value": 8,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x413f80",
+    "name": "runtime.mapassign_faststr",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rcx",
+        "rdx"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x4143a0",
+    "name": "runtime.mapdelete_faststr",
+    "parameter_count": 3,
+    "register_parameter_count": 3,
+    "parameters": [
+      "arg1",
+      "arg2",
+      "arg3"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      },
+      {
+        "name": "arg2",
+        "register": "rdx",
+        "position": 1,
+        "type": "uintptr_t"
+      },
+      {
+        "name": "arg3",
+        "register": "r8",
+        "position": 2,
+        "type": "uintptr_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": [
+        "rdx",
+        "r8"
+      ]
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x4146e0",
+    "name": "runtime.growWork_faststr",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x414780",
+    "name": "runtime.evacuate_faststr",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x414ba0",
+    "name": "runtime.typedmemmove",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 2,
+    "return_paths_with_value": 1,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  },
+  {
+    "address": "0x414c20",
+    "name": "runtime.wbZero",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414c40",
+    "name": "runtime.wbMove",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414c80",
+    "name": "runtime.reflectcallmove",
+    "parameter_count": 2,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1",
+      "stack_arg_28"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [
+      "stack_arg_28"
+    ],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414d80",
+    "name": "runtime.typedslicecopy",
+    "parameter_count": 1,
+    "register_parameter_count": 1,
+    "parameters": [
+      "arg1"
+    ],
+    "register_parameters": [
+      {
+        "name": "arg1",
+        "register": "rcx",
+        "position": 0,
+        "type": "uint64_t"
+      }
+    ],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 3,
+    "return_paths_with_value": 3,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414e20",
+    "name": "runtime.typedmemclr",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414e80",
+    "name": "runtime.memclrHasPointers",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "uint64_t",
+    "return_register": "rax",
+    "return_paths": 1,
+    "return_paths_with_value": 1,
+    "return_analysis": "EAX/RAX definition reaches every recovered return"
+  },
+  {
+    "address": "0x414ec0",
+    "name": "runtime.(*mspan).refillAllocCache",
+    "parameter_count": 0,
+    "register_parameter_count": 0,
+    "parameters": [],
+    "register_parameters": [],
+    "stack_parameters": [],
+    "shadow_space_bytes": 32,
+    "stack_alignment_bytes": 16,
+    "calling_convention": "Windows x64 register + shadow-space arguments (heuristic)",
+    "calling_convention_confidence": "heuristic",
+    "callee_pop_bytes": null,
+    "abi_evidence": {
+      "vector_register_candidates": [],
+      "pointer_register_candidates": []
+    },
+    "abi_warnings": [],
+    "return_type": "void",
+    "return_register": "none",
+    "return_paths": 1,
+    "return_paths_with_value": 0,
+    "return_analysis": "no reliable scalar value reaches every recovered return"
+  }
+]

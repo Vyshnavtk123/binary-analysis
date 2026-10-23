@@ -1,0 +1,360 @@
+﻿source,target,kind,value
+0x401888,0x7f2cc4,string,abi.NewName: name too long: reflect.MakeSlice: len > capflag needs an argument: --%sexpected %s event but got %swhile parsing a flow mappinginvalid trailing UTF-8 octetfound unknown directive nameyaml: unmarshal errors:
+0x4052a9,0x7f27d8,string,comparing uncomparable type runtime: bad lfnode address region exceeds uintptr rangeneed padding in bucket (key)/gc/heap/frees-by-size:bytes/gc/heap/tiny/allocs:objects/sched/goroutines:goroutinesgcBgMarkWorker: mode not setmspan.sweep: m is not lockedfound pointer to free objectmheap.freeSpanLocked - span runtime.semasleep unexpectedfatal: morestack on gsignal
+0x405369,0x7f27d8,string,comparing uncomparable type runtime: bad lfnode address region exceeds uintptr rangeneed padding in bucket (key)/gc/heap/frees-by-size:bytes/gc/heap/tiny/allocs:objects/sched/goroutines:goroutinesgcBgMarkWorker: mode not setmspan.sweep: m is not lockedfound pointer to free objectmheap.freeSpanLocked - span runtime.semasleep unexpectedfatal: morestack on gsignal
+0x408c05,0x7f3f51,string, (types from different scopes)notetsleep - waitm out of syncfailed to get system page sizeassignment to entry in nil mapruntime: found in object at *( in prepareForSweep; sweepgen /cpu/classes/total:cpu-seconds/gc/cycles/automatic:gc-cycles/sched/pauses/total/gc:seconds/sync/mutex/wait/total:seconds/godebug/non-default-behavior/bcryptprimitives.dll not foundpanic called with nil argumentcheckdead: inconsistent countsrunqputslow: queue is not fullruntime: bad pointer in frame invalid pointer found on stack locals stack map entries for abi mismatch detected between runtime: impossible type kind unsafe.Slice: len out of rangesync: inconsistent mutex statesync: unlock of unlocked mutexsocket operation on non-socketinappropriate ioctl for deviceprotocol wrong type for socket227373675443232059478759765625strings: negative Repeat countlooking for beginning of valuein exponent of numeric literal(?i)(generate|create|new).*key    %s Safe (PQC):        %-5d    %s Hybrid:            %-5d    %s Partial:           %-5d%.0f files/sec 
+0x40cf78,0x7fed8a,string,runtime: unable to acquire - semaphore out of syncmallocgc called with gcphase == _GCmarkterminationrecursive call during initialization - linker skewattempt to execute system stack code on user stackcompileCallback: function argument frame too largecobra_annotation_bash_completion_one_required_flagBatch LLM False Positive check failed/skipped: %v
+0x40d34a,0x7ef1db,string,system huge page size (runtime: s.allocCount= s.allocCount > s.nelems/gc/heap/allocs:objectsmissing type in runfinqruntime: internal errorwork.nwait > work.nprocleft over markroot jobsgcDrain phase incorrectMB during sweep; swept bad profile stack countruntime: netpoll failedRtlGetNtVersionNumbers
+0x40d655,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x40e433,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x40f0dd,0x7f7196,string,"persistentalloc: align is too large/memory/classes/heap/released:bytesgreyobject: obj not pointer-alignedmismatched begin/end of activeSweepmheap.freeSpanLocked - invalid freeattempt to clear non-empty span setruntime: close polldesc w/o unblockruntime: inconsistent read deadlinefindrunnable: netpoll with spinningpidleput: P has non-empty run queuetraceback did not unwind completelyruntime: createevent failed; errno=network dropped connection on resettransport endpoint is not connectedfile type does not support deadlineunsigned integer overflow on token 1776356839400250464677810668945312588817841970012523233890533447265625ryuFtoaFixed32 called with prec > 9strings.Reader.Seek: invalid whencecobra_annotation_mutually_exclusiveGo implementation of JOSE standardsSafe, fast, small crypto using Rusthttp://cyclonedx.org/schema/bom/1.6failed to create temp directory: %wreflect.MakeSlice of non-slice typeinvalid argument %q for %q flag: %vmust set the input source only oncedid not find expected '-' indicatorfound extremely long version numberfound unexpected document indicatorexecutable file not found in %PATH%Migrate to HMAC-SHA256 or KMAC-256.unsupported signature algorithm: %vTLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHAtls: too many non-advancing recordstls: server selected an invalid PSKx509: malformed extension OID fieldx509: wrong Ed25519 public key sizex509: invalid authority info accesshttp: server closed idle connectionCONTINUATION frame with stream ID 0Prohibited TLS 1.2 Cipher Suite: %xhttp2: server: client %v said hellohttp2: server processing setting %vWrite called after Handler finishedbigmod: modulus is smaller than natcrypto/md5: invalid hash state sizesuperfluous leading zeros in length'_' must separate successive digitstoo many Questions to pack (>65535)mime: bogus characters after %%: %qhpack: invalid Huffman-encoded datadynamic table size update too largeP224 point is the point at infinityP256 point is the point at infinityP384 point is the point at infinityP521 point is the point at infinitychacha20: output smaller than inputflate: corrupt input before offset transform: short destination bufferTime.UnmarshalBinary: invalid lengthShow findings as they are discoveredlfstack node allocated from the heap) is larger than maximum page size (key size not a multiple of key alignruntime: invalid typeBitsBulkBarrieruncaching span but s.allocCount == 0/memory/classes/metadata/other:bytes/sched/pauses/stopping/other:secondsuser arena span is on the wrong listruntime: marked free object in span runtime: unblock on closing polldescruntime: inconsistent write deadlineUnable to determine system directoryruntime: VirtualQuery failed; errno=runtime: sudog with non-nil waitlinkruntime: mcall called on m->g0 stackstartm: P required for spinning=true) is not Grunnable or Gscanrunnable"
+0x40f7f6,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x415170,0x802272,string,"found bad pointer in Go heap (incorrect use of unsafe or cgo?)limiterEvent.stop: found wrong event in p's limiter event slotslice length too short to convert to array or pointer to arrayruntime: internal error: misuse of lockOSThread/unlockOSThreadstrings.Reader.UnreadRune: previous operation was not ReadRune  research, and open-source tools that empower organizations."
+0x417eb0,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x417f9c,0xccf3b8,import,kernel32.dll!VirtualFree
+0x418035,0xccf3b8,import,kernel32.dll!VirtualFree
+0x41815c,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x41820d,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x4183ad,0xccf3b8,import,kernel32.dll!VirtualFree
+0x418497,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x4184eb,0xccf3c0,import,kernel32.dll!VirtualAlloc
+0x41c70c,0x7e3a6f,string, @s -> Pn=][}
+0x41ed39,0x7e9f16,string,scan missed a gmisaligned maskruntime: min = runtime: inUse=runtime: max = bad panic stackrecovery failedstopm holding pstartm: m has ppreempt SPWRITEmissing mcache?ms: gomaxprocs=randinit missed]
+0x422470,0xadaf00,string,333333
+0x4225c6,0x7ed0e3,string,pacer: assist ratio=workbuf is not emptybad use of bucket.mpbad use of bucket.bpruntime: double waitws2_32.dll not foundpreempt off reason: forcegc: phase errorgopark: bad g statusgo of nil func valueselectgo: bad wakeupsemaRoot rotateRightreflect.makeFuncStubdodeltimer0: wrong Ptrace: out of memorywirep: already in goinvalid request codebad font file formatis a named type filekey has been revokedconnection timed outCreateProcessAsUserWCryptAcquireContextWCertOpenSystemStoreWGetCurrentDirectoryWGetFileAttributesExWSetCurrentDirectoryWSetHandleInformationGetAcceptExSockaddrstype not a pointer: 37252902984619140625BASH_COMP_DEBUG_FILEjson: Unmarshal(nil)json: Unmarshal(nil json: error calling (?i)(sign|signature)supported algorithmsavailable algorithmssymmetric encryption
+0x4225e5,0x7e558c,string," (scan  MB in pacer: % CPU ( zombie, j0 = head = panic:  nmsys= locks= dying= allocsGODEBUG m->g0= pad1=  pad2=  text= minpc= "
+0x423987,0x7e47e9,string," max=scav  ptr ] = (usagefalseinit  ms, fault and  tab= top=[...], fp:ntohsErrorsvqxX1562578125"
+0x423a65,0x7e47e9,string," max=scav  ptr ] = (usagefalseinit  ms, fault and  tab= top=[...], fp:ntohsErrorsvqxX1562578125"
+0x423b38,0x7e47e9,string," max=scav  ptr ] = (usagefalseinit  ms, fault and  tab= top=[...], fp:ntohsErrorsvqxX1562578125"
+0x426a2a,0x7e82a6,string, s.sweepgen= allocCount end tracegc
+0x429d7f,0x8019f3,string,"manual span allocation called with non-manually-managed typeaddr range base and limit are not in the same memory segmentruntime: netpoll: PostQueuedCompletionStatus failed (errno= runtime: GetQueuedCompletionStatusEx returned invalid mode= reflect: call of reflect.Value.Len on ptr to non-array Valuebytes.Reader.UnreadRune: previous operation was not ReadRunehttps://generativelanguage.googleapis.com/v1beta/models?key=found a tab character where an indentation space is expectedCertificate subject or issuer information handling detected.Ensure SAN entries are documented for certificate inventory.Audit Vault transit keys. Monitor HashiCorp for PQC support.Possible base64-encoded private key material in source code.scrypt is acceptable. For new applications, prefer Argon2id.tls: no supported versions satisfy MinVersion and MaxVersiontls: initial handshake had non-empty renegotiation extensiontls: server resumed a session with a different EMS extension (Client.Timeout or context cancellation while reading body)internal error: attempt to send frame on a closed stream: %vmalformed response from server: missing status pseudo headerviolation of WriteScheduler interface: cannot close stream 0net/http: server response headers exceeded %d bytes; abortedMinimum severity to report: info, low, medium, high, critical%s%s  "
+0x42dd14,0x7e66b0,string,", size = bad prune, tail = recover:  not in [ctxt != 0, oldval=, newval= threads=: status= blocked= lockedg=atomicor8 runtime= m->curg=(unknown)traceback} stack=[ lockedm=interruptbus errorFindCloseLocalFreeMoveFileWWriteFileWSASendTontdll.dll01234567_244140625ParseBoolParseUinthelp for "
+0x42eb4a,0x7fd2a2,string,sysGrow bounds not aligned to pallocChunkBytesruntime: failed to create new OS thread (have runtime: panic before malloc heap initialized
+0x42ef50,0x7fd2a2,string,sysGrow bounds not aligned to pallocChunkBytesruntime: failed to create new OS thread (have runtime: panic before malloc heap initialized
+0x432fe5,0x7ff7cd,string,"span set block with unpopped elements found in resetruntime: GetQueuedCompletionStatusEx failed (errno= casfrom_Gscanstatus: gp->status is not in scan stateerrors: *target must be interface or implement errorcobra_annotation_bash_completion_filename_extensionsPython bindings for liboqs (post-quantum algorithms)internal error: missing handler for resolver table: (?i)\b(CMAC|AES[-_]?CMAC|cipher[-_]?based[-_]?mac)\btls: server selected unsupported protocol version %xtls: received a session ticket with invalid lifetimex509: cannot verify signature: insecure algorithm %vrequest header ""TE"" may only be ""trailers"" in HTTP/2http2: Transport readFrame error on conn %p: (%T) %vprotocol error: received DATA before a HEADERS framecrypto/rsa: PSSOptions.SaltLength cannot be negativenon-concurrent sweep failed to drain all sweep queuescompileCallback: argument size is larger than uintptrreflect: non-interface type passed to Type.Implementsreflect.Value.Slice: string slice index out of boundsfailed to decode LLM output JSON: %w (Output was: %s)^[-+]?(\.[0-9]+|[0-9]+(\.[0-9]*)?)([eE][-+]?[0-9]+)?$did not find expected alphabetic or numeric characterbufio.Scan: too many empty tokens without progressingRemove from source. Migrate to ML-DSA for signatures.tls: received unexpected handshake message of type %Ttls: HKDF-Expand-Label invocation failed unexpectedlyx509: certificate specifies an incompatible key usagehttp: putIdleConn: too many idle connections for hosthttp2: Framer %p: failed to decode just-written frameillegal use of AllowIllegalReads with ReadMetaHeadershttp2: Transport failed to get client conn for %s: %vnon-CONNECT pattern with unclean path can never matchdescribeConflict called with non-conflicting patternscrypto/elliptic: attempted operation on invalid pointcrypto/ecdh: internal error: mismatched isLess inputschacha20: internal error: wrong dst and/or src lengthScan a directory or repository for cryptographic usage"
+0x434252,0xccf4c8,import,kernel32.dll!CreateIoCompletionPort
+0x434335,0xccf4c8,import,kernel32.dll!CreateIoCompletionPort
+0x4343f8,0xccf428,import,kernel32.dll!PostQueuedCompletionStatus
+0x4345e5,0xccf468,import,kernel32.dll!GetQueuedCompletionStatusEx
+0x434945,0xccf478,import,kernel32.dll!GetProcAddress
+0x4349f2,0xccf458,import,kernel32.dll!GetSystemDirectoryA
+0x434a92,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x434a99,0xcd1860,string,bcryptprimitives.dll
+0x434ae9,0x7e82ca,string,ProcessPrng
+0x434b20,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x434b27,0xcd0300,string,ntdll.dll
+0x434be8,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x434bef,0xcd0320,string,winmm.dll
+0x434cc9,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x434cd0,0xcd0360,string,ws2_32.dll
+0x434d14,0x7ef306,string,WSAGetOverlappedResult
+0x434df2,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x434df9,0xcd0b40,string,powrprof.dll
+0x434f44,0xccf470,import,kernel32.dll!GetProcessAffinityMask
+0x434fa3,0xccf450,import,kernel32.dll!GetSystemInfo
+0x4350f2,0xccf4b8,import,kernel32.dll!CreateWaitableTimerExW
+0x43513e,0xccf4e0,import,kernel32.dll!CloseHandle
+0x435359,0xccf4d0,import,kernel32.dll!CreateFileA
+0x4354c7,0xccf450,import,kernel32.dll!GetSystemInfo
+0x435502,0xccf3e8,import,kernel32.dll!SetProcessPriorityBoost
+0x4355f2,0xccf488,import,kernel32.dll!GetEnvironmentStringsW
+0x43573c,0xccf4a0,import,kernel32.dll!FreeEnvironmentStringsW
+0x43578f,0xccf400,import,kernel32.dll!SetConsoleCtrlHandler
+0x43586b,0xccf4a8,import,kernel32.dll!ExitProcess
+0x4358bd,0xccf460,import,kernel32.dll!GetStdHandle
+0x4358f8,0xccf460,import,kernel32.dll!GetStdHandle
+0x435973,0xccf498,import,kernel32.dll!GetConsoleMode
+0x4359dd,0xccf380,import,kernel32.dll!WriteFile
+0x435cc8,0xccf388,import,kernel32.dll!WriteConsoleW
+0x435d9a,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x435eeb,0xccf3a0,import,kernel32.dll!WaitForMultipleObjects
+0x436028,0xccf3f0,import,kernel32.dll!SetEvent
+0x4360bb,0xccf4d8,import,kernel32.dll!CreateEventA
+0x436121,0xccf4d8,import,kernel32.dll!CreateEventA
+0x436187,0xccf4e0,import,kernel32.dll!CloseHandle
+0x4361e8,0xccf4c0,import,kernel32.dll!CreateThread
+0x436231,0xccf4e0,import,kernel32.dll!CloseHandle
+0x4362c5,0x7ea7ee,string, already; errno=
+0x4362fb,0x7eb1c8,string,runtime.newosprocruntime/internal/thread exhaustionlocked m0 woke upentersyscallblock spinningthreads=gp.waiting != nilunknown caller pcstack: frame={sp:runtime: nameOff runtime: typeOff runtime: textOff permission deniedwrong medium typeno data availableexec format errorLookupAccountSidWDnsRecordListFreeGetCurrentProcessGetShortPathNameWWSAEnumProtocolsW0123456789ABCDEFX0123456789abcdefxreflect.Value.Intillegal hex digitcan't scan type: 1192092895507812559604644775390625invalid bit size RegLoadMUIStringWCOBRA_ACTIVE_HELP%s [command-line]in string literaltls-configuration^([a-zA-Z0-9_-]+)CHACHA20-POLY1305https://qramm.org
+0x43634e,0x7e6e6a,string,exitThreadBad varintGC forced
+0x4363a3,0xccf4b0,import,kernel32.dll!DuplicateHandle
+0x436440,0xccf490,import,kernel32.dll!GetCurrentThreadId
+0x436477,0xccf4b8,import,kernel32.dll!CreateWaitableTimerExW
+0x4364ef,0xccf3b0,import,kernel32.dll!VirtualQuery
+0x4365fb,0x7e82d6,string,bad g0 stackself-preempt [recovered]bad recoverybad g statusentersyscallwirep: p->m=) p->status=releasep: m= sysmonwait= preemptoff=cas64 failed m->gsignal=-byte limit
+0x436779,0xccf4e0,import,kernel32.dll!CloseHandle
+0x4367f9,0xccf4e0,import,kernel32.dll!CloseHandle
+0x43683c,0xccf4e0,import,kernel32.dll!CloseHandle
+0x43687f,0xccf4e0,import,kernel32.dll!CloseHandle
+0x436e4c,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x436f77,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x4370b9,0xccf4b0,import,kernel32.dll!DuplicateHandle
+0x437178,0xccf3d8,import,kernel32.dll!SuspendThread
+0x4371b5,0xccf448,import,kernel32.dll!GetThreadContext
+0x43730a,0xccf440,import,kernel32.dll!SetThreadContext
+0x43735d,0xccf418,import,kernel32.dll!ResumeThread
+0x43738c,0xccf4e0,import,kernel32.dll!CloseHandle
+0x4373d7,0xccf4e0,import,kernel32.dll!CloseHandle
+0x438c3c,0x7ef31d,string,panic during preemptoffnanotime returning zerofatal: morestack on g0
+0x43a812,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x43a839,0x7ea80e,string,invalid g statuscastogscanstatusbad g transitionschedule: in cgoreflect mismatch untyped locals missing stackmapbad symbol tablenon-Go function
+0x43a84a,0x7f98c3,string,suspendG from non-preemptible goroutineruntime: casfrom_Gscanstatus failed gp=stack growth not allowed in system calltraceback: unexpected SPWRITE function transport endpoint is already connected277555756156289135105907917022705078125cobra_annotation_required_if_others_setPort of TweetNaCl cryptographic libraryOptimal symmetric cipher configuration.out/_next/static/5PN3d3nnJLf0njNgba_xW/reflect.MakeMapWithSize of non-map typeloadCache: error reading cache file: %vloadCache: error unmarshaling cache: %vcannot decode node with unknown kind %dfound an incorrect trailing UTF-8 octetdid not find expected hexdecimal numbercsv: invalid field or comment delimiterexec: environment variable contains NUL-----BEGIN\s+TRUSTED\s+CERTIFICATE-----tls: unsupported certificate curve (%s)TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256tls: internal error: wrong nonce lengthchain is not signed by an acceptable CAx509: invalid subject alternative namesx509: invalid NameConstraints extensionx509: failed to parse URI constraint %q because it doesn't contain any IP SANsgo package net: using cgo DNS resolver
+0x43a9d2,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x43ae13,0x7e965f,string,bad restart PC-thread limit
+0x43b586,0x7e3a7f,string,i)> 
+0x43d4b2,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x43d71c,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x43d780,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x43d7fc,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x43d860,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x43d8dc,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x43d940,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x43d9bc,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x43da20,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x43dc12,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x43ddaf,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x43e2c7,0x7f2944,string,runtime: casgstatus: oldval=gcstopm: negative nmspinningfindrunnable: netpoll with psave on system g not allowednewproc1: newg missing stacknewproc1: new g is not GdeadFixedStack is not power-of-2missing stack in shrinkstack args stack map entries for invalid runtime symbol tableruntime: no module data for traceRegion: alloc too large[originating from goroutine file descriptor in bad statedestination address requiredprotocol driver not attachedCertCreateCertificateContexterrors: target cannot be niloverflow on character value 18189894035458564758300781259094947017729282379150390625ShellCompDirectiveNoFileCompShellCompDirectiveFilterDirsjson: Unmarshal(non-pointer !#$%&()*+-./:;<=>?@[]^_{|}~ unexpected end of JSON inputEvalSymlinks: too many linksProtocol security assessment%d files 
+0x43ebfb,0x7fd32c,string,stopTheWorld: not stopped (status != _Pgcstop)signal arrived during external code execution
+0x440108,0x7effcd,string,bindm in unexpected GOOSrunqsteal: runq overflowdouble traceGCSweepStartbad use of trace.seqlockfloating point exceptionconnection reset by peerlevel 2 not synchronizedlink number out of rangeout of streams resourcesfunction not implementedstructure needs cleaningnot supported by windowsCertFreeCertificateChainCreateToolhelp32SnapshotGetUserProfileDirectoryW116415321826934814453125582076609134674072265625json: unsupported type: crypto-inventory-summary    %s %s%-10s%s %3d %s
+0x44012a,0x7ef362,string,the current g is not g0schedule: holding locksinvalid m->lockedInt = procresize: invalid argspan has no free stacksstack growth after forkshrinkstack at bad timereflect.methodValueCalldevice or resource busyinterrupted system callno space left on deviceoperation not supportedoperation not permittedCertGetCertificateChainFreeEnvironmentStringsWGetEnvironmentVariableWGetSystemTimeAsFileTimeSetEnvironmentVariableWreflectlite.Value.IsNil<invalid reflect.Value>0123456789aAbBcCdDeEfF_23283064365386962890625ShellCompDirectiveErrorCOMPLETION_DESCRIPTIONSUnknown help topic %#q
+0x4401f6,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x44020e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x44043d,0x7fb443,string,"on a locked thread with no template threadunexpected signal during runtime executionattempted to trace a bad status for a procsync/atomic: store of nil value into Value173472347597680709441192448139190673828125867361737988403547205962240695953369140625unable to find a command for arguments: %vError while parsing flags from args %v: %slooking for beginning of object key stringMapIter.Value called on exhausted iteratorreflect: cannot convert slice with length invalid array: want %d elements but got %d(?i)\b(GMAC|AES[-_]?GMAC|galois[-_]?mac)\b(?i)\b(XChaCha20[-_]?Poly1305|xchacha20)\bx509: %q cannot be encoded as an IA5Stringx509: RSA modulus is not a positive numbermix of request and response pseudo headersPRIORITY frame payload size was %d; want 5Failed to parse goroutine ID out of %q: %vhttp2: server connection error from %v: %vbad wildcard segment (must start with '{')http: ContentLength=%d with Body length %dcrypto/sha1: invalid hash state identifierpoly1305: write to MAC after Sum or VerifyPrintableString contains invalid characterinsufficient data for resource body lengthinternal error: call to runtimeSource.Seedreplacement with no module on previous lineOutput format: text, json, csv, sarif, cbom  %s %s%-8s%s %s#%-3d%s %-22s %s%s:%d%s %s"
+0x44082f,0x7e967b,string,stopm spinning nmidlelocked= needspinning=randinit twicestore64 failedsemaRoot queuebad allocCountbad span statestack overflow untyped args  out of range no module dataruntime: seq1=runtime: goid= in goroutine file too largeis a directorylevel 2 haltedlevel 3 haltedtoo many linksno such deviceprotocol errortext file busytoo many usersCryptGenRandomCertCloseStoreCreateProcessWFindFirstFileWFormatMessageWGetConsoleModeGetProcAddressProcess32NextWSetFilePointerNetUserGetInfoGetUserNameExWTranslateNameWgetprotobyname procedure in winapi error #unreachable:  invalid syntax1907348632812595367431640625RegSetValueExWhelp [command]%s version %s
+0x44122f,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x443caf,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x4440cf,0x7ec616,string,",  g->atomicstatus=unexpected g statusbad runtime"
+0x4484dc,0xccf3e0,import,kernel32.dll!SetWaitableTimer
+0x448540,0xccf3a8,import,kernel32.dll!WaitForSingleObject
+0x448b4f,0x7e6e88,string, runqueue= stopwait= runqsize= gfreecnt= throwing= spinning=atomicand8float64nanfloat32nanException  ptrSize=  targetpc= until pc=unknown pcruntime: ggoroutine terminatedowner diedDnsQuery_WGetIfEntryCancelIoExCreatePipeGetVersionWSACleanupWSAStartupgetsockoptsetsockoptdnsapi.dll012345678912207031256103515625ParseFloat[^A-Z0-9_]__completepowershellcompletion[Debug] %s[Error] %s for type javascriptnode-forgerustcryptoencryptiondecryptiontypescriptcargo.tomlcargo.lockdependency/external/arguments:algorithm:supported:async def protected : functioncredentialciphertextVULNERABLECURVE25519ML-KEM-512ML-KEM-768DILITHIUM2DILITHIUM3DILITHIUM5CryptoScanCIA ThreatConfidence?  UNKNOWNAlgorithm:    %s %s
+0x44a332,0x7e3a6f,string, @s -> Pn=][}
+0x44e532,0xccf480,import,kernel32.dll!GetErrorMode
+0x44e54a,0xccf3f8,import,kernel32.dll!SetErrorMode
+0x44e580,0xccf398,import,kernel32.dll!WerGetFlags
+0x44e5b7,0xccf390,import,kernel32.dll!WerSetFlags
+0x44e60e,0xccf480,import,kernel32.dll!GetErrorMode
+0x44e62c,0xccf3f8,import,kernel32.dll!SetErrorMode
+0x44e692,0xccf4e8,import,kernel32.dll!AddVectoredExceptionHandler
+0x44e6c9,0xccf4f0,import,kernel32.dll!AddVectoredContinueHandler
+0x44e700,0xccf4f0,import,kernel32.dll!AddVectoredContinueHandler
+0x44eb38,0xccf410,import,kernel32.dll!RtlLookupFunctionEntry
+0x44eb8e,0xccf408,import,kernel32.dll!RtlVirtualUnwind
+0x44f320,0xccf420,import,kernel32.dll!RaiseFailFastException
+0x44f88d,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x44f996,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x44fad7,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x44fbff,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x450118,0x7ebbaf,string,bad manualFreeListruntime: textAddr cleantimers: bad p frames elided...
+0x451cce,0x7e837e,string,runtime: sp=abi mismatchout of rangeinvalid slothost is downillegal seekGetLengthSidGetLastErrorGetStdHandleGetTempPathWLoadLibraryWReadConsoleWSetEndOfFileTransmitFileGetAddrInfoWnot pollable152587890625762939453125this commandversion for 
+0x4532b3,0x801f59,string,"abiRegArgsType needs GC Prog, update methodValueCallFrameObjs""version"" flag declared as non-bool. Please correct your codeto request completion choices for the specified command-line.internal error: unexpected tail comment event (please report)exec: Cmd started a Process but leaked without a call to Wait(?i)(\.p12|\.pfx|PKCS12|PKCS#12|pkcs12[-_]?file|pfx[-_]?file)HMAC-SHA1 detected. SHA-1 is deprecated for new applications.bcrypt detected. Industry-standard password hashing function.tls: unsupported certificate: private key is %T, expected *%Ttls: server sent a ServerHello extension forbidden in TLS 1.3x509: failed to parse URI constraint %q: cannot be IP addressx509: internal error: system verifier returned an empty chaingo package net: GODEBUG setting forcing use of Go's resolver"
+0x453fcf,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x45418f,0xcd49c0,string," !""#$%%&&''((()))*++,,,,,------....//////0001123333333333444444444455666677777888888888889999999999::::::;;;;;;;;;;;;;;;;<<<<<<<<<<<<<<<<=====>>>>>>>>>>>??????????@@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+0x455ccf,0x7e3de9,string, - NaN  P  MPC= < end > and]:
+0x460614,0x7e3e07,string,???pc=  G01_125625nanzsh%s
+0x4607db,0x7e4eb8,string, m=nil base hangupkilledlistensocketStringFormat[]byte' for string390625%%-%dsError:Usage:numberpythonPyNaClpynaclX25519ML-KEMML-DSAbcryptargon2Argon2RbNaClrbnaclrandomcsharpkotlingo.modgo.sum/docs//wiki/readme/test//spec/_test_/deps//libs//dist/.pb.go@paramusage:flags:--helpftp://using const cipherverifydigestCHACHAHYBRIDHybridFALCONKECCAKSCRYPTBCRYPTSHA256SHA384SHA512SLHDSAFN-DSAhybridColumnImpactEffort%s: %s  
+0x46089e,0x7ebbf7,string,", locked to threadruntime.semacreateruntime.semawakeupsegmentation faultoperation canceledno child processesconnection refusedRFS specific erroridentifier removedinput/output errormultihop attemptedfile name too longno locks availablestreams pipe errorLookupAccountNameWCreateFileMappingWGetFileAttributesWSetFileAttributesWCommandLineToArgvWuse of closed filereflect.Value.Uintunexpected newlinevalue out of range298023223876953125exceeded max depthinvalid character in numeric literal/bower_components/packages.lock.jsoncrypto-scan:ignoreverification usingexpected_signatureallowed_algorithmsmigration_requiredMethod not allowed%s Certificate Keyout/_not-found.txtreflect.Value.Elemreflect.Value.Typereflect: Zero(nil)Caucasian_Albanianunknown flag: --%scontext.Backgroundcannot be negative1.2.840.113549.2.9tag:yaml.org,2002:bufio: buffer fullquantum-vulnerableBlowfish AlgorithmJava Crypto ImportPrivate Key HeaderACME/Let's EncryptJSON Web Key (JWK)Hardcoded Key SizePKCS#8 Private KeyJWT Secret PatternPQC Library Importunexpected messageexport restrictionserver misbehaving/Drivers/etc/hostsinvalid IP address/etc/nsswitch.confinvalid criteria: received from peerapplication/x-gzipFLOW_CONTROL_ERRORProxy-Authenticate404 page not foundframe_goaway_shortproxy-authenticateUNKNOWN_SETTING_%dconnection is idleunexpected type %Ttrailers_not_endedGo-http-client/2.0Go-http-client/1.1Temporary RedirectPermanent RedirectMethod Not AllowedExpectation Failedbad Content-Lengthnon-minimal lengthtruncated sequencesequence truncatedunable to parse IPRCodeServerFailuredecoding error: %vWaitForSingleObjectbad value for fieldEgypt Standard TimeSudan Standard TimeLibya Standard TimeBahia Standard TimeHaiti Standard TimeYukon Standard TimeAltai Standard TimeIndia Standard TimeSyria Standard TimeRussia Time Zone 11Nepal Standard TimeKorea Standard TimeChina Standard TimeRussia Time Zone 10Tokyo Standard TimeTomsk Standard TimeSamoa Standard TimeTonga Standard Timetime: unknown unit skip this directory2006-01-02 15:04:05SetTokenInformationMultiByteToWideCharGC mark terminationpanicwrap: no ( in panicwrap: no ) in  called using nil *unknown wait reasonnotesleep not on g0GC work not flushed/gc/scan/heap:bytes/gc/heap/goal:bytes/gc/heap/live:bytesbad kind in runfinqmarkroot: bad indexnwait > work.nprocs, gp->atomicstatus=marking free object KiB work (eager),  [controller reset]mspan.sweep: state=sysMemStat overflowbad sequence numberntdll.dll not foundwinmm.dll not foundruntime: g0 stack [panic during mallocpanic holding locksmissing deferreturnunexpected gp.parampanic during panic"
+0x4614e5,0x7ea89e,string, not in ranges:
+0x4615e5,0x7e3de9,string, - NaN  P  MPC= < end > and]:
+0x4617a5,0x7ea89e,string, not in ranges:
+0x4618a5,0x7e3de9,string, - NaN  P  MPC= < end > and]:
+0x461a0f,0x7ea89e,string, not in ranges:
+0x4637ae,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x463a56,0xccf3f0,import,kernel32.dll!SetEvent
+0x46520e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46524e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46528e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x4652ce,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46530e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46534e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46538e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x4653ce,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46540e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46544e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46548e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x4654ce,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46550e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x46554e,0xccf3d0,import,kernel32.dll!SwitchToThread
+0x4684e8,0x7f7c99,string,runtime: bad notifyList size - sync=accessed data from freed user arena runtime: wrong goroutine in newstackruntime: invalid pc-encoded table f=accessing a corrupted shared librarysyntax error scanning complex number444089209850062616169452667236328125ryuFtoaFixed64 called with prec > 180123456789abcdefghijklmnopqrstuvwxyzstrings.Builder.Grow: negative countstrings: Join output length overflowCompletion ended with directive: %s
+0x468df9,0xccf438,import,kernel32.dll!LoadLibraryExW
+0x468f36,0xccf430,import,kernel32.dll!LoadLibraryW
+0x469076,0xccf478,import,kernel32.dll!GetProcAddress
+0x46c9b3,0xadcd20,string,call frame too large
+0x46e414,0xccf3c8,import,kernel32.dll!TlsAlloc
+0x479d7a,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x479da0,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x4a819e,0x800076,string,"internal error: polling on unsupported descriptor typefmt: scanning called UnreadRune with no rune availableConsider hybrid cryptography as a transition strategy.out/_next/static/5PN3d3nnJLf0njNgba_xW/_ssgManifest.jsbytes.Buffer: reader returned negative count from Readblock sequence entries are not allowed in this contextoption ,inline needs a map with string keys in struct (?i)\b(BLAKE2(b|s)?[-_]?(256|384|512)?|blake2(b|s)?)\btls: server resumed a session with a different versiontls: server accepted 0-RTT with the wrong cipher suitetls: certificate used with invalid signature algorithmcryptobyte: Builder is exceeding its fixed-size bufferx509: cannot verify signature: algorithm unimplementedx509: invalid RDNSequence: invalid attribute value: %sURI with IP (%q) cannot be matched against constraintshttp: Request.Write on Request with no Host or URL setread loop ending; caller owns writable underlying conninternal error: expected to be already writing a framehttp2: received GOAWAY %+v, starting graceful shutdownhttp2: handler wrote more than declared Content-Lengthnet/http: can't write control character in Request.URLpanic calling String method on zero %v for flag %s: %vname is not in canonical format (it must end with a .)SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zonesmheap.freeSpanLocked - invalid free of user arena chunkcasfrom_Gscanstatus:top gp->status is not in scan state is currently not supported for use in system callbacksat least one of the flags in the group [%v] is requiredreflect: internal error: invalid use of makeMethodValuemap merge requires map or sequence of maps as the valuebufio.Scanner: SplitFunc returns negative advance countPKI infrastructure - include in cryptographic inventoryUse AES-256 for quantum resistance. Avoid AES-ECB mode.tls: internal error: handshake should have had a resultx509: too many intermediates for path length constraintx509: failed to load system roots and no roots providednet/http: request canceled while waiting for connectionnet/http: invalid byte %q in %s; dropping invalid byteshttp2: server: error reading preface from client %v: %vinternal error: can only be writing one frame at a timecipher.NewCBCEncrypter: IV length must equal block sizecipher.NewCBCDecrypter: IV length must equal block sizeeach colon-separated field must have at least one digitstrings: illegal use of non-zero Builder copied by valueConfig file path (default: auto-detect .cryptoscan.yaml)"
+0x4b3016,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x4bcb61,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bcbd4,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bcc1d,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bd63e,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bd965,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bda45,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bdb9e,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4bdd1e,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4be170,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4be1de,0x80c80b,string,00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899  
+0x4c02e0,0x7e3ad9,string,LlLtLuMnCcCfCoCsLmLoMcMeNdNlNoPcPdPePfPiPoPsScSkSmSoZlZpZsYiip0xorgeleltne])!! `<<0b0obrhrMuNuXimunuxipini
+0x4c16fe,0x7e3f39,string,HanLaoMroNkoVai 
+0x4c3b7e,0x7e3ad9,string,LlLtLuMnCcCfCoCsLmLoMcMeNdNlNoPcPdPePfPiPoPsScSkSmSoZlZpZsYiip0xorgeleltne])!! `<<0b0obrhrMuNuXimunuxipini
+0x4ccb5a,0x7ef687,string,reflect.Value.Interfacereflect.Value.NumMethodbytes.Buffer: too large2.16.840.1.101.3.4.3.172.16.840.1.101.3.4.3.182.16.840.1.101.3.4.3.192.16.840.1.101.3.4.3.202.16.840.1.101.3.4.3.212.16.840.1.101.3.4.3.222.16.840.1.101.3.4.3.232.16.840.1.101.3.4.3.242.16.840.1.101.3.4.3.252.16.840.1.101.3.4.1.262.16.840.1.101.3.4.1.462.16.840.1.101.3.4.1.222.16.840.1.101.3.4.1.422.16.840.1.101.3.4.2.102.16.840.1.101.3.4.2.112.16.840.1.101.3.4.2.122.16.840.1.101.3.4.2.192.16.840.1.101.3.4.2.20while scanning an aliasSelf-Signed CertificateXMSS Stateful SignatureKey Derivation Function(?i)\b(scrypt|Scrypt)\b(?i)\b(BLAKE3|blake3)\bunsupported certificateno application protocolCLIENT_TRAFFIC_SECRET_0SERVER_TRAFFIC_SECRET_0QUICEncryptionLevel(%v)invalid PrintableStringx509: malformed UTCTimex509: invalid key usagex509: malformed versionunexpected address typemissing port in addresshttp2: handler panickedhttp: request too largenet/http: abort Handlertext/xml; charset=utf-8Error reading directoryunknown error code 0x%xframe_goaway_has_streamframe_headers_pad_shortframe_rststream_bad_lennet/http context value unknown relationship %qmalformed HTTP responsemulti wildcard not lastnon-zero reserved fieldnetwork not implementedcommand not implementedVariant Also Negotiatesmissing protocol schemeinvalid URI for requestinvalid escape sequenceasn1: structure error: truncated tag or lengthtoo many pointers (>10)segment length too longunpacking Question.Nameunpacking Question.Typeskipping Question Classtext/css; charset=utf-8varint integer overflowpattern bits too long: P224 point not on curveP256 point not on curveP384 point not on curveP521 point not on curveinvalid scalar encodingflate: internal error: SA Pacific Standard TimeSA Eastern Standard TimeUS Eastern Standard TimeSA Western Standard TimeMontevideo Standard TimeMagallanes Standard TimePacific SA Standard TimeAzerbaijan Standard TimeBangladesh Standard TimeNorth Asia Standard TimeCape Verde Standard TimePretty print JSON outputhash of unhashable type span has no free objectsruntime: found obj at *(runtime: VirtualFree of /cgo/go-to-c-calls:calls/gc/heap/objects:objects/sched/latencies:secondsqueuefinalizer during GCupdate during transitionruntime: markroot index can't scan our own stackgcDrainN phase incorrectpageAlloc: out of memoryruntime: p.searchAddr = range partially overlapsstack trace unavailable
+0x4e0e37,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x4e0e56,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x4e19cd,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x4ef645,0x7f6b78,string,"illegal base64 data at input byte /tmp/cryptoscan-error-payload.jsonAPI returned no content candidatesdid not find expected node contentinvalid length of a UTF-8 sequencecontrol characters are not allowedNoDefaultCurrentDirectoryInExePathWeak Certificate Signature (SHA-1)expected an RSA public key, got %TTLS_ECDHE_RSA_WITH_AES_128_CBC_SHATLS_ECDHE_RSA_WITH_AES_256_CBC_SHAtls: malformed key_share extensionTLS 1.3, server CertificateVerify"
+0x4f0256,0x7f6b78,string,"illegal base64 data at input byte /tmp/cryptoscan-error-payload.jsonAPI returned no content candidatesdid not find expected node contentinvalid length of a UTF-8 sequencecontrol characters are not allowedNoDefaultCurrentDirectoryInExePathWeak Certificate Signature (SHA-1)expected an RSA public key, got %TTLS_ECDHE_RSA_WITH_AES_128_CBC_SHATLS_ECDHE_RSA_WITH_AES_256_CBC_SHAtls: malformed key_share extensionTLS 1.3, server CertificateVerify"
+0x4f1618,0x7e919c,string," (default %q) (default %s)mapping startinput error: invalid UTF-8RSA AlgorithmWeak Key SizeDSA AlgorithmAES AlgorithmInsecure Modeinsecure-modeDES AlgorithmHash FunctionOpenSSL Usagekey-containerConfigurationCERT-MTLS-001CERT-ACME-001configurationPQC-MLKEM-001PQC-MLDSA-001PQC-FNDSA-001best-practicenist-approvedHASH-SHA3-001access denieduser canceledPKCS1WithSHA1ECDSAWithSHA1CLIENT_RANDOMSHA256-RSAPSSSHA384-RSAPSSSHA512-RSAPSSemail addresslame referralSTREAM_CLOSEDCONNECT_ERRORWINDOW_UPDATEAuthorizationContent-RangeAccept-RangesIf-None-MatchLast-Modified403 Forbiddeninvalid range[FrameHeader accept-rangesauthorizationcache-controlcontent-rangeif-none-matchlast-modifiedunknown timersend_too_muchempty patternCache-ControlFQDN too longsocks connectReset ContentLoop Detected (default %v) in host nameinvalid ASN.1empty integerunsupported: name too longimage/svg+xmlgzip, deflatenot availableComputerNameEx: extra text: cryptoscan %s"
+0x5132dd,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x522b05,0x7e4667,string,unixIdleOpenHost&lt;&gt;1080DATAPINGHEADEtag0x%xdateetagfromvaryDateconngzip%x
+0x52c542,0x7e919c,string," (default %q) (default %s)mapping startinput error: invalid UTF-8RSA AlgorithmWeak Key SizeDSA AlgorithmAES AlgorithmInsecure Modeinsecure-modeDES AlgorithmHash FunctionOpenSSL Usagekey-containerConfigurationCERT-MTLS-001CERT-ACME-001configurationPQC-MLKEM-001PQC-MLDSA-001PQC-FNDSA-001best-practicenist-approvedHASH-SHA3-001access denieduser canceledPKCS1WithSHA1ECDSAWithSHA1CLIENT_RANDOMSHA256-RSAPSSSHA384-RSAPSSSHA512-RSAPSSemail addresslame referralSTREAM_CLOSEDCONNECT_ERRORWINDOW_UPDATEAuthorizationContent-RangeAccept-RangesIf-None-MatchLast-Modified403 Forbiddeninvalid range[FrameHeader accept-rangesauthorizationcache-controlcontent-rangeif-none-matchlast-modifiedunknown timersend_too_muchempty patternCache-ControlFQDN too longsocks connectReset ContentLoop Detected (default %v) in host nameinvalid ASN.1empty integerunsupported: name too longimage/svg+xmlgzip, deflatenot availableComputerNameEx: extra text: cryptoscan %s"
+0x551c4d,0x8249c5,string,# bash completion V2 for %-36[1]s -*- shell-script -*-
+0x55477d,0x7e42af,string,"helpbool"", ""  %s"
+0x555b61,0x7f371e,string,"required flag(s) ""%s"" not setcobra_annotation_one_required(?i)(decrypt|decipher|decode)Cryptographic asset discoveryFailed to generate report: %vISRG Root X1 / CA Trust Storereflect: Key of non-map type  cannot be converted to type while parsing a block mappingwhile parsing a flow sequenceunexpected low surrogate areacannot decode %s `%s` as a %swhile increasing indent leveldid not find the expected '>'did not find expected tag URIwhile scanning a block scalarwhile parsing a quoted scalarwhile scanning a plain scalarbufio.Scanner: token too longexec: Wait was already called-----BEGIN\s+CERTIFICATE-----PKCS#12 Certificate ContainerCertificate Validation Bypassunknown certificate authorityTLS_RSA_WITH_3DES_EDE_CBC_SHAtls: too many ignored recordstls: invalid NextProtos valuetls: invalid server key sharex509: unsupported time formatx509: cannot parse URI %q: %sx509: malformed serial numberx509: cannot parse dnsName %qmismatched local address typehttp2: client conn not usableMon, 02 Jan 2006 15:04:05 GMTapplication/vnd.ms-fontobjecthttp: idle connection timeoutMon, 02 Jan 2006 15:04:05 MSTMon, 02-Jan-2006 15:04:05 MSTinternal error: took too muchframe_pushpromise_zero_streamframe_pushpromise_pad_too_bigaccess-control-expose-headersaccess-control-request-methodhttp2: client connection lostHTTP/1.1 %d %s: %s%s%d %s: %shttp: panic serving %v: %v"
+0x555f71,0x7e42af,string,"helpbool"", ""  %s"
+0x556060,0x7e42af,string,"helpbool"", ""  %s"
+0x5560c0,0x7e42af,string,"helpbool"", ""  %s"
+0x559ff3,0x7e847a,string,Subcommand 'cryptographyPyCryptodomepycryptodomeOpenSSL Rubyverificationkey_exchangepackage.jsonpipfile.lockbuild.gradlegemfile.locknuget.configcontributingdescription:choose from:key exchangekey-exchangeblock-cipherSPHINCS+-128SPHINCS+-192SPHINCS+-256crypto-%s-%dQuantum Risk  
+0x55bf16,0x7e42af,string,"helpbool"", ""  %s"
+0x55d00f,0x80dd5d,string,Generate the autocompletion script for the bash shell.
+0x55d22a,0x80e1d2,string,Generate the autocompletion script for the zsh shell.
+0x55d44a,0x80d2c9,string,Generate the autocompletion script for the fish shell.
+0x55d671,0x80d1b7,string,Generate the autocompletion script for powershell.
+0x5614fc,0x7ef5a1,string,"json: cannot unmarshal  into Go value of type unexpected map key typesyntax error in pattern(?i)(cert|x509|pem|der)key derivation functionrelated-crypto-materialout/__next.__PAGE__.txtout/_next/static/media/"", missing CPU support"
+0x56158a,0x7e67d9,string, of type omitemptycrypto-jstweetnaclchangelog/testing/commands:synopsis:response:supportedavailablefunction plaintextsignatureintegrityhandshakenegotiateIntegrityDILITHIUMKYBER1024ML-DSA-44ML-DSA-65ML-DSA-87algorithmCOMPOSITECycloneDXurn:uuid:AlgorithmFile Type
+0x561600,0x7ef5a1,string,"json: cannot unmarshal  into Go value of type unexpected map key typesyntax error in pattern(?i)(cert|x509|pem|der)key derivation functionrelated-crypto-materialout/__next.__PAGE__.txtout/_next/static/media/"", missing CPU support"
+0x564cab,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x568163,0x7e7a3a,string,MarshalJSONMarshalTextGoogle Tinkcertificate.properties/__tests__//generated/@deprecatedparameters:ML-KEM-1024SLH-DSA-128SPHINCS-128SLH-DSA-192SPHINCS-192SLH-DSA-256SPHINCS-256DescriptionRemediation Target:    Time:      Duration:  Scanned:   Speed:    %s   %s %s
+0x568ed0,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x568fa1,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x5690da,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56916f,0x7e7a3a,string,MarshalJSONMarshalTextGoogle Tinkcertificate.properties/__tests__//generated/@deprecatedparameters:ML-KEM-1024SLH-DSA-128SPHINCS-128SLH-DSA-192SPHINCS-192SLH-DSA-256SPHINCS-256DescriptionRemediation Target:    Time:      Duration:  Scanned:   Speed:    %s   %s %s
+0x569394,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x569545,0x7e7a3a,string,MarshalJSONMarshalTextGoogle Tinkcertificate.properties/__tests__//generated/@deprecatedparameters:ML-KEM-1024SLH-DSA-128SPHINCS-128SLH-DSA-192SPHINCS-192SLH-DSA-256SPHINCS-256DescriptionRemediation Target:    Time:      Duration:  Scanned:   Speed:    %s   %s %s
+0x5696e1,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56974f,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x569a74,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56a7b6,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x56ae03,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56b6af,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56ba49,0x7f7e49,string,"json: encoding error for type %q: %qSelf-contained Python crypto libraryCryptographic key material discoveryAES-256-GCM Layer Payload Encryptionout/_not-found/__next._not-found.txtreflect: NumField of non-struct typemethod ABI and value ABI don't alignbytes.Reader.Seek: negative position/tmp/cryptoscan-request-payload.jsonAPI returned status 404 for model %sAPI returned status %d. Response: %sunknown problem parsing YAML contentdocument contains excessive aliasingdid not find expected <stream-start>did not find expected version number-----BEGIN\s+EC\s+PRIVATE\s+KEY-----expected an ECDSA public key, got %TTLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHAunsupported SSLv2 handshake receivedtls: server did not send a key sharex509: zero or negative DSA parameterx509: invalid CRL distribution pointx509: invalid subject key identifierx509: malformed algorithm identifierhttp: unexpected EOF reading trailer LastStreamID=%v ErrCode=%v Debug=%qhttp2: server rejecting conn: %v, %sHeader called after Handler finishedRoundTrip retrying after failure: %vJanFebMarAprMayJunJulAugSepOctNovDecno acceptable authentication methodsinvalid boolean value %q for -%s: %vno assembly implementation availablecrypto/cipher: input not full blockscrypto/sha1: invalid hash state sizecrypto/sha512: invalid hash functionIA5String contains invalid charactercompressed name in SRV resource datamalformed MIME header initial line: invalid pattern syntax (+ after -): edwards25519: invalid point encodingchacha20: wrong HChaCha20 nonce sizetimezone hour outside of range [0,23]Do not automatically open the browserruntime: allocation size out of range) is smaller than minimum page size (/cpu/classes/gc/mark/idle:cpu-secondssetprofilebucket: profile already setfailed to reserve page summary memoryruntime.minit: duplicatehandle failed_cgo_notify_runtime_init_done missingstartTheWorld: inconsistent mp->nextpruntime: unexpected SPWRITE function all goroutines are asleep - deadlock!cannot exec a shared library directlyvalue too large for defined data typeinternal error: unknown network type 2220446049250313080847263336181640625cobra_annotation_command_display_namebytes.Buffer: truncation out of range - Quantum Readiness Assessment Tool"
+0x56bfde,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56c403,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x56cc34,0x7e42cf,string,nulljson'\''3DESjosejavaringrustrubyyamltoml.yml.xml.ini.cfg.envtestcode@seeTODONOTEe.g.i.e.certsignhashvar let authSAFEECDHSHA1HKDFHMACaeadKMACCMACGMACXMSS1024SHA3CSNPTypeFileLineTagsnote
+0x571ce5,0x7eaa2e,string,after object keyRel: can't make org.bouncycastlerequirements.txtbuild.gradle.kts 
+0x5740ff,0x7e3e22,string,"'""'../\\.\??RSAECCAESDESSHAMD5aescppphpxmlkeyXXXpemcrtcerderp12pfxjkspubsigtxtymlfn  = jwttlssslDSARC4KDFCVI1.11.31.2KEMkemxofGCMCCMmackdfpke256192128LMS5127681.63841.0"
+0x57b47f,0x7e3dbf,string,LOWsubEOFfinptrnilobjgc %: gp  *(in  n= )
+0x57b4b2,0x7e41fb,string,HIGHINFOportallgallprootitabsbrkidledead is LEAFbase of ) =  <==GOGC] =  pc=true+Inf-Inf: p=cas1cas2cas3cas4cas5cas6 at 
+0x57b6cb,0x7e3dbf,string,LOWsubEOFfinptrnilobjgc %: gp  *(in  n= )
+0x57b6f3,0x7e41fb,string,HIGHINFOportallgallprootitabsbrkidledead is LEAFbase of ) =  <==GOGC] =  pc=true+Inf-Inf: p=cas1cas2cas3cas4cas5cas6 at 
+0x583ddf,0xcd4ec0,string,c|w{
+0x584552,0xcd4ec0,string,c|w{
+0x5845d4,0xcd4ec0,string,c|w{
+0x584622,0xcd4ec0,string,c|w{
+0x5846c0,0xcd4ec0,string,c|w{
+0x584724,0xcd4ec0,string,c|w{
+0x5b0aaf,0x7e3ca9,string,"0XOUCNST=#\""%xToA4V1V6V2V3V5A3"
+0x5b0ad5,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x5b1015,0x7e3a38,string,"0sh/opgc-+`SMLCPx: |0|1\\=>nsusms, 00"
+0x5bf3be,0x802f3e,string,5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5user arena chunk size is not a multiple of the physical page sizeruntime: function marked with #cgo nocallback called back into Goruntime.SetFinalizer: pointer not at beginning of allocated block
+0x5e7238,0xcd1ea0,string,*'- 735
+0x6005ad,0x7f0585,string,chacha20: wrong key sizeflate: maxBits too largestreamSafe was not reset2006-01-02T15:04:05Z07:00South Sudan Standard TimeUS Mountain Standard TimeMiddle East Standard TimeTransbaikal Standard TimeW. Mongolia Standard TimeAfghanistan Standard TimeNorth Korea Standard TimeUlaanbaatar Standard TimeVladivostok Standard TimeAUS Central Standard TimeAUS Eastern Standard TimeKaliningrad Standard TimeNew Zealand Standard TimePrint version informationScan Git history (slower)GetFinalPathNameByHandleWgoroutine profile cleanupchansend: spurious wakeupruntime
+0x6034d8,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603634,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60366d,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603cdd,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603ce5,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603ced,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603cf5,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x603faf,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604371,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604379,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604381,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604589,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60478a,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6047da,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604b0a,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604b12,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x604b8a,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60514e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x605156,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60515e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x605232,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6058a9,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6058b1,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6058b9,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6058c1,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x605a17,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x605b45,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x605c45,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6061e6,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6061ee,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6061f6,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6061fe,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x606bea,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x606c8c,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x606e29,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x606eb1,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6071f4,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6071fc,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607291,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60774a,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607752,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60775a,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60785d,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607ea8,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607eb0,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607eb8,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x607ec0,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6080d8,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60861b,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608623,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60862b,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608633,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6087c9,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608e2e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608e36,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608e3e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x608e46,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60903d,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6092b3,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x6092d0,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609680,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609688,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609703,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609bf4,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609bfc,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609c04,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x609ce9,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a0ab,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a0b3,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a0bb,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a461,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a8a6,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a8ae,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a8b6,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60a8be,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60aaaa,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60af8b,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60b526,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60b52e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60b536,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60b53e,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c0ca,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c16c,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c421,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c454,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c45c,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c7f8,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c800,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60c895,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60cd20,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60cd28,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60cd30,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60ce2c,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60d3dc,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60d3e4,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60d3ec,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x60d3f4,0xadd1e0,string,expand 32-byte kexpand 32-byte k
+0x627859,0x7f6d32,string,"TLS 1.3, client CertificateVerify"
+0x63e96f,0x7f6d54,string,"failed to construct HKDF label: %sadding nil Certificate to CertPoolx509: unknown public key algorithmx509: invalid certificate policies%s %q is excluded by constraint %qx509: Ed25519 verification failurex509: unhandled critical extensiontimeout waiting for client prefacehttp2: aborting request body writehttp: connection has been hijackedhttp: persistConn.readLoop exitinghttp: read on closed response bodystream error: stream ID %d; %v; %vframe_settings_window_size_too_bigframe_windowupdate_zero_inc_streamnewWriterAndRequestNoBody(%+v): %v%s matches the same requests as %shttp: invalid Content-Length of %qBaseContext returned a nil contextunsupported authentication method flag provided but not defined: -%sinvalid nested repetition operatorinvalid or unsupported Perl syntaxcrypto/rsa: missing public moduluscrypto/aes: invalid buffer overlapcrypto/des: invalid buffer overlapcrypto/rc4: invalid buffer overlapinvalid padding bits in BIT STRINGGODEBUG sys/cpu: can not disable ""chacha20: wrong HChaCha20 key size2006-01-02T15:04:05.999999999Z07:00"
+0x63f371,0x7e3c7b,string,"iv./53]:80:% ,h2%wTe%T"">OK\d\D\s\S\w\W\E:]/i "

@@ -1,0 +1,3294 @@
+[
+  {
+    "start": "0x140001000",
+    "end": "0x140001001",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001000: ret",
+    "last_instruction": "0x0000000140001000: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001001",
+    "end": "0x140001010",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001001: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001005: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001010"
+    ]
+  },
+  {
+    "start": "0x140001010",
+    "end": "0x140001023",
+    "section": ".text",
+    "instruction_count": 6,
+    "first_instruction": "0x0000000140001010: xor      edx, edx",
+    "last_instruction": "0x0000000140001021: jne      0x14000102c",
+    "successors": [
+      "0x14000102c",
+      "0x140001023"
+    ]
+  },
+  {
+    "start": "0x140001023",
+    "end": "0x14000102c",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001023: mov      edx, dword ptr [rcx + 4]",
+    "last_instruction": "0x0000000140001029: sub      edx, 1",
+    "successors": [
+      "0x14000102c"
+    ]
+  },
+  {
+    "start": "0x14000102c",
+    "end": "0x14000102f",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000102C: mov      eax, edx",
+    "last_instruction": "0x000000014000102E: ret",
+    "successors": []
+  },
+  {
+    "start": "0x14000102f",
+    "end": "0x140001030",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000102F: nop",
+    "last_instruction": "0x000000014000102F: nop",
+    "successors": [
+      "0x140001030"
+    ]
+  },
+  {
+    "start": "0x140001030",
+    "end": "0x140001037",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001030: xor      ecx, ecx",
+    "last_instruction": "0x0000000140001032: jmp      0x140001fe0",
+    "successors": [
+      "0x140001fe0"
+    ]
+  },
+  {
+    "start": "0x140001037",
+    "end": "0x140001040",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001037: nop      word ptr [rax + rax]",
+    "last_instruction": "0x0000000140001037: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x140001040"
+    ]
+  },
+  {
+    "start": "0x140001040",
+    "end": "0x140001051",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001040: sub      rsp, 0x48",
+    "last_instruction": "0x000000014000104F: je       0x140001060",
+    "successors": [
+      "0x140001060",
+      "0x140001051"
+    ]
+  },
+  {
+    "start": "0x140001051",
+    "end": "0x140001057",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001051: mov      r9d, 1",
+    "last_instruction": "0x0000000140001051: mov      r9d, 1",
+    "successors": [
+      "0x140001057"
+    ]
+  },
+  {
+    "start": "0x140001057",
+    "end": "0x14000105f",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001057: mov      eax, r9d",
+    "last_instruction": "0x000000014000105E: ret",
+    "successors": []
+  },
+  {
+    "start": "0x14000105f",
+    "end": "0x140001060",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000105F: nop",
+    "last_instruction": "0x000000014000105F: nop",
+    "successors": [
+      "0x140001060"
+    ]
+  },
+  {
+    "start": "0x140001060",
+    "end": "0x14000108a",
+    "section": ".text",
+    "instruction_count": 10,
+    "first_instruction": "0x0000000140001060: mov      qword ptr [rsp + 0x30], rcx",
+    "last_instruction": "0x0000000140001088: je       0x140001057",
+    "successors": [
+      "0x140001057",
+      "0x14000108a"
+    ]
+  },
+  {
+    "start": "0x14000108a",
+    "end": "0x140001093",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x000000014000108A: test     eax, eax",
+    "last_instruction": "0x0000000140001091: je       0x140001051",
+    "successors": [
+      "0x140001051",
+      "0x140001093"
+    ]
+  },
+  {
+    "start": "0x140001093",
+    "end": "0x1400010a0",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001093: mov      ecx, dword ptr [r10]",
+    "last_instruction": "0x000000014000109C: nop      dword ptr [rax]",
+    "successors": [
+      "0x1400010a0"
+    ]
+  },
+  {
+    "start": "0x1400010a0",
+    "end": "0x1400010cd",
+    "section": ".text",
+    "instruction_count": 14,
+    "first_instruction": "0x00000001400010A0: push     r15",
+    "last_instruction": "0x00000001400010CB: jmp      0x1400010e0",
+    "successors": [
+      "0x1400010e0"
+    ]
+  },
+  {
+    "start": "0x1400010cd",
+    "end": "0x1400010d0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400010CD: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400010CD: nop      dword ptr [rax]",
+    "successors": [
+      "0x1400010d0"
+    ]
+  },
+  {
+    "start": "0x1400010d0",
+    "end": "0x1400010d9",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400010D0: cmp      rsi, rax",
+    "last_instruction": "0x00000001400010D3: je       0x140001180",
+    "successors": [
+      "0x140001180",
+      "0x1400010d9"
+    ]
+  },
+  {
+    "start": "0x1400010d9",
+    "end": "0x1400010e0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400010D9: mov      ecx, 0x3e8",
+    "last_instruction": "0x00000001400010DE: call     rdi",
+    "successors": [
+      "0x1400010e0"
+    ]
+  },
+  {
+    "start": "0x1400010e0",
+    "end": "0x1400010e9",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400010E0: xor      eax, eax",
+    "last_instruction": "0x00000001400010E7: jne      0x1400010d0",
+    "successors": [
+      "0x1400010d0",
+      "0x1400010e9"
+    ]
+  },
+  {
+    "start": "0x1400010e9",
+    "end": "0x1400010ec",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400010E9: xor      r14d, r14d",
+    "last_instruction": "0x00000001400010E9: xor      r14d, r14d",
+    "successors": [
+      "0x1400010ec"
+    ]
+  },
+  {
+    "start": "0x1400010ec",
+    "end": "0x1400010fe",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400010EC: mov      r12, qword ptr [rip + 0x328d]",
+    "last_instruction": "0x00000001400010F8: je       0x14000144f",
+    "successors": [
+      "0x14000144f",
+      "0x1400010fe"
+    ]
+  },
+  {
+    "start": "0x1400010fe",
+    "end": "0x14000110b",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400010FE: mov      r11d, dword ptr [r12]",
+    "last_instruction": "0x0000000140001105: je       0x1400011b0",
+    "successors": [
+      "0x1400011b0",
+      "0x14000110b"
+    ]
+  },
+  {
+    "start": "0x14000110b",
+    "end": "0x140001115",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000110B: mov      dword ptr [rip + 0x5eeb], 1",
+    "last_instruction": "0x000000014000110B: mov      dword ptr [rip + 0x5eeb], 1",
+    "successors": [
+      "0x140001115"
+    ]
+  },
+  {
+    "start": "0x140001115",
+    "end": "0x14000111e",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001115: test     r14d, r14d",
+    "last_instruction": "0x0000000140001118: je       0x1400011a0",
+    "successors": [
+      "0x1400011a0",
+      "0x14000111e"
+    ]
+  },
+  {
+    "start": "0x14000111e",
+    "end": "0x14000112a",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x000000014000111E: mov      rax, qword ptr [rip + 0x5fcb]",
+    "last_instruction": "0x0000000140001128: je       0x140001136",
+    "successors": [
+      "0x140001136",
+      "0x14000112a"
+    ]
+  },
+  {
+    "start": "0x14000112a",
+    "end": "0x140001136",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000112A: xor      r8d, r8d",
+    "last_instruction": "0x0000000140001134: call     rax",
+    "successors": [
+      "0x140001136"
+    ]
+  },
+  {
+    "start": "0x140001136",
+    "end": "0x140001165",
+    "section": ".text",
+    "instruction_count": 9,
+    "first_instruction": "0x0000000140001136: call     0x140001f10",
+    "last_instruction": "0x000000014000115F: je       0x140001448",
+    "successors": [
+      "0x140001448",
+      "0x140001165"
+    ]
+  },
+  {
+    "start": "0x140001165",
+    "end": "0x14000116f",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001165: mov      edx, dword ptr [rip + 0x5e95]",
+    "last_instruction": "0x000000014000116D: je       0x140001190",
+    "successors": [
+      "0x140001190",
+      "0x14000116f"
+    ]
+  },
+  {
+    "start": "0x14000116f",
+    "end": "0x140001180",
+    "section": ".text",
+    "instruction_count": 10,
+    "first_instruction": "0x000000014000116F: add      rsp, 0x58",
+    "last_instruction": "0x000000014000117F: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001180",
+    "end": "0x14000118b",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001180: mov      r14d, 1",
+    "last_instruction": "0x0000000140001186: jmp      0x1400010ec",
+    "successors": [
+      "0x1400010ec"
+    ]
+  },
+  {
+    "start": "0x14000118b",
+    "end": "0x140001190",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000118B: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x000000014000118B: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001190"
+    ]
+  },
+  {
+    "start": "0x140001190",
+    "end": "0x14000119f",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001190: mov      dword ptr [rsp + 0x3c], eax",
+    "last_instruction": "0x000000014000119D: jmp      0x14000116f",
+    "successors": [
+      "0x14000116f"
+    ]
+  },
+  {
+    "start": "0x14000119f",
+    "end": "0x1400011a0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000119F: nop",
+    "last_instruction": "0x000000014000119F: nop",
+    "successors": [
+      "0x1400011a0"
+    ]
+  },
+  {
+    "start": "0x1400011a0",
+    "end": "0x1400011aa",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400011A0: xor      eax, eax",
+    "last_instruction": "0x00000001400011A5: jmp      0x14000111e",
+    "successors": [
+      "0x14000111e"
+    ]
+  },
+  {
+    "start": "0x1400011aa",
+    "end": "0x1400011b0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400011AA: nop      word ptr [rax + rax]",
+    "last_instruction": "0x00000001400011AA: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x1400011b0"
+    ]
+  },
+  {
+    "start": "0x1400011b0",
+    "end": "0x1400011eb",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x00000001400011B0: mov      ecx, 2",
+    "last_instruction": "0x00000001400011E5: jne      0x140001434",
+    "successors": [
+      "0x140001434",
+      "0x1400011eb"
+    ]
+  },
+  {
+    "start": "0x1400011eb",
+    "end": "0x14000120f",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x00000001400011EB: call     0x1400018f0",
+    "last_instruction": "0x000000014000120D: jne      0x140001250",
+    "successors": [
+      "0x140001250",
+      "0x14000120f"
+    ]
+  },
+  {
+    "start": "0x14000120f",
+    "end": "0x14000121e",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000120F: movsxd   rdx, dword ptr [rax + 0x3c]",
+    "last_instruction": "0x000000014000121C: jne      0x140001250",
+    "successors": [
+      "0x140001250",
+      "0x14000121e"
+    ]
+  },
+  {
+    "start": "0x14000121e",
+    "end": "0x14000122d",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x000000014000121E: movzx    edx, word ptr [rax + 0x18]",
+    "last_instruction": "0x0000000140001227: je       0x140001415",
+    "successors": [
+      "0x140001415",
+      "0x14000122d"
+    ]
+  },
+  {
+    "start": "0x14000122d",
+    "end": "0x140001234",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000122D: cmp      dx, 0x20b",
+    "last_instruction": "0x0000000140001232: jne      0x140001250",
+    "successors": [
+      "0x140001250",
+      "0x140001234"
+    ]
+  },
+  {
+    "start": "0x140001234",
+    "end": "0x14000123d",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001234: cmp      dword ptr [rax + 0x84], 0xe",
+    "last_instruction": "0x000000014000123B: jbe      0x140001250",
+    "successors": [
+      "0x140001250",
+      "0x14000123d"
+    ]
+  },
+  {
+    "start": "0x14000123d",
+    "end": "0x140001250",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x000000014000123D: mov      r9d, dword ptr [rax + 0xf8]",
+    "last_instruction": "0x000000014000124D: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001250"
+    ]
+  },
+  {
+    "start": "0x140001250",
+    "end": "0x140001269",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001250: mov      rax, qword ptr [rip + 0x3109]",
+    "last_instruction": "0x0000000140001263: jne      0x140001398",
+    "successors": [
+      "0x140001398",
+      "0x140001269"
+    ]
+  },
+  {
+    "start": "0x140001269",
+    "end": "0x140001273",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001269: mov      ecx, 1",
+    "last_instruction": "0x000000014000126E: call     0x140002040",
+    "successors": [
+      "0x140001273"
+    ]
+  },
+  {
+    "start": "0x140001273",
+    "end": "0x1400012a0",
+    "section": ".text",
+    "instruction_count": 11,
+    "first_instruction": "0x0000000140001273: call     0x140001fd0",
+    "last_instruction": "0x000000014000129A: js       0x140001389",
+    "successors": [
+      "0x140001389",
+      "0x1400012a0"
+    ]
+  },
+  {
+    "start": "0x1400012a0",
+    "end": "0x1400012b0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400012A0: mov      rax, qword ptr [rip + 0x3049]",
+    "last_instruction": "0x00000001400012AA: je       0x140001404",
+    "successors": [
+      "0x140001404",
+      "0x1400012b0"
+    ]
+  },
+  {
+    "start": "0x1400012b0",
+    "end": "0x1400012c0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400012B0: mov      rax, qword ptr [rip + 0x3089]",
+    "last_instruction": "0x00000001400012BA: je       0x1400013f5",
+    "successors": [
+      "0x1400013f5",
+      "0x1400012c0"
+    ]
+  },
+  {
+    "start": "0x1400012c0",
+    "end": "0x1400012db",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x00000001400012C0: mov      rdx, qword ptr [rip + 0x30f9]",
+    "last_instruction": "0x00000001400012D5: jne      0x14000143e",
+    "successors": [
+      "0x14000143e",
+      "0x1400012db"
+    ]
+  },
+  {
+    "start": "0x1400012db",
+    "end": "0x14000131a",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x00000001400012DB: mov      rax, qword ptr [rip + 0x312e]",
+    "last_instruction": "0x0000000140001318: js       0x140001389",
+    "successors": [
+      "0x140001389",
+      "0x14000131a"
+    ]
+  },
+  {
+    "start": "0x14000131a",
+    "end": "0x140001337",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x000000014000131A: mov      ebp, dword ptr [rip + 0x5cf8]",
+    "last_instruction": "0x0000000140001335: je       0x140001389",
+    "successors": [
+      "0x140001389",
+      "0x140001337"
+    ]
+  },
+  {
+    "start": "0x140001337",
+    "end": "0x14000133b",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001337: test     ebp, ebp",
+    "last_instruction": "0x0000000140001339: jle      0x1400013b5",
+    "successors": [
+      "0x1400013b5",
+      "0x14000133b"
+    ]
+  },
+  {
+    "start": "0x14000133b",
+    "end": "0x140001349",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x000000014000133B: mov      r15, qword ptr [rip + 0x5cce]",
+    "last_instruction": "0x0000000140001347: jmp      0x140001369",
+    "successors": [
+      "0x140001369"
+    ]
+  },
+  {
+    "start": "0x140001349",
+    "end": "0x140001350",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001349: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001349: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001350"
+    ]
+  },
+  {
+    "start": "0x140001350",
+    "end": "0x140001365",
+    "section": ".text",
+    "instruction_count": 6,
+    "first_instruction": "0x0000000140001350: mov      rdx, qword ptr [r15 + rsi*8 - 8]",
+    "last_instruction": "0x0000000140001363: je       0x1400013b0",
+    "successors": [
+      "0x1400013b0",
+      "0x140001365"
+    ]
+  },
+  {
+    "start": "0x140001365",
+    "end": "0x140001369",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001365: add      rsi, 1",
+    "last_instruction": "0x0000000140001365: add      rsi, 1",
+    "successors": [
+      "0x140001369"
+    ]
+  },
+  {
+    "start": "0x140001369",
+    "end": "0x140001389",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001369: mov      rcx, qword ptr [r15 + rsi*8 - 8]",
+    "last_instruction": "0x0000000140001387: jne      0x140001350",
+    "successors": [
+      "0x140001350",
+      "0x140001389"
+    ]
+  },
+  {
+    "start": "0x140001389",
+    "end": "0x140001398",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001389: mov      ecx, 8",
+    "last_instruction": "0x0000000140001393: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001398"
+    ]
+  },
+  {
+    "start": "0x140001398",
+    "end": "0x1400013a7",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001398: mov      ecx, 2",
+    "last_instruction": "0x00000001400013A2: jmp      0x140001273",
+    "successors": [
+      "0x140001273"
+    ]
+  },
+  {
+    "start": "0x1400013a7",
+    "end": "0x1400013b0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400013A7: nop      word ptr [rax + rax]",
+    "last_instruction": "0x00000001400013A7: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x1400013b0"
+    ]
+  },
+  {
+    "start": "0x1400013b0",
+    "end": "0x1400013b5",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400013B0: lea      rax, [r13 + rbp*8]",
+    "last_instruction": "0x00000001400013B0: lea      rax, [r13 + rbp*8]",
+    "successors": [
+      "0x1400013b5"
+    ]
+  },
+  {
+    "start": "0x1400013b5",
+    "end": "0x1400013f5",
+    "section": ".text",
+    "instruction_count": 10,
+    "first_instruction": "0x00000001400013B5: mov      qword ptr [rax], 0",
+    "last_instruction": "0x00000001400013F0: jmp      0x140001115",
+    "successors": [
+      "0x140001115"
+    ]
+  },
+  {
+    "start": "0x1400013f5",
+    "end": "0x140001404",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400013F5: mov      ecx, 0xffffffff",
+    "last_instruction": "0x00000001400013FF: jmp      0x1400012c0",
+    "successors": [
+      "0x1400012c0"
+    ]
+  },
+  {
+    "start": "0x140001404",
+    "end": "0x140001415",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001404: lea      rcx, [rip + 0x215]",
+    "last_instruction": "0x0000000140001410: jmp      0x1400012b0",
+    "successors": [
+      "0x1400012b0"
+    ]
+  },
+  {
+    "start": "0x140001415",
+    "end": "0x14000141f",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001415: cmp      dword ptr [rax + 0x74], 0xe",
+    "last_instruction": "0x0000000140001419: jbe      0x140001250",
+    "successors": [
+      "0x140001250",
+      "0x14000141f"
+    ]
+  },
+  {
+    "start": "0x14000141f",
+    "end": "0x140001434",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x000000014000141F: mov      r10d, dword ptr [rax + 0xe8]",
+    "last_instruction": "0x000000014000142F: jmp      0x140001250",
+    "successors": [
+      "0x140001250"
+    ]
+  },
+  {
+    "start": "0x140001434",
+    "end": "0x14000143e",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001434: mov      ecx, 0x1a",
+    "last_instruction": "0x0000000140001439: call     0x140001f20",
+    "successors": [
+      "0x14000143e"
+    ]
+  },
+  {
+    "start": "0x14000143e",
+    "end": "0x140001448",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000143E: mov      ecx, 0xa",
+    "last_instruction": "0x0000000140001443: call     0x140001f20",
+    "successors": [
+      "0x140001448"
+    ]
+  },
+  {
+    "start": "0x140001448",
+    "end": "0x14000144f",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001448: mov      ecx, eax",
+    "last_instruction": "0x000000014000144A: call     0x140002058",
+    "successors": [
+      "0x14000144f"
+    ]
+  },
+  {
+    "start": "0x14000144f",
+    "end": "0x140001460",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000144F: mov      ecx, 0x1f",
+    "last_instruction": "0x000000014000145A: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x140001460"
+    ]
+  },
+  {
+    "start": "0x140001460",
+    "end": "0x140001472",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001460: mov      rax, qword ptr [rip + 0x2ef9]",
+    "last_instruction": "0x000000014000146D: jmp      0x1400010a0",
+    "successors": [
+      "0x1400010a0"
+    ]
+  },
+  {
+    "start": "0x140001472",
+    "end": "0x140001480",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001472: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001475: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001480"
+    ]
+  },
+  {
+    "start": "0x140001480",
+    "end": "0x140001492",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001480: mov      rax, qword ptr [rip + 0x2ed9]",
+    "last_instruction": "0x000000014000148D: jmp      0x1400010a0",
+    "successors": [
+      "0x1400010a0"
+    ]
+  },
+  {
+    "start": "0x140001492",
+    "end": "0x1400014a0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001492: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001495: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x1400014a0"
+    ]
+  },
+  {
+    "start": "0x1400014a0",
+    "end": "0x1400014a5",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400014A0: jmp      0x140002010",
+    "last_instruction": "0x00000001400014A0: jmp      0x140002010",
+    "successors": [
+      "0x140002010"
+    ]
+  },
+  {
+    "start": "0x1400014a5",
+    "end": "0x1400014b0",
+    "section": ".text",
+    "instruction_count": 11,
+    "first_instruction": "0x00000001400014A5: nop",
+    "last_instruction": "0x00000001400014AF: nop",
+    "successors": [
+      "0x1400014b0"
+    ]
+  },
+  {
+    "start": "0x1400014b0",
+    "end": "0x1400014bc",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400014B0: lea      rcx, [rip + 9]",
+    "last_instruction": "0x00000001400014B7: jmp      0x1400014a0",
+    "successors": [
+      "0x1400014a0"
+    ]
+  },
+  {
+    "start": "0x1400014bc",
+    "end": "0x1400014c0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400014BC: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400014BC: nop      dword ptr [rax]",
+    "successors": [
+      "0x1400014c0"
+    ]
+  },
+  {
+    "start": "0x1400014c0",
+    "end": "0x1400014c1",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400014C0: ret",
+    "last_instruction": "0x00000001400014C0: ret",
+    "successors": []
+  },
+  {
+    "start": "0x1400014c1",
+    "end": "0x1400014d0",
+    "section": ".text",
+    "instruction_count": 15,
+    "first_instruction": "0x00000001400014C1: nop",
+    "last_instruction": "0x00000001400014CF: nop",
+    "successors": [
+      "0x1400014d0"
+    ]
+  },
+  {
+    "start": "0x1400014d0",
+    "end": "0x1400014df",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x00000001400014D0: push     rbp",
+    "last_instruction": "0x00000001400014DE: ret",
+    "successors": []
+  },
+  {
+    "start": "0x1400014df",
+    "end": "0x140001506",
+    "section": ".text",
+    "instruction_count": 11,
+    "first_instruction": "0x00000001400014DF: push     rbp",
+    "last_instruction": "0x0000000140001504: jle      0x140001519",
+    "successors": [
+      "0x140001519",
+      "0x140001506"
+    ]
+  },
+  {
+    "start": "0x140001506",
+    "end": "0x140001519",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001506: mov      eax, dword ptr [rbp - 8]",
+    "last_instruction": "0x0000000140001517: jmp      0x14000152a",
+    "successors": [
+      "0x14000152a"
+    ]
+  },
+  {
+    "start": "0x140001519",
+    "end": "0x14000152a",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001519: mov      eax, dword ptr [rbp - 8]",
+    "last_instruction": "0x0000000140001525: call     0x140001e50",
+    "successors": [
+      "0x14000152a"
+    ]
+  },
+  {
+    "start": "0x14000152a",
+    "end": "0x140001535",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000152A: mov      eax, 0",
+    "last_instruction": "0x0000000140001534: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001535",
+    "end": "0x140001540",
+    "section": ".text",
+    "instruction_count": 11,
+    "first_instruction": "0x0000000140001535: nop",
+    "last_instruction": "0x000000014000153F: nop",
+    "successors": [
+      "0x140001540"
+    ]
+  },
+  {
+    "start": "0x140001540",
+    "end": "0x140001553",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001540: sub      rsp, 0x28",
+    "last_instruction": "0x0000000140001551: je       0x14000157c",
+    "successors": [
+      "0x14000157c",
+      "0x140001553"
+    ]
+  },
+  {
+    "start": "0x140001553",
+    "end": "0x140001560",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001553: nop",
+    "last_instruction": "0x0000000140001555: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001560"
+    ]
+  },
+  {
+    "start": "0x140001560",
+    "end": "0x14000157c",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x0000000140001560: add      rax, 8",
+    "last_instruction": "0x000000014000157A: jne      0x140001560",
+    "successors": [
+      "0x140001560",
+      "0x14000157c"
+    ]
+  },
+  {
+    "start": "0x14000157c",
+    "end": "0x140001581",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000157C: add      rsp, 0x28",
+    "last_instruction": "0x0000000140001580: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001581",
+    "end": "0x140001590",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001581: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001585: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001590"
+    ]
+  },
+  {
+    "start": "0x140001590",
+    "end": "0x1400015a6",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x0000000140001590: push     rsi",
+    "last_instruction": "0x00000001400015A4: je       0x1400015d0",
+    "successors": [
+      "0x1400015d0",
+      "0x1400015a6"
+    ]
+  },
+  {
+    "start": "0x1400015a6",
+    "end": "0x1400015ab",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400015A6: test     rbx, rbx",
+    "last_instruction": "0x00000001400015A9: je       0x1400015b9",
+    "successors": [
+      "0x1400015b9",
+      "0x1400015ab"
+    ]
+  },
+  {
+    "start": "0x1400015ab",
+    "end": "0x1400015b0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400015AB: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x00000001400015AB: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x1400015b0"
+    ]
+  },
+  {
+    "start": "0x1400015b0",
+    "end": "0x1400015b9",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400015B0: call     qword ptr [rsi + rbx*8]",
+    "last_instruction": "0x00000001400015B7: jne      0x1400015b0",
+    "successors": [
+      "0x1400015b0",
+      "0x1400015b9"
+    ]
+  },
+  {
+    "start": "0x1400015b9",
+    "end": "0x1400015cb",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x00000001400015B9: lea      rcx, [rip - 0x80]",
+    "last_instruction": "0x00000001400015C6: jmp      0x1400014a0",
+    "successors": [
+      "0x1400014a0"
+    ]
+  },
+  {
+    "start": "0x1400015cb",
+    "end": "0x1400015d0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400015CB: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x00000001400015CB: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x1400015d0"
+    ]
+  },
+  {
+    "start": "0x1400015d0",
+    "end": "0x1400015e0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400015D0: xor      eax, eax",
+    "last_instruction": "0x00000001400015D5: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x1400015e0"
+    ]
+  },
+  {
+    "start": "0x1400015e0",
+    "end": "0x1400015ee",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x00000001400015E0: mov      rbx, rax",
+    "last_instruction": "0x00000001400015EC: jne      0x1400015e0",
+    "successors": [
+      "0x1400015e0",
+      "0x1400015ee"
+    ]
+  },
+  {
+    "start": "0x1400015ee",
+    "end": "0x1400015f0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400015EE: jmp      0x1400015a6",
+    "last_instruction": "0x00000001400015EE: jmp      0x1400015a6",
+    "successors": [
+      "0x1400015a6"
+    ]
+  },
+  {
+    "start": "0x1400015f0",
+    "end": "0x1400015fa",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400015F0: mov      eax, dword ptr [rip + 0x5a2a]",
+    "last_instruction": "0x00000001400015F8: je       0x140001600",
+    "successors": [
+      "0x140001600",
+      "0x1400015fa"
+    ]
+  },
+  {
+    "start": "0x1400015fa",
+    "end": "0x1400015fb",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400015FA: ret",
+    "last_instruction": "0x00000001400015FA: ret",
+    "successors": []
+  },
+  {
+    "start": "0x1400015fb",
+    "end": "0x140001600",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400015FB: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x00000001400015FB: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001600"
+    ]
+  },
+  {
+    "start": "0x140001600",
+    "end": "0x14000160c",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001600: mov      dword ptr [rip + 0x5a16], 1",
+    "last_instruction": "0x000000014000160A: jmp      0x140001590",
+    "successors": [
+      "0x140001590"
+    ]
+  },
+  {
+    "start": "0x14000160c",
+    "end": "0x140001610",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000160C: nop",
+    "last_instruction": "0x000000014000160F: nop",
+    "successors": [
+      "0x140001610"
+    ]
+  },
+  {
+    "start": "0x140001610",
+    "end": "0x140001613",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001610: xor      eax, eax",
+    "last_instruction": "0x0000000140001612: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001613",
+    "end": "0x140001620",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001613: nop",
+    "last_instruction": "0x000000014000161F: nop",
+    "successors": [
+      "0x140001620"
+    ]
+  },
+  {
+    "start": "0x140001620",
+    "end": "0x14000163f",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001620: push     rsi",
+    "last_instruction": "0x0000000140001639: ja       0x14000170c",
+    "successors": [
+      "0x14000170c",
+      "0x14000163f"
+    ]
+  },
+  {
+    "start": "0x14000163f",
+    "end": "0x140001651",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x000000014000163F: mov      eax, dword ptr [rcx]",
+    "last_instruction": "0x000000014000164F: jmp      rax",
+    "successors": []
+  },
+  {
+    "start": "0x140001651",
+    "end": "0x14000165f",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001651: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001658: lea      rbx, [rip + 0x29f0]",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x14000165f",
+    "end": "0x1400016bf",
+    "section": ".text",
+    "instruction_count": 23,
+    "first_instruction": "0x000000014000165F: movsd    xmm8, qword ptr [rcx + 0x20]",
+    "last_instruction": "0x00000001400016BE: ret",
+    "successors": []
+  },
+  {
+    "start": "0x1400016bf",
+    "end": "0x1400016c9",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400016BF: nop",
+    "last_instruction": "0x00000001400016C7: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x1400016c9",
+    "end": "0x1400016d9",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400016C9: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400016D7: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x1400016d9",
+    "end": "0x1400016ec",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400016D9: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400016E7: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x1400016ec",
+    "end": "0x1400016fc",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400016EC: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400016F7: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x1400016fc",
+    "end": "0x14000170c",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400016FC: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001707: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x14000170c",
+    "end": "0x140001718",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000170C: lea      rbx, [rip + 0x2a03]",
+    "last_instruction": "0x0000000140001713: jmp      0x14000165f",
+    "successors": [
+      "0x14000165f"
+    ]
+  },
+  {
+    "start": "0x140001718",
+    "end": "0x140001720",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001718: nop",
+    "last_instruction": "0x000000014000171F: nop",
+    "successors": [
+      "0x140001720"
+    ]
+  },
+  {
+    "start": "0x140001720",
+    "end": "0x140001780",
+    "section": ".text",
+    "instruction_count": 24,
+    "first_instruction": "0x0000000140001720: push     rsi",
+    "last_instruction": "0x000000014000177E: nop",
+    "successors": [
+      "0x140001780"
+    ]
+  },
+  {
+    "start": "0x140001780",
+    "end": "0x140001798",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001780: push     rdi",
+    "last_instruction": "0x0000000140001792: jle      0x1400018b0",
+    "successors": [
+      "0x1400018b0",
+      "0x140001798"
+    ]
+  },
+  {
+    "start": "0x140001798",
+    "end": "0x1400017b0",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001798: mov      rax, qword ptr [rip + 0x58e9]",
+    "last_instruction": "0x00000001400017A6: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x1400017b0"
+    ]
+  },
+  {
+    "start": "0x1400017b0",
+    "end": "0x1400017b8",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400017B0: mov      r8, qword ptr [rax]",
+    "last_instruction": "0x00000001400017B6: jb       0x1400017cb",
+    "successors": [
+      "0x1400017cb",
+      "0x1400017b8"
+    ]
+  },
+  {
+    "start": "0x1400017b8",
+    "end": "0x1400017cb",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x00000001400017B8: mov      rdx, qword ptr [rax + 8]",
+    "last_instruction": "0x00000001400017C5: jb       0x140001855",
+    "successors": [
+      "0x140001855",
+      "0x1400017cb"
+    ]
+  },
+  {
+    "start": "0x1400017cb",
+    "end": "0x1400017d8",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x00000001400017CB: add      r9d, 1",
+    "last_instruction": "0x00000001400017D6: jne      0x1400017b0",
+    "successors": [
+      "0x1400017b0",
+      "0x1400017d8"
+    ]
+  },
+  {
+    "start": "0x1400017d8",
+    "end": "0x1400017ec",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x00000001400017D8: mov      rcx, rbx",
+    "last_instruction": "0x00000001400017E6: je       0x1400018d2",
+    "successors": [
+      "0x1400018d2",
+      "0x1400017ec"
+    ]
+  },
+  {
+    "start": "0x1400017ec",
+    "end": "0x14000183a",
+    "section": ".text",
+    "instruction_count": 16,
+    "first_instruction": "0x00000001400017EC: mov      rax, qword ptr [rip + 0x5895]",
+    "last_instruction": "0x0000000140001834: je       0x1400018b7",
+    "successors": [
+      "0x1400018b7",
+      "0x14000183a"
+    ]
+  },
+  {
+    "start": "0x14000183a",
+    "end": "0x140001846",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x000000014000183A: mov      eax, dword ptr [rsp + 0x44]",
+    "last_instruction": "0x0000000140001844: je       0x14000184e",
+    "successors": [
+      "0x14000184e",
+      "0x140001846"
+    ]
+  },
+  {
+    "start": "0x140001846",
+    "end": "0x14000184e",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001846: lea      edx, [rax - 0x40]",
+    "last_instruction": "0x000000014000184C: jne      0x140001860",
+    "successors": [
+      "0x140001860",
+      "0x14000184e"
+    ]
+  },
+  {
+    "start": "0x14000184e",
+    "end": "0x140001855",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000184E: add      dword ptr [rip + 0x582f], 1",
+    "last_instruction": "0x000000014000184E: add      dword ptr [rip + 0x582f], 1",
+    "successors": [
+      "0x140001855"
+    ]
+  },
+  {
+    "start": "0x140001855",
+    "end": "0x14000185d",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001855: add      rsp, 0x50",
+    "last_instruction": "0x000000014000185C: ret",
+    "successors": []
+  },
+  {
+    "start": "0x14000185d",
+    "end": "0x140001860",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000185D: nop      dword ptr [rax]",
+    "last_instruction": "0x000000014000185D: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001860"
+    ]
+  },
+  {
+    "start": "0x140001860",
+    "end": "0x140001898",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001860: cmp      eax, 2",
+    "last_instruction": "0x0000000140001896: jne      0x14000184e",
+    "successors": [
+      "0x14000184e",
+      "0x140001898"
+    ]
+  },
+  {
+    "start": "0x140001898",
+    "end": "0x1400018b0",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001898: call     qword ptr [rip + 0x6972]",
+    "last_instruction": "0x00000001400018AC: nop      dword ptr [rax]",
+    "successors": [
+      "0x1400018b0"
+    ]
+  },
+  {
+    "start": "0x1400018b0",
+    "end": "0x1400018b7",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400018B0: xor      esi, esi",
+    "last_instruction": "0x00000001400018B2: jmp      0x1400017d8",
+    "successors": [
+      "0x1400017d8"
+    ]
+  },
+  {
+    "start": "0x1400018b7",
+    "end": "0x1400018d2",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x00000001400018B7: mov      rax, qword ptr [rip + 0x57ca]",
+    "last_instruction": "0x00000001400018CD: call     0x140001720",
+    "successors": [
+      "0x1400018d2"
+    ]
+  },
+  {
+    "start": "0x1400018d2",
+    "end": "0x1400018f0",
+    "section": ".text",
+    "instruction_count": 6,
+    "first_instruction": "0x00000001400018D2: mov      rdx, rbx",
+    "last_instruction": "0x00000001400018E5: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x1400018f0"
+    ]
+  },
+  {
+    "start": "0x1400018f0",
+    "end": "0x14000190d",
+    "section": ".text",
+    "instruction_count": 12,
+    "first_instruction": "0x00000001400018F0: push     rbp",
+    "last_instruction": "0x000000014000190B: je       0x140001920",
+    "successors": [
+      "0x140001920",
+      "0x14000190d"
+    ]
+  },
+  {
+    "start": "0x14000190d",
+    "end": "0x14000191b",
+    "section": ".text",
+    "instruction_count": 9,
+    "first_instruction": "0x000000014000190D: mov      rsp, rbp",
+    "last_instruction": "0x000000014000191A: ret",
+    "successors": []
+  },
+  {
+    "start": "0x14000191b",
+    "end": "0x140001920",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x000000014000191B: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x000000014000191B: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001920"
+    ]
+  },
+  {
+    "start": "0x140001920",
+    "end": "0x140001979",
+    "section": ".text",
+    "instruction_count": 17,
+    "first_instruction": "0x0000000140001920: mov      dword ptr [rip + 0x5756], 1",
+    "last_instruction": "0x0000000140001977: jle      0x14000190d",
+    "successors": [
+      "0x14000190d",
+      "0x140001979"
+    ]
+  },
+  {
+    "start": "0x140001979",
+    "end": "0x140001983",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001979: cmp      rax, 0xb",
+    "last_instruction": "0x000000014000197D: jg       0x140001af0",
+    "successors": [
+      "0x140001af0",
+      "0x140001983"
+    ]
+  },
+  {
+    "start": "0x140001983",
+    "end": "0x14000198d",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001983: mov      edx, dword ptr [rbx]",
+    "last_instruction": "0x0000000140001987: jne      0x140001b05",
+    "successors": [
+      "0x140001b05",
+      "0x14000198d"
+    ]
+  },
+  {
+    "start": "0x14000198d",
+    "end": "0x140001998",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x000000014000198D: mov      eax, dword ptr [rbx + 4]",
+    "last_instruction": "0x0000000140001992: jne      0x140001b05",
+    "successors": [
+      "0x140001b05",
+      "0x140001998"
+    ]
+  },
+  {
+    "start": "0x140001998",
+    "end": "0x1400019a4",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001998: mov      edx, dword ptr [rbx + 8]",
+    "last_instruction": "0x000000014000199E: jne      0x140001c83",
+    "successors": [
+      "0x140001c83",
+      "0x1400019a4"
+    ]
+  },
+  {
+    "start": "0x1400019a4",
+    "end": "0x1400019b4",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x00000001400019A4: add      rbx, 0xc",
+    "last_instruction": "0x00000001400019B2: jb       0x140001a2d",
+    "successors": [
+      "0x140001a2d",
+      "0x1400019b4"
+    ]
+  },
+  {
+    "start": "0x1400019b4",
+    "end": "0x1400019b9",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400019B4: jmp      0x14000190d",
+    "last_instruction": "0x00000001400019B4: jmp      0x14000190d",
+    "successors": [
+      "0x14000190d"
+    ]
+  },
+  {
+    "start": "0x1400019b9",
+    "end": "0x1400019c0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400019B9: nop      dword ptr [rax]",
+    "last_instruction": "0x00000001400019B9: nop      dword ptr [rax]",
+    "successors": [
+      "0x1400019c0"
+    ]
+  },
+  {
+    "start": "0x1400019c0",
+    "end": "0x1400019c9",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400019C0: cmp      edx, 8",
+    "last_instruction": "0x00000001400019C3: je       0x140001b58",
+    "successors": [
+      "0x140001b58",
+      "0x1400019c9"
+    ]
+  },
+  {
+    "start": "0x1400019c9",
+    "end": "0x1400019d2",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400019C9: cmp      edx, 0x10",
+    "last_instruction": "0x00000001400019CC: jne      0x140001c6f",
+    "successors": [
+      "0x140001c6f",
+      "0x1400019d2"
+    ]
+  },
+  {
+    "start": "0x1400019d2",
+    "end": "0x1400019df",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400019D2: movzx    eax, word ptr [r14]",
+    "last_instruction": "0x00000001400019D9: jns      0x140001c10",
+    "successors": [
+      "0x140001c10",
+      "0x1400019df"
+    ]
+  },
+  {
+    "start": "0x1400019df",
+    "end": "0x1400019fb",
+    "section": ".text",
+    "instruction_count": 6,
+    "first_instruction": "0x00000001400019DF: or       rax, 0xffffffffffff0000",
+    "last_instruction": "0x00000001400019F5: jl       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x1400019fb"
+    ]
+  },
+  {
+    "start": "0x1400019fb",
+    "end": "0x140001a07",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x00000001400019FB: cmp      rax, 0xffff",
+    "last_instruction": "0x0000000140001A01: jg       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x140001a07"
+    ]
+  },
+  {
+    "start": "0x140001a07",
+    "end": "0x140001a24",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x0000000140001A07: mov      rcx, r14",
+    "last_instruction": "0x0000000140001A1F: call     0x140002060",
+    "successors": [
+      "0x140001a24"
+    ]
+  },
+  {
+    "start": "0x140001a24",
+    "end": "0x140001a2d",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001A24: add      rbx, 0xc",
+    "last_instruction": "0x0000000140001A2B: jae      0x140001a90",
+    "successors": [
+      "0x140001a90",
+      "0x140001a2d"
+    ]
+  },
+  {
+    "start": "0x140001a2d",
+    "end": "0x140001a49",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001A2D: mov      ecx, dword ptr [rbx]",
+    "last_instruction": "0x0000000140001A43: je       0x140001bb0",
+    "successors": [
+      "0x140001bb0",
+      "0x140001a49"
+    ]
+  },
+  {
+    "start": "0x140001a49",
+    "end": "0x140001a4f",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001A49: jbe      0x1400019c0",
+    "last_instruction": "0x0000000140001A49: jbe      0x1400019c0",
+    "successors": [
+      "0x1400019c0",
+      "0x140001a4f"
+    ]
+  },
+  {
+    "start": "0x140001a4f",
+    "end": "0x140001a58",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001A4F: cmp      edx, 0x40",
+    "last_instruction": "0x0000000140001A52: jne      0x140001c6f",
+    "successors": [
+      "0x140001c6f",
+      "0x140001a58"
+    ]
+  },
+  {
+    "start": "0x140001a58",
+    "end": "0x140001a8b",
+    "section": ".text",
+    "instruction_count": 14,
+    "first_instruction": "0x0000000140001A58: mov      rax, qword ptr [r14]",
+    "last_instruction": "0x0000000140001A89: jb       0x140001a2d",
+    "successors": [
+      "0x140001a2d",
+      "0x140001a8b"
+    ]
+  },
+  {
+    "start": "0x140001a8b",
+    "end": "0x140001a90",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001A8B: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x0000000140001A8B: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001a90"
+    ]
+  },
+  {
+    "start": "0x140001a90",
+    "end": "0x140001a9e",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001A90: mov      eax, dword ptr [rip + 0x55ee]",
+    "last_instruction": "0x0000000140001A98: jle      0x14000190d",
+    "successors": [
+      "0x14000190d",
+      "0x140001a9e"
+    ]
+  },
+  {
+    "start": "0x140001a9e",
+    "end": "0x140001ab0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001A9E: mov      rdi, qword ptr [rip + 0x6783]",
+    "last_instruction": "0x0000000140001AA7: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x140001ab0"
+    ]
+  },
+  {
+    "start": "0x140001ab0",
+    "end": "0x140001ac2",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001AB0: mov      rax, qword ptr [rip + 0x55d1]",
+    "last_instruction": "0x0000000140001AC0: je       0x140001acf",
+    "successors": [
+      "0x140001acf",
+      "0x140001ac2"
+    ]
+  },
+  {
+    "start": "0x140001ac2",
+    "end": "0x140001acf",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001AC2: mov      rdx, qword ptr [rax + 0x10]",
+    "last_instruction": "0x0000000140001ACD: call     rdi",
+    "successors": [
+      "0x140001acf"
+    ]
+  },
+  {
+    "start": "0x140001acf",
+    "end": "0x140001ade",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001ACF: add      esi, 1",
+    "last_instruction": "0x0000000140001ADC: jl       0x140001ab0",
+    "successors": [
+      "0x140001ab0",
+      "0x140001ade"
+    ]
+  },
+  {
+    "start": "0x140001ade",
+    "end": "0x140001aec",
+    "section": ".text",
+    "instruction_count": 9,
+    "first_instruction": "0x0000000140001ADE: mov      rsp, rbp",
+    "last_instruction": "0x0000000140001AEB: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001aec",
+    "end": "0x140001af0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001AEC: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001AEC: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001af0"
+    ]
+  },
+  {
+    "start": "0x140001af0",
+    "end": "0x140001af8",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001AF0: mov      r9d, dword ptr [rbx]",
+    "last_instruction": "0x0000000140001AF6: jne      0x140001b05",
+    "successors": [
+      "0x140001b05",
+      "0x140001af8"
+    ]
+  },
+  {
+    "start": "0x140001af8",
+    "end": "0x140001b05",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001AF8: mov      r8d, dword ptr [rbx + 4]",
+    "last_instruction": "0x0000000140001AFF: je       0x140001c5b",
+    "successors": [
+      "0x140001c5b",
+      "0x140001b05"
+    ]
+  },
+  {
+    "start": "0x140001b05",
+    "end": "0x140001b0e",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001B05: cmp      rbx, r13",
+    "last_instruction": "0x0000000140001B08: jae      0x14000190d",
+    "successors": [
+      "0x14000190d",
+      "0x140001b0e"
+    ]
+  },
+  {
+    "start": "0x140001b0e",
+    "end": "0x140001b20",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001B0E: mov      r14, qword ptr [rip + 0x27fb]",
+    "last_instruction": "0x0000000140001B19: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001b20"
+    ]
+  },
+  {
+    "start": "0x140001b20",
+    "end": "0x140001b50",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001B20: mov      edi, dword ptr [rbx + 4]",
+    "last_instruction": "0x0000000140001B4E: jb       0x140001b20",
+    "successors": [
+      "0x140001b20",
+      "0x140001b50"
+    ]
+  },
+  {
+    "start": "0x140001b50",
+    "end": "0x140001b55",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001B50: jmp      0x140001a90",
+    "last_instruction": "0x0000000140001B50: jmp      0x140001a90",
+    "successors": [
+      "0x140001a90"
+    ]
+  },
+  {
+    "start": "0x140001b55",
+    "end": "0x140001b58",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001B55: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001B55: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001b58"
+    ]
+  },
+  {
+    "start": "0x140001b58",
+    "end": "0x140001b64",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001B58: movzx    eax, byte ptr [r14]",
+    "last_instruction": "0x0000000140001B5E: jns      0x140001c50",
+    "successors": [
+      "0x140001c50",
+      "0x140001b64"
+    ]
+  },
+  {
+    "start": "0x140001b64",
+    "end": "0x140001b70",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001B64: or       rax, 0xffffffffffffff00",
+    "last_instruction": "0x0000000140001B6D: add      rax, r9",
+    "successors": [
+      "0x140001b70"
+    ]
+  },
+  {
+    "start": "0x140001b70",
+    "end": "0x140001b7e",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001B70: mov      qword ptr [rbp - 8], rax",
+    "last_instruction": "0x0000000140001B78: jl       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x140001b7e"
+    ]
+  },
+  {
+    "start": "0x140001b7e",
+    "end": "0x140001b8a",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001B7E: cmp      rax, 0xff",
+    "last_instruction": "0x0000000140001B84: jg       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x140001b8a"
+    ]
+  },
+  {
+    "start": "0x140001b8a",
+    "end": "0x140001bac",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001B8A: mov      rcx, r14",
+    "last_instruction": "0x0000000140001BA7: jmp      0x140001a24",
+    "successors": [
+      "0x140001a24"
+    ]
+  },
+  {
+    "start": "0x140001bac",
+    "end": "0x140001bb0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001BAC: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001BAC: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001bb0"
+    ]
+  },
+  {
+    "start": "0x140001bb0",
+    "end": "0x140001bbb",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001BB0: mov      eax, dword ptr [r14]",
+    "last_instruction": "0x0000000140001BB5: jns      0x140001c40",
+    "successors": [
+      "0x140001c40",
+      "0x140001bbb"
+    ]
+  },
+  {
+    "start": "0x140001bbb",
+    "end": "0x140001bce",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001BBB: movabs   r10, 0xffffffff00000000",
+    "last_instruction": "0x0000000140001BCB: add      rax, r9",
+    "successors": [
+      "0x140001bce"
+    ]
+  },
+  {
+    "start": "0x140001bce",
+    "end": "0x140001bdc",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001BCE: mov      ecx, 0xffffffff",
+    "last_instruction": "0x0000000140001BDA: jg       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x140001bdc"
+    ]
+  },
+  {
+    "start": "0x140001bdc",
+    "end": "0x140001be4",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001BDC: cmp      rax, -0x80000000",
+    "last_instruction": "0x0000000140001BE2: jl       0x140001c26",
+    "successors": [
+      "0x140001c26",
+      "0x140001be4"
+    ]
+  },
+  {
+    "start": "0x140001be4",
+    "end": "0x140001c06",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001BE4: mov      rcx, r14",
+    "last_instruction": "0x0000000140001C01: jmp      0x140001a24",
+    "successors": [
+      "0x140001a24"
+    ]
+  },
+  {
+    "start": "0x140001c06",
+    "end": "0x140001c10",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001C06: nop      word ptr cs:[rax + rax]",
+    "last_instruction": "0x0000000140001C06: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001c10"
+    ]
+  },
+  {
+    "start": "0x140001c10",
+    "end": "0x140001c26",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001C10: sub      rax, rcx",
+    "last_instruction": "0x0000000140001C20: jge      0x1400019fb",
+    "successors": [
+      "0x1400019fb",
+      "0x140001c26"
+    ]
+  },
+  {
+    "start": "0x140001c26",
+    "end": "0x140001c40",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001C26: mov      qword ptr [rsp + 0x20], rax",
+    "last_instruction": "0x0000000140001C3A: nop      word ptr [rax + rax]",
+    "successors": [
+      "0x140001c40"
+    ]
+  },
+  {
+    "start": "0x140001c40",
+    "end": "0x140001c48",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001C40: sub      rax, rcx",
+    "last_instruction": "0x0000000140001C46: jmp      0x140001bce",
+    "successors": [
+      "0x140001bce"
+    ]
+  },
+  {
+    "start": "0x140001c48",
+    "end": "0x140001c50",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001C48: nop      dword ptr [rax + rax]",
+    "last_instruction": "0x0000000140001C48: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001c50"
+    ]
+  },
+  {
+    "start": "0x140001c50",
+    "end": "0x140001c5b",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001C50: sub      rax, rcx",
+    "last_instruction": "0x0000000140001C56: jmp      0x140001b70",
+    "successors": [
+      "0x140001b70"
+    ]
+  },
+  {
+    "start": "0x140001c5b",
+    "end": "0x140001c66",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001C5B: mov      ecx, dword ptr [rbx + 8]",
+    "last_instruction": "0x0000000140001C60: jne      0x140001998",
+    "successors": [
+      "0x140001998",
+      "0x140001c66"
+    ]
+  },
+  {
+    "start": "0x140001c66",
+    "end": "0x140001c6f",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001C66: add      rbx, 0xc",
+    "last_instruction": "0x0000000140001C6A: jmp      0x140001983",
+    "successors": [
+      "0x140001983"
+    ]
+  },
+  {
+    "start": "0x140001c6f",
+    "end": "0x140001c83",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001C6F: lea      rcx, [rip + 0x25d2]",
+    "last_instruction": "0x0000000140001C7E: call     0x140001720",
+    "successors": [
+      "0x140001c83"
+    ]
+  },
+  {
+    "start": "0x140001c83",
+    "end": "0x140001c90",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001C83: lea      rcx, [rip + 0x2586]",
+    "last_instruction": "0x0000000140001C8F: nop",
+    "successors": [
+      "0x140001c90"
+    ]
+  },
+  {
+    "start": "0x140001c90",
+    "end": "0x140001ca0",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001C90: sub      rsp, 0x58",
+    "last_instruction": "0x0000000140001C9E: je       0x140001cc9",
+    "successors": [
+      "0x140001cc9",
+      "0x140001ca0"
+    ]
+  },
+  {
+    "start": "0x140001ca0",
+    "end": "0x140001cc9",
+    "section": ".text",
+    "instruction_count": 9,
+    "first_instruction": "0x0000000140001CA0: movsd    xmm0, qword ptr [rsp + 0x80]",
+    "last_instruction": "0x0000000140001CC8: nop",
+    "successors": [
+      "0x140001cc9"
+    ]
+  },
+  {
+    "start": "0x140001cc9",
+    "end": "0x140001cce",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001CC9: add      rsp, 0x58",
+    "last_instruction": "0x0000000140001CCD: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001cce",
+    "end": "0x140001cd0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001CCE: nop",
+    "last_instruction": "0x0000000140001CCE: nop",
+    "successors": [
+      "0x140001cd0"
+    ]
+  },
+  {
+    "start": "0x140001cd0",
+    "end": "0x140001cdc",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001CD0: mov      qword ptr [rip + 0x53b9], rcx",
+    "last_instruction": "0x0000000140001CD7: jmp      0x140002070",
+    "successors": [
+      "0x140002070"
+    ]
+  },
+  {
+    "start": "0x140001cdc",
+    "end": "0x140001ce0",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001CDC: nop",
+    "last_instruction": "0x0000000140001CDF: nop",
+    "successors": [
+      "0x140001ce0"
+    ]
+  },
+  {
+    "start": "0x140001ce0",
+    "end": "0x140001ce3",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001CE0: fninit",
+    "last_instruction": "0x0000000140001CE2: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001ce3",
+    "end": "0x140001cf0",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001CE3: nop",
+    "last_instruction": "0x0000000140001CEF: nop",
+    "successors": [
+      "0x140001cf0"
+    ]
+  },
+  {
+    "start": "0x140001cf0",
+    "end": "0x140001cfe",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001CF0: mov      rax, qword ptr [rip + 0x2619]",
+    "last_instruction": "0x0000000140001CFC: jne      0x140001d0d",
+    "successors": [
+      "0x140001d0d",
+      "0x140001cfe"
+    ]
+  },
+  {
+    "start": "0x140001cfe",
+    "end": "0x140001d0d",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001CFE: movsxd   rdx, dword ptr [rax + 0x3c]",
+    "last_instruction": "0x0000000140001D0B: je       0x140001d10",
+    "successors": [
+      "0x140001d10",
+      "0x140001d0d"
+    ]
+  },
+  {
+    "start": "0x140001d0d",
+    "end": "0x140001d0f",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001D0D: xor      eax, eax",
+    "last_instruction": "0x0000000140001D0D: xor      eax, eax",
+    "successors": [
+      "0x140001d0f"
+    ]
+  },
+  {
+    "start": "0x140001d0f",
+    "end": "0x140001d10",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001D0F: ret",
+    "last_instruction": "0x0000000140001D0F: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001d10",
+    "end": "0x140001d18",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D10: cmp      word ptr [rdx + 0x18], 0x20b",
+    "last_instruction": "0x0000000140001D16: jne      0x140001d0d",
+    "successors": [
+      "0x140001d0d",
+      "0x140001d18"
+    ]
+  },
+  {
+    "start": "0x140001d18",
+    "end": "0x140001d23",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001D18: movzx    r8d, word ptr [rdx + 6]",
+    "last_instruction": "0x0000000140001D21: je       0x140001d0d",
+    "successors": [
+      "0x140001d0d",
+      "0x140001d23"
+    ]
+  },
+  {
+    "start": "0x140001d23",
+    "end": "0x140001d40",
+    "section": ".text",
+    "instruction_count": 7,
+    "first_instruction": "0x0000000140001D23: sub      rcx, rax",
+    "last_instruction": "0x0000000140001D3C: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001d40"
+    ]
+  },
+  {
+    "start": "0x140001d40",
+    "end": "0x140001d4c",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001D40: mov      r8d, dword ptr [rax + 0xc]",
+    "last_instruction": "0x0000000140001D4A: jb       0x140001d54",
+    "successors": [
+      "0x140001d54",
+      "0x140001d4c"
+    ]
+  },
+  {
+    "start": "0x140001d4c",
+    "end": "0x140001d54",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001D4C: add      edx, dword ptr [rax + 8]",
+    "last_instruction": "0x0000000140001D52: jb       0x140001d0f",
+    "successors": [
+      "0x140001d0f",
+      "0x140001d54"
+    ]
+  },
+  {
+    "start": "0x140001d54",
+    "end": "0x140001d5d",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001D54: add      rax, 0x28",
+    "last_instruction": "0x0000000140001D5B: jne      0x140001d40",
+    "successors": [
+      "0x140001d40",
+      "0x140001d5d"
+    ]
+  },
+  {
+    "start": "0x140001d5d",
+    "end": "0x140001d61",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D5D: xor      eax, eax",
+    "last_instruction": "0x0000000140001D5F: jmp      0x140001d0f",
+    "successors": [
+      "0x140001d0f"
+    ]
+  },
+  {
+    "start": "0x140001d61",
+    "end": "0x140001d70",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D61: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001D65: nop      word ptr cs:[rax + rax]",
+    "successors": [
+      "0x140001d70"
+    ]
+  },
+  {
+    "start": "0x140001d70",
+    "end": "0x140001d7e",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001D70: mov      rax, qword ptr [rip + 0x2599]",
+    "last_instruction": "0x0000000140001D7C: jne      0x140001d8d",
+    "successors": [
+      "0x140001d8d",
+      "0x140001d7e"
+    ]
+  },
+  {
+    "start": "0x140001d7e",
+    "end": "0x140001d8d",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001D7E: movsxd   rdx, dword ptr [rax + 0x3c]",
+    "last_instruction": "0x0000000140001D8B: je       0x140001d90",
+    "successors": [
+      "0x140001d90",
+      "0x140001d8d"
+    ]
+  },
+  {
+    "start": "0x140001d8d",
+    "end": "0x140001d90",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D8D: xor      eax, eax",
+    "last_instruction": "0x0000000140001D8F: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001d90",
+    "end": "0x140001d98",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D90: cmp      word ptr [rax + 0x18], 0x20b",
+    "last_instruction": "0x0000000140001D96: jne      0x140001d8d",
+    "successors": [
+      "0x140001d8d",
+      "0x140001d98"
+    ]
+  },
+  {
+    "start": "0x140001d98",
+    "end": "0x140001d9d",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001D98: movzx    eax, word ptr [rax + 6]",
+    "last_instruction": "0x0000000140001D9C: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001d9d",
+    "end": "0x140001da0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001D9D: nop      dword ptr [rax]",
+    "last_instruction": "0x0000000140001D9D: nop      dword ptr [rax]",
+    "successors": [
+      "0x140001da0"
+    ]
+  },
+  {
+    "start": "0x140001da0",
+    "end": "0x140001dae",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001DA0: mov      rax, qword ptr [rip + 0x2569]",
+    "last_instruction": "0x0000000140001DAC: jne      0x140001dbd",
+    "successors": [
+      "0x140001dbd",
+      "0x140001dae"
+    ]
+  },
+  {
+    "start": "0x140001dae",
+    "end": "0x140001dbd",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001DAE: movsxd   rdx, dword ptr [rax + 0x3c]",
+    "last_instruction": "0x0000000140001DBB: je       0x140001dc0",
+    "successors": [
+      "0x140001dc0",
+      "0x140001dbd"
+    ]
+  },
+  {
+    "start": "0x140001dbd",
+    "end": "0x140001dc0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001DBD: xor      eax, eax",
+    "last_instruction": "0x0000000140001DBF: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001dc0",
+    "end": "0x140001dd0",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x0000000140001DC0: cmp      word ptr [rdx + 0x18], 0x20b",
+    "last_instruction": "0x0000000140001DCF: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001dd0",
+    "end": "0x140001ddf",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001DD0: push     rcx",
+    "last_instruction": "0x0000000140001DDD: jb       0x140001df8",
+    "successors": [
+      "0x140001df8",
+      "0x140001ddf"
+    ]
+  },
+  {
+    "start": "0x140001ddf",
+    "end": "0x140001df8",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001DDF: sub      rcx, 0x1000",
+    "last_instruction": "0x0000000140001DF6: ja       0x140001ddf",
+    "successors": [
+      "0x140001ddf",
+      "0x140001df8"
+    ]
+  },
+  {
+    "start": "0x140001df8",
+    "end": "0x140001e02",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001DF8: sub      rcx, rax",
+    "last_instruction": "0x0000000140001E01: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001e02",
+    "end": "0x140001e10",
+    "section": ".text",
+    "instruction_count": 14,
+    "first_instruction": "0x0000000140001E02: nop",
+    "last_instruction": "0x0000000140001E0F: nop",
+    "successors": [
+      "0x140001e10"
+    ]
+  },
+  {
+    "start": "0x140001e10",
+    "end": "0x140001e43",
+    "section": ".text",
+    "instruction_count": 19,
+    "first_instruction": "0x0000000140001E10: push     rdi",
+    "last_instruction": "0x0000000140001E42: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001e43",
+    "end": "0x140001e50",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001E43: nop",
+    "last_instruction": "0x0000000140001E4F: nop",
+    "successors": [
+      "0x140001e50"
+    ]
+  },
+  {
+    "start": "0x140001e50",
+    "end": "0x140001ea3",
+    "section": ".text",
+    "instruction_count": 25,
+    "first_instruction": "0x0000000140001E50: push     rdi",
+    "last_instruction": "0x0000000140001EA2: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001ea3",
+    "end": "0x140001eb0",
+    "section": ".text",
+    "instruction_count": 13,
+    "first_instruction": "0x0000000140001EA3: nop",
+    "last_instruction": "0x0000000140001EAF: nop",
+    "successors": [
+      "0x140001eb0"
+    ]
+  },
+  {
+    "start": "0x140001eb0",
+    "end": "0x140001ef4",
+    "section": ".text",
+    "instruction_count": 22,
+    "first_instruction": "0x0000000140001EB0: push     rdi",
+    "last_instruction": "0x0000000140001EF3: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001ef4",
+    "end": "0x140001f00",
+    "section": ".text",
+    "instruction_count": 12,
+    "first_instruction": "0x0000000140001EF4: nop",
+    "last_instruction": "0x0000000140001EFF: nop",
+    "successors": [
+      "0x140001f00"
+    ]
+  },
+  {
+    "start": "0x140001f00",
+    "end": "0x140001f08",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001F00: lea      rax, [rip + 0x1139]",
+    "last_instruction": "0x0000000140001F07: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001f08",
+    "end": "0x140001f10",
+    "section": ".text",
+    "instruction_count": 8,
+    "first_instruction": "0x0000000140001F08: nop",
+    "last_instruction": "0x0000000140001F0F: nop",
+    "successors": [
+      "0x140001f10"
+    ]
+  },
+  {
+    "start": "0x140001f10",
+    "end": "0x140001f1b",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001F10: mov      rax, qword ptr [rip + 0x2439]",
+    "last_instruction": "0x0000000140001F1A: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001f1b",
+    "end": "0x140001f20",
+    "section": ".text",
+    "instruction_count": 5,
+    "first_instruction": "0x0000000140001F1B: nop",
+    "last_instruction": "0x0000000140001F1F: nop",
+    "successors": [
+      "0x140001f20"
+    ]
+  },
+  {
+    "start": "0x140001f20",
+    "end": "0x140001f50",
+    "section": ".text",
+    "instruction_count": 14,
+    "first_instruction": "0x0000000140001F20: push     rbx",
+    "last_instruction": "0x0000000140001F4F: nop",
+    "successors": [
+      "0x140001f50"
+    ]
+  },
+  {
+    "start": "0x140001f50",
+    "end": "0x140001faf",
+    "section": ".text",
+    "instruction_count": 33,
+    "first_instruction": "0x0000000140001F50: push     rbp",
+    "last_instruction": "0x0000000140001FAE: ret",
+    "successors": []
+  },
+  {
+    "start": "0x140001faf",
+    "end": "0x140001fb0",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FAF: nop",
+    "last_instruction": "0x0000000140001FAF: nop",
+    "successors": [
+      "0x140001fb0"
+    ]
+  },
+  {
+    "start": "0x140001fb0",
+    "end": "0x140001fb6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FB0: jmp      qword ptr [rip + 0x6392]",
+    "last_instruction": "0x0000000140001FB0: jmp      qword ptr [rip + 0x6392]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fb6",
+    "end": "0x140001fc0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140001FB6: nop",
+    "last_instruction": "0x0000000140001FB8: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140001fc0"
+    ]
+  },
+  {
+    "start": "0x140001fc0",
+    "end": "0x140001fc6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FC0: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FC0: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fc6",
+    "end": "0x140001fc8",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FC6: nop",
+    "last_instruction": "0x0000000140001FC7: nop",
+    "successors": [
+      "0x140001fc8"
+    ]
+  },
+  {
+    "start": "0x140001fc8",
+    "end": "0x140001fce",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FC8: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FC8: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fce",
+    "end": "0x140001fd0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FCE: nop",
+    "last_instruction": "0x0000000140001FCF: nop",
+    "successors": [
+      "0x140001fd0"
+    ]
+  },
+  {
+    "start": "0x140001fd0",
+    "end": "0x140001fd6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FD0: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FD0: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fd6",
+    "end": "0x140001fd8",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FD6: nop",
+    "last_instruction": "0x0000000140001FD7: nop",
+    "successors": [
+      "0x140001fd8"
+    ]
+  },
+  {
+    "start": "0x140001fd8",
+    "end": "0x140001fde",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FD8: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FD8: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fde",
+    "end": "0x140001fe0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FDE: nop",
+    "last_instruction": "0x0000000140001FDF: nop",
+    "successors": [
+      "0x140001fe0"
+    ]
+  },
+  {
+    "start": "0x140001fe0",
+    "end": "0x140001fe6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FE0: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FE0: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fe6",
+    "end": "0x140001fe8",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FE6: nop",
+    "last_instruction": "0x0000000140001FE7: nop",
+    "successors": [
+      "0x140001fe8"
+    ]
+  },
+  {
+    "start": "0x140001fe8",
+    "end": "0x140001fee",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FE8: jmp      qword ptr [rip + 0x634a]",
+    "last_instruction": "0x0000000140001FE8: jmp      qword ptr [rip + 0x634a]",
+    "successors": []
+  },
+  {
+    "start": "0x140001fee",
+    "end": "0x140001ff0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FEE: nop",
+    "last_instruction": "0x0000000140001FEF: nop",
+    "successors": [
+      "0x140001ff0"
+    ]
+  },
+  {
+    "start": "0x140001ff0",
+    "end": "0x140001ff6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FF0: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140001FF0: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140001ff6",
+    "end": "0x140001ff8",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FF6: nop",
+    "last_instruction": "0x0000000140001FF7: nop",
+    "successors": [
+      "0x140001ff8"
+    ]
+  },
+  {
+    "start": "0x140001ff8",
+    "end": "0x140001ffe",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140001FF8: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140001FF8: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140001ffe",
+    "end": "0x140002000",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140001FFE: nop",
+    "last_instruction": "0x0000000140001FFF: nop",
+    "successors": [
+      "0x140002000"
+    ]
+  },
+  {
+    "start": "0x140002000",
+    "end": "0x140002006",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002000: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002000: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002006",
+    "end": "0x140002008",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002006: nop",
+    "last_instruction": "0x0000000140002007: nop",
+    "successors": [
+      "0x140002008"
+    ]
+  },
+  {
+    "start": "0x140002008",
+    "end": "0x14000200e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002008: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002008: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000200e",
+    "end": "0x140002010",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000200E: nop",
+    "last_instruction": "0x000000014000200F: nop",
+    "successors": [
+      "0x140002010"
+    ]
+  },
+  {
+    "start": "0x140002010",
+    "end": "0x140002016",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002010: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002010: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002016",
+    "end": "0x140002018",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002016: nop",
+    "last_instruction": "0x0000000140002017: nop",
+    "successors": [
+      "0x140002018"
+    ]
+  },
+  {
+    "start": "0x140002018",
+    "end": "0x14000201e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002018: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002018: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000201e",
+    "end": "0x140002020",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000201E: nop",
+    "last_instruction": "0x000000014000201F: nop",
+    "successors": [
+      "0x140002020"
+    ]
+  },
+  {
+    "start": "0x140002020",
+    "end": "0x140002026",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002020: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002020: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002026",
+    "end": "0x140002028",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002026: nop",
+    "last_instruction": "0x0000000140002027: nop",
+    "successors": [
+      "0x140002028"
+    ]
+  },
+  {
+    "start": "0x140002028",
+    "end": "0x14000202e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002028: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002028: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000202e",
+    "end": "0x140002030",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000202E: nop",
+    "last_instruction": "0x000000014000202F: nop",
+    "successors": [
+      "0x140002030"
+    ]
+  },
+  {
+    "start": "0x140002030",
+    "end": "0x140002036",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002030: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002030: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002036",
+    "end": "0x140002038",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002036: nop",
+    "last_instruction": "0x0000000140002037: nop",
+    "successors": [
+      "0x140002038"
+    ]
+  },
+  {
+    "start": "0x140002038",
+    "end": "0x14000203e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002038: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002038: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000203e",
+    "end": "0x140002040",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000203E: nop",
+    "last_instruction": "0x000000014000203F: nop",
+    "successors": [
+      "0x140002040"
+    ]
+  },
+  {
+    "start": "0x140002040",
+    "end": "0x140002046",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002040: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002040: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002046",
+    "end": "0x140002048",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002046: nop",
+    "last_instruction": "0x0000000140002047: nop",
+    "successors": [
+      "0x140002048"
+    ]
+  },
+  {
+    "start": "0x140002048",
+    "end": "0x14000204e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002048: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002048: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000204e",
+    "end": "0x140002050",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000204E: nop",
+    "last_instruction": "0x000000014000204F: nop",
+    "successors": [
+      "0x140002050"
+    ]
+  },
+  {
+    "start": "0x140002050",
+    "end": "0x140002056",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002050: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002050: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002056",
+    "end": "0x140002058",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002056: nop",
+    "last_instruction": "0x0000000140002057: nop",
+    "successors": [
+      "0x140002058"
+    ]
+  },
+  {
+    "start": "0x140002058",
+    "end": "0x14000205e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002058: jmp      qword ptr [rip + 0x62a2]",
+    "last_instruction": "0x0000000140002058: jmp      qword ptr [rip + 0x62a2]",
+    "successors": []
+  },
+  {
+    "start": "0x14000205e",
+    "end": "0x140002060",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000205E: nop",
+    "last_instruction": "0x000000014000205F: nop",
+    "successors": [
+      "0x140002060"
+    ]
+  },
+  {
+    "start": "0x140002060",
+    "end": "0x140002066",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002060: jmp      qword ptr [rip + 0x6222]",
+    "last_instruction": "0x0000000140002060: jmp      qword ptr [rip + 0x6222]",
+    "successors": []
+  },
+  {
+    "start": "0x140002066",
+    "end": "0x140002070",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140002066: nop",
+    "last_instruction": "0x0000000140002068: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140002070"
+    ]
+  },
+  {
+    "start": "0x140002070",
+    "end": "0x140002076",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002070: jmp      qword ptr [rip + 0x6202]",
+    "last_instruction": "0x0000000140002070: jmp      qword ptr [rip + 0x6202]",
+    "successors": []
+  },
+  {
+    "start": "0x140002076",
+    "end": "0x140002080",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140002076: nop",
+    "last_instruction": "0x0000000140002078: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140002080"
+    ]
+  },
+  {
+    "start": "0x140002080",
+    "end": "0x140002086",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002080: jmp      qword ptr [rip + 0x61e2]",
+    "last_instruction": "0x0000000140002080: jmp      qword ptr [rip + 0x61e2]",
+    "successors": []
+  },
+  {
+    "start": "0x140002086",
+    "end": "0x140002090",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x0000000140002086: nop",
+    "last_instruction": "0x0000000140002088: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x140002090"
+    ]
+  },
+  {
+    "start": "0x140002090",
+    "end": "0x140002096",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002090: jmp      qword ptr [rip + 0x61ba]",
+    "last_instruction": "0x0000000140002090: jmp      qword ptr [rip + 0x61ba]",
+    "successors": []
+  },
+  {
+    "start": "0x140002096",
+    "end": "0x140002098",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x0000000140002096: nop",
+    "last_instruction": "0x0000000140002097: nop",
+    "successors": [
+      "0x140002098"
+    ]
+  },
+  {
+    "start": "0x140002098",
+    "end": "0x14000209e",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x0000000140002098: jmp      qword ptr [rip + 0x61ba]",
+    "last_instruction": "0x0000000140002098: jmp      qword ptr [rip + 0x61ba]",
+    "successors": []
+  },
+  {
+    "start": "0x14000209e",
+    "end": "0x1400020a0",
+    "section": ".text",
+    "instruction_count": 2,
+    "first_instruction": "0x000000014000209E: nop",
+    "last_instruction": "0x000000014000209F: nop",
+    "successors": [
+      "0x1400020a0"
+    ]
+  },
+  {
+    "start": "0x1400020a0",
+    "end": "0x1400020a6",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400020A0: jmp      qword ptr [rip + 0x619a]",
+    "last_instruction": "0x00000001400020A0: jmp      qword ptr [rip + 0x619a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020a6",
+    "end": "0x1400020b6",
+    "section": ".text",
+    "instruction_count": 4,
+    "first_instruction": "0x00000001400020A6: nop",
+    "last_instruction": "0x00000001400020B0: jmp      qword ptr [rip + 0x617a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020b6",
+    "end": "0x1400020be",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400020B6: nop",
+    "last_instruction": "0x00000001400020B8: jmp      qword ptr [rip + 0x616a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020be",
+    "end": "0x1400020c6",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400020BE: nop",
+    "last_instruction": "0x00000001400020C0: jmp      qword ptr [rip + 0x615a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020c6",
+    "end": "0x1400020ce",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400020C6: nop",
+    "last_instruction": "0x00000001400020C8: jmp      qword ptr [rip + 0x614a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020ce",
+    "end": "0x1400020d6",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400020CE: nop",
+    "last_instruction": "0x00000001400020D0: jmp      qword ptr [rip + 0x613a]",
+    "successors": []
+  },
+  {
+    "start": "0x1400020d6",
+    "end": "0x1400020e0",
+    "section": ".text",
+    "instruction_count": 3,
+    "first_instruction": "0x00000001400020D6: nop",
+    "last_instruction": "0x00000001400020D8: nop      dword ptr [rax + rax]",
+    "successors": [
+      "0x1400020e0"
+    ]
+  },
+  {
+    "start": "0x1400020e0",
+    "end": "0x1400020e5",
+    "section": ".text",
+    "instruction_count": 1,
+    "first_instruction": "0x00000001400020E0: jmp      0x1400014b0",
+    "last_instruction": "0x00000001400020E0: jmp      0x1400014b0",
+    "successors": [
+      "0x1400014b0"
+    ]
+  },
+  {
+    "start": "0x1400020e5",
+    "end": "0x1400020f0",
+    "section": ".text",
+    "instruction_count": 11,
+    "first_instruction": "0x00000001400020E5: nop",
+    "last_instruction": "0x00000001400020EF: nop",
+    "successors": []
+  }
+]

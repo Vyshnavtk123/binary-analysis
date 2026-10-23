@@ -1,0 +1,632 @@
+[
+  {
+    "address": "0x140004010",
+    "text": "Large: %d",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 9
+  },
+  {
+    "address": "0x14000401b",
+    "text": "Small: %d",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 9
+  },
+  {
+    "address": "0x140004030",
+    "text": "Argument domain error (DOMAIN)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 30
+  },
+  {
+    "address": "0x14000404f",
+    "text": "Argument singularity (SIGN)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 27
+  },
+  {
+    "address": "0x140004070",
+    "text": "Overflow range error (OVERFLOW)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 31
+  },
+  {
+    "address": "0x140004090",
+    "text": "Partial loss of significance (PLOSS)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 36
+  },
+  {
+    "address": "0x1400040b8",
+    "text": "Total loss of significance (TLOSS)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 34
+  },
+  {
+    "address": "0x1400040e0",
+    "text": "The result is too small to be represented (UNDERFLOW)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 53
+  },
+  {
+    "address": "0x140004116",
+    "text": "Unknown error",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 13
+  },
+  {
+    "address": "0x140004128",
+    "text": "_matherr(): %s in %s(%g, %g)  (retval=%g)",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 41
+  },
+  {
+    "address": "0x140004170",
+    "text": "Mingw-w64 runtime failure:",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 26
+  },
+  {
+    "address": "0x140004190",
+    "text": "Address %p has no image-section",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 31
+  },
+  {
+    "address": "0x1400041b0",
+    "text": "  VirtualQuery failed for %d bytes at address %p",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 48
+  },
+  {
+    "address": "0x1400041e8",
+    "text": "  VirtualProtect failed with code 0x%x",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 38
+  },
+  {
+    "address": "0x140004210",
+    "text": "  Unknown pseudo relocation protocol version %d.",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 48
+  },
+  {
+    "address": "0x140004248",
+    "text": "  Unknown pseudo relocation bit size %d.",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 40
+  },
+  {
+    "address": "0x140004278",
+    "text": "%d bit pseudo relocation at %p out of range, targeting %p, yielding the value %p.",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 81
+  },
+  {
+    "address": "0x1400042d0",
+    "text": "runtime error %d",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 16
+  },
+  {
+    "address": "0x140004420",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004450",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004480",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400044b0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400044e0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004510",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004540",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004570",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400045a0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400045d0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004600",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004630",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004660",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004690",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400046c0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400046f0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004720",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004750",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004780",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400047b0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400047e0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004810",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004840",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004870",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400048a0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x1400048d0",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004900",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004930",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004960",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x140004990",
+    "text": "GCC: (Rev4, Built by MSYS2 project) 16.2.0",
+    "encoding": "ascii",
+    "section": ".rdata",
+    "length": 42
+  },
+  {
+    "address": "0x14000835a",
+    "text": "GetLastError",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 12
+  },
+  {
+    "address": "0x14000836a",
+    "text": "SetUnhandledExceptionFilter",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 27
+  },
+  {
+    "address": "0x140008388",
+    "text": "Sleep",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 5
+  },
+  {
+    "address": "0x140008390",
+    "text": "VirtualProtect",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 14
+  },
+  {
+    "address": "0x1400083a2",
+    "text": "VirtualQuery",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 12
+  },
+  {
+    "address": "0x1400083b2",
+    "text": "__p__environ",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 12
+  },
+  {
+    "address": "0x1400083c2",
+    "text": "_set_new_mode",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 13
+  },
+  {
+    "address": "0x1400083d2",
+    "text": "malloc",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 6
+  },
+  {
+    "address": "0x1400083dc",
+    "text": "_configthreadlocale",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 19
+  },
+  {
+    "address": "0x1400083f2",
+    "text": "__setusermatherr",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 16
+  },
+  {
+    "address": "0x140008406",
+    "text": "memcpy",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 6
+  },
+  {
+    "address": "0x140008410",
+    "text": "__p___argc",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 10
+  },
+  {
+    "address": "0x14000841e",
+    "text": "__p___argv",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 10
+  },
+  {
+    "address": "0x14000842c",
+    "text": "_cexit",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 6
+  },
+  {
+    "address": "0x140008436",
+    "text": "_configure_narrow_argv",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 22
+  },
+  {
+    "address": "0x140008450",
+    "text": "_crt_atexit",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 11
+  },
+  {
+    "address": "0x14000845e",
+    "text": "_exit",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 5
+  },
+  {
+    "address": "0x140008466",
+    "text": "_initialize_narrow_environment",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 30
+  },
+  {
+    "address": "0x140008488",
+    "text": "_seh_filter_exe",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 15
+  },
+  {
+    "address": "0x14000849a",
+    "text": "_initterm",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 9
+  },
+  {
+    "address": "0x1400084a6",
+    "text": "_initterm_e",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 11
+  },
+  {
+    "address": "0x1400084b4",
+    "text": "_set_app_type",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 13
+  },
+  {
+    "address": "0x1400084c4",
+    "text": "_set_invalid_parameter_handler",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 30
+  },
+  {
+    "address": "0x1400084e6",
+    "text": "abort",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 5
+  },
+  {
+    "address": "0x1400084ee",
+    "text": "exit",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 4
+  },
+  {
+    "address": "0x1400084f6",
+    "text": "__acrt_iob_func",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 15
+  },
+  {
+    "address": "0x140008508",
+    "text": "__p__commode",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 12
+  },
+  {
+    "address": "0x140008518",
+    "text": "__p__fmode",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 10
+  },
+  {
+    "address": "0x140008526",
+    "text": "__stdio_common_vfprintf",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 23
+  },
+  {
+    "address": "0x140008540",
+    "text": "fflush",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 6
+  },
+  {
+    "address": "0x14000854a",
+    "text": "setvbuf",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 7
+  },
+  {
+    "address": "0x140008554",
+    "text": "strlen",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 6
+  },
+  {
+    "address": "0x140008570",
+    "text": "KERNEL32.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 12
+  },
+  {
+    "address": "0x140008584",
+    "text": "api-ms-win-crt-environment-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 37
+  },
+  {
+    "address": "0x1400085b4",
+    "text": "api-ms-win-crt-heap-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 30
+  },
+  {
+    "address": "0x1400085d8",
+    "text": "api-ms-win-crt-locale-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 32
+  },
+  {
+    "address": "0x140008600",
+    "text": "api-ms-win-crt-math-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 30
+  },
+  {
+    "address": "0x140008624",
+    "text": "api-ms-win-crt-private-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 33
+  },
+  {
+    "address": "0x140008680",
+    "text": "api-ms-win-crt-runtime-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 33
+  },
+  {
+    "address": "0x1400086bc",
+    "text": "api-ms-win-crt-stdio-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 31
+  },
+  {
+    "address": "0x1400086e0",
+    "text": "api-ms-win-crt-string-l1-1-0.dll",
+    "encoding": "ascii",
+    "section": ".idata",
+    "length": 32
+  },
+  {
+    "address": "0x140009058",
+    "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\"><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\"/></requestedPrivileges></security></trustInfo><compatibility xmlns=\"urn:schemas-microsoft-com:compatibility.v1\"><application><supportedOS Id=\"{e2011457-1546-43c5-a5fe-008deee3d3f0}\"/><supportedOS Id=\"{35138b9a-5d96-4fbd-8e2d-a2440225f93a}\"/><supportedOS Id=\"{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}\"/><supportedOS Id=\"{1f676c76-80e1-4239-95bb-83d0f6d0da78}\"/><supportedOS Id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"/></application></compatibility></assembly>",
+    "encoding": "ascii",
+    "section": ".rsrc",
+    "length": 710
+  }
+]

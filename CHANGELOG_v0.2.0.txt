@@ -1,0 +1,12 @@
+Independent Decompiler Engine 0.2.0
+
+Major addition:
+- Added bounded forward symbolic data-flow over register families and stack-relative slots.
+- Added conservative value merging across CFG predecessors.
+- Added simple arithmetic constant folding and CMP/TEST-to-conditional-branch expression recovery.
+- Added direct-call result expressions using heuristic Windows x64 argument-count inference.
+- Added value_flow.jsonl and dataflow_summary.json outputs, plus CLI budgets and --no-dataflow.
+- Added data-flow unit tests for stack constants, multiplication, cross-block branch conditions,
+  call results and conservative joins.
+
+Limitations remain: this is not a full source decompiler or a complete x86 semantics engine.

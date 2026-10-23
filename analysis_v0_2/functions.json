@@ -1,0 +1,984 @@
+[
+  {
+    "address": "0x140001000",
+    "name": "sub_140001000",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001000"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001010",
+    "name": "sub_140001010",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001010",
+      "0x140001023",
+      "0x14000102c"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 11
+  },
+  {
+    "address": "0x140001030",
+    "name": "sub_140001030",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001030",
+      "0x140001fe0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 3
+  },
+  {
+    "address": "0x140001040",
+    "name": "sub_140001040",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001040",
+      "0x140001051",
+      "0x140001057",
+      "0x140001060",
+      "0x14000108a",
+      "0x140001093"
+    ],
+    "calls": [
+      "0x140002018",
+      "0x140002028"
+    ],
+    "strings": [],
+    "instruction_count": 26
+  },
+  {
+    "address": "0x1400010a0",
+    "name": "sub_1400010A0",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x1400010a0",
+      "0x1400010d0",
+      "0x1400010d9",
+      "0x1400010e0",
+      "0x1400010e9",
+      "0x1400010ec",
+      "0x1400010fe",
+      "0x14000110b",
+      "0x140001115",
+      "0x14000111e",
+      "0x14000112a",
+      "0x140001136",
+      "0x140001165",
+      "0x14000116f",
+      "0x140001180",
+      "0x140001190",
+      "0x1400011a0",
+      "0x1400011b0",
+      "0x1400011eb",
+      "0x14000120f",
+      "0x14000121e",
+      "0x14000122d",
+      "0x140001234",
+      "0x14000123d",
+      "0x140001250",
+      "0x140001269",
+      "0x140001273",
+      "0x1400012a0",
+      "0x1400012b0",
+      "0x1400012c0",
+      "0x1400012db",
+      "0x14000131a",
+      "0x140001337",
+      "0x14000133b",
+      "0x140001350",
+      "0x140001365",
+      "0x140001369",
+      "0x140001389",
+      "0x140001398",
+      "0x1400013b0",
+      "0x1400013b5",
+      "0x1400013f5",
+      "0x140001404",
+      "0x140001415",
+      "0x14000141f",
+      "0x140001434",
+      "0x14000143e",
+      "0x140001448",
+      "0x14000144f"
+    ],
+    "calls": [
+      "0x1400014df",
+      "0x1400015f0",
+      "0x140001610",
+      "0x1400018f0",
+      "0x140001cd0",
+      "0x140001ce0",
+      "0x140001f10",
+      "0x140001f20",
+      "0x140001f50",
+      "0x140001fb0",
+      "0x140001fc0",
+      "0x140001fc8",
+      "0x140001fd0",
+      "0x140001fe8",
+      "0x140002000",
+      "0x140002010",
+      "0x140002030",
+      "0x140002038",
+      "0x140002040",
+      "0x140002048",
+      "0x140002058",
+      "0x140002060",
+      "0x140002080",
+      "0x140002098"
+    ],
+    "strings": [],
+    "instruction_count": 215
+  },
+  {
+    "address": "0x140001460",
+    "name": "sub_140001460",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001460"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 3
+  },
+  {
+    "address": "0x140001480",
+    "name": "sub_140001480",
+    "reason": "PE entry point, Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001480"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 3
+  },
+  {
+    "address": "0x1400014a0",
+    "name": "sub_1400014A0",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x1400014a0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x1400014b0",
+    "name": "sub_1400014B0",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x1400014b0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 2
+  },
+  {
+    "address": "0x1400014c0",
+    "name": "sub_1400014C0",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x1400014c0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x1400014d0",
+    "name": "sub_1400014D0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x1400014d0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 7
+  },
+  {
+    "address": "0x1400014df",
+    "name": "sub_1400014DF",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x1400014df",
+      "0x140001506",
+      "0x140001519",
+      "0x14000152a"
+    ],
+    "calls": [
+      "0x1400014d0",
+      "0x1400015f0",
+      "0x140001e50"
+    ],
+    "strings": [
+      {
+        "address": "0x140004010",
+        "text": "Large: %d",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 9
+      },
+      {
+        "address": "0x14000401b",
+        "text": "Small: %d",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 9
+      }
+    ],
+    "instruction_count": 24
+  },
+  {
+    "address": "0x140001540",
+    "name": "sub_140001540",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001540",
+      "0x140001553",
+      "0x140001560",
+      "0x14000157c"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 16
+  },
+  {
+    "address": "0x140001590",
+    "name": "sub_140001590",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001590",
+      "0x1400015a6",
+      "0x1400015ab",
+      "0x1400015b0",
+      "0x1400015b9",
+      "0x1400015d0",
+      "0x1400015e0",
+      "0x1400015ee"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 26
+  },
+  {
+    "address": "0x1400015f0",
+    "name": "sub_1400015F0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x1400015f0",
+      "0x1400015fa",
+      "0x140001600"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 6
+  },
+  {
+    "address": "0x140001610",
+    "name": "sub_140001610",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001610"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 2
+  },
+  {
+    "address": "0x140001620",
+    "name": "sub_140001620",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001620",
+      "0x14000163f",
+      "0x14000165f",
+      "0x14000170c"
+    ],
+    "calls": [
+      "0x140001eb0",
+      "0x140001fc0"
+    ],
+    "strings": [
+      {
+        "address": "0x140004128",
+        "text": "_matherr(): %s in %s(%g, %g)  (retval=%g)",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 41
+      },
+      {
+        "address": "0x140004116",
+        "text": "Unknown error",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 13
+      }
+    ],
+    "instruction_count": 38
+  },
+  {
+    "address": "0x140001720",
+    "name": "sub_140001720",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001720"
+    ],
+    "calls": [
+      "0x140001e10",
+      "0x140001eb0",
+      "0x140001fc0",
+      "0x140002050"
+    ],
+    "strings": [
+      {
+        "address": "0x140004170",
+        "text": "Mingw-w64 runtime failure:",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 26
+      }
+    ],
+    "instruction_count": 24
+  },
+  {
+    "address": "0x140001780",
+    "name": "sub_140001780",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001780",
+      "0x140001798",
+      "0x1400017b0",
+      "0x1400017b8",
+      "0x1400017cb",
+      "0x1400017d8",
+      "0x1400017ec",
+      "0x14000183a",
+      "0x140001846",
+      "0x14000184e",
+      "0x140001855",
+      "0x140001860",
+      "0x140001898",
+      "0x1400018b0",
+      "0x1400018b7",
+      "0x1400018d2"
+    ],
+    "calls": [
+      "0x140001720",
+      "0x140001cf0",
+      "0x140001da0"
+    ],
+    "strings": [
+      {
+        "address": "0x1400041e8",
+        "text": "  VirtualProtect failed with code 0x%x",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 38
+      },
+      {
+        "address": "0x1400041b0",
+        "text": "  VirtualQuery failed for %d bytes at address %p",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 48
+      },
+      {
+        "address": "0x140004190",
+        "text": "Address %p has no image-section",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 31
+      }
+    ],
+    "instruction_count": 89
+  },
+  {
+    "address": "0x1400018f0",
+    "name": "sub_1400018F0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x1400018f0",
+      "0x14000190d",
+      "0x140001920",
+      "0x140001979",
+      "0x140001983",
+      "0x14000198d",
+      "0x140001998",
+      "0x1400019a4",
+      "0x1400019b4",
+      "0x1400019c0",
+      "0x1400019c9",
+      "0x1400019d2",
+      "0x1400019df",
+      "0x1400019fb",
+      "0x140001a07",
+      "0x140001a24",
+      "0x140001a2d",
+      "0x140001a49",
+      "0x140001a4f",
+      "0x140001a58",
+      "0x140001a8b",
+      "0x140001a90",
+      "0x140001a9e",
+      "0x140001ab0",
+      "0x140001ac2",
+      "0x140001acf",
+      "0x140001ade",
+      "0x140001af0",
+      "0x140001af8",
+      "0x140001b05",
+      "0x140001b0e",
+      "0x140001b20",
+      "0x140001b50",
+      "0x140001b58",
+      "0x140001b64",
+      "0x140001b70",
+      "0x140001b7e",
+      "0x140001b8a",
+      "0x140001bb0",
+      "0x140001bbb",
+      "0x140001bce",
+      "0x140001bdc",
+      "0x140001be4",
+      "0x140001c10",
+      "0x140001c26",
+      "0x140001c40",
+      "0x140001c50",
+      "0x140001c5b",
+      "0x140001c66",
+      "0x140001c6f",
+      "0x140001c83"
+    ],
+    "calls": [
+      "0x140001720",
+      "0x140001780",
+      "0x140001d70",
+      "0x140001dd0",
+      "0x140002060"
+    ],
+    "strings": [
+      {
+        "address": "0x140004278",
+        "text": "%d bit pseudo relocation at %p out of range, targeting %p, yielding the value %p.",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 81
+      },
+      {
+        "address": "0x140004248",
+        "text": "  Unknown pseudo relocation bit size %d.",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 40
+      },
+      {
+        "address": "0x140004210",
+        "text": "  Unknown pseudo relocation protocol version %d.",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 48
+      }
+    ],
+    "instruction_count": 225
+  },
+  {
+    "address": "0x140001c90",
+    "name": "sub_140001C90",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x140001c90",
+      "0x140001ca0",
+      "0x140001cc9"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 15
+  },
+  {
+    "address": "0x140001cd0",
+    "name": "sub_140001CD0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001cd0",
+      "0x140002070"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 3
+  },
+  {
+    "address": "0x140001ce0",
+    "name": "sub_140001CE0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001ce0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 2
+  },
+  {
+    "address": "0x140001cf0",
+    "name": "sub_140001CF0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001cf0",
+      "0x140001cfe",
+      "0x140001d0d",
+      "0x140001d0f",
+      "0x140001d10",
+      "0x140001d18",
+      "0x140001d23",
+      "0x140001d40",
+      "0x140001d4c",
+      "0x140001d54",
+      "0x140001d5d"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 33
+  },
+  {
+    "address": "0x140001d70",
+    "name": "sub_140001D70",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001d70",
+      "0x140001d7e",
+      "0x140001d8d",
+      "0x140001d90",
+      "0x140001d98"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 13
+  },
+  {
+    "address": "0x140001da0",
+    "name": "sub_140001DA0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001da0",
+      "0x140001dae",
+      "0x140001dbd",
+      "0x140001dc0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 13
+  },
+  {
+    "address": "0x140001dd0",
+    "name": "sub_140001DD0",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001dd0",
+      "0x140001ddf",
+      "0x140001df8"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 15
+  },
+  {
+    "address": "0x140001e10",
+    "name": "sub_140001E10",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001e10"
+    ],
+    "calls": [
+      "0x140001f00",
+      "0x140001fd8"
+    ],
+    "strings": [],
+    "instruction_count": 19
+  },
+  {
+    "address": "0x140001e50",
+    "name": "sub_140001E50",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001e50"
+    ],
+    "calls": [
+      "0x140001f00",
+      "0x140001fc0",
+      "0x140001fd8"
+    ],
+    "strings": [],
+    "instruction_count": 25
+  },
+  {
+    "address": "0x140001eb0",
+    "name": "sub_140001EB0",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001eb0"
+    ],
+    "calls": [
+      "0x140001f00",
+      "0x140001fd8"
+    ],
+    "strings": [],
+    "instruction_count": 22
+  },
+  {
+    "address": "0x140001f00",
+    "name": "sub_140001F00",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001f00"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 2
+  },
+  {
+    "address": "0x140001f10",
+    "name": "sub_140001F10",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001f10"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 3
+  },
+  {
+    "address": "0x140001f20",
+    "name": "sub_140001F20",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001f20"
+    ],
+    "calls": [
+      "0x140001eb0",
+      "0x140001fc0",
+      "0x140002018"
+    ],
+    "strings": [
+      {
+        "address": "0x1400042d0",
+        "text": "runtime error %d",
+        "encoding": "ascii",
+        "section": ".rdata",
+        "length": 16
+      }
+    ],
+    "instruction_count": 14
+  },
+  {
+    "address": "0x140001f50",
+    "name": "sub_140001F50",
+    "reason": "Windows x64 runtime-function metadata, direct call target",
+    "blocks": [
+      "0x140001f50"
+    ],
+    "calls": [
+      "0x140001ff0",
+      "0x140001ff8",
+      "0x140002008",
+      "0x140002020",
+      "0x140002090",
+      "0x1400020a0"
+    ],
+    "strings": [],
+    "instruction_count": 33
+  },
+  {
+    "address": "0x140001fb0",
+    "name": "strlen",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fb0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001fc0",
+    "name": "__acrt_iob_func",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fc0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001fc8",
+    "name": "__p__commode",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fc8"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001fd0",
+    "name": "__p__fmode",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fd0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001fd8",
+    "name": "__stdio_common_vfprintf",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fd8"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001fe8",
+    "name": "setvbuf",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001fe8"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001ff0",
+    "name": "__p___argc",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001ff0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140001ff8",
+    "name": "__p___argv",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140001ff8"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002000",
+    "name": "_cexit",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002000"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002008",
+    "name": "_configure_narrow_argv",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002008"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002010",
+    "name": "_crt_atexit",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002010"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002018",
+    "name": "_exit",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002018"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002020",
+    "name": "_initialize_narrow_environment",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002020"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002028",
+    "name": "_seh_filter_exe",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002028"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002030",
+    "name": "_initterm",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002030"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002038",
+    "name": "_initterm_e",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002038"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002040",
+    "name": "_set_app_type",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002040"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002048",
+    "name": "_set_invalid_parameter_handler",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002048"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002050",
+    "name": "abort",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002050"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002058",
+    "name": "exit",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002058"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002060",
+    "name": "memcpy",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002060"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002080",
+    "name": "_configthreadlocale",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002080"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002090",
+    "name": "_set_new_mode",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002090"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x140002098",
+    "name": "malloc",
+    "reason": "direct call target",
+    "blocks": [
+      "0x140002098"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x1400020a0",
+    "name": "__p__environ",
+    "reason": "direct call target",
+    "blocks": [
+      "0x1400020a0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  },
+  {
+    "address": "0x1400020e0",
+    "name": "sub_1400020E0",
+    "reason": "Windows x64 runtime-function metadata",
+    "blocks": [
+      "0x1400020e0"
+    ],
+    "calls": [],
+    "strings": [],
+    "instruction_count": 1
+  }
+]

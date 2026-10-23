@@ -1,0 +1,57 @@
+﻿source,target,kind,value
+0x1400010c4,0x140008220,import,KERNEL32.dll!Sleep
+0x1400013ca,0x140008218,import,KERNEL32.dll!SetUnhandledExceptionFilter
+0x140001509,0x140004010,string,Large: %d
+0x14000151c,0x14000401b,string,Small: %d
+0x140001658,0x14000404f,string,Argument singularity (SIGN)
+0x140001687,0x140004128,string,"_matherr(): %s in %s(%g, %g)  (retval=%g)"
+0x1400016c0,0x140004030,string,Argument domain error (DOMAIN)
+0x1400016d0,0x140004090,string,Partial loss of significance (PLOSS)
+0x1400016e0,0x140004070,string,Overflow range error (OVERFLOW)
+0x1400016f0,0x1400040e0,string,The result is too small to be represented (UNDERFLOW)
+0x140001700,0x1400040b8,string,Total loss of significance (TLOSS)
+0x14000170c,0x140004116,string,Unknown error
+0x14000174c,0x140004170,string,Mingw-w64 runtime failure:
+0x14000182b,0x140008230,import,KERNEL32.dll!VirtualQuery
+0x14000188e,0x140008228,import,KERNEL32.dll!VirtualProtect
+0x140001898,0x140008210,import,KERNEL32.dll!GetLastError
+0x14000189e,0x1400041e8,string,  VirtualProtect failed with code 0x%x
+0x1400018c1,0x1400041b0,string,  VirtualQuery failed for %d bytes at address %p
+0x1400018d5,0x140004190,string,Address %p has no image-section
+0x140001a9e,0x140008228,import,KERNEL32.dll!VirtualProtect
+0x140001c2e,0x140004278,string,"%d bit pseudo relocation at %p out of range, targeting %p, yielding the value %p."
+0x140001c6f,0x140004248,string,  Unknown pseudo relocation bit size %d.
+0x140001c83,0x140004210,string,  Unknown pseudo relocation protocol version %d.
+0x140001f34,0x1400042d0,string,runtime error %d
+0x140001fb0,0x140008348,import,api-ms-win-crt-string-l1-1-0.dll!strlen
+0x140001fc0,0x140008310,import,api-ms-win-crt-stdio-l1-1-0.dll!__acrt_iob_func
+0x140001fc8,0x140008318,import,api-ms-win-crt-stdio-l1-1-0.dll!__p__commode
+0x140001fd0,0x140008320,import,api-ms-win-crt-stdio-l1-1-0.dll!__p__fmode
+0x140001fd8,0x140008328,import,api-ms-win-crt-stdio-l1-1-0.dll!__stdio_common_vfprintf
+0x140001fe0,0x140008330,import,api-ms-win-crt-stdio-l1-1-0.dll!fflush
+0x140001fe8,0x140008338,import,api-ms-win-crt-stdio-l1-1-0.dll!setvbuf
+0x140001ff0,0x140008298,import,api-ms-win-crt-runtime-l1-1-0.dll!__p___argc
+0x140001ff8,0x1400082a0,import,api-ms-win-crt-runtime-l1-1-0.dll!__p___argv
+0x140002000,0x1400082a8,import,api-ms-win-crt-runtime-l1-1-0.dll!_cexit
+0x140002008,0x1400082b0,import,api-ms-win-crt-runtime-l1-1-0.dll!_configure_narrow_argv
+0x140002010,0x1400082b8,import,api-ms-win-crt-runtime-l1-1-0.dll!_crt_atexit
+0x140002018,0x1400082c0,import,api-ms-win-crt-runtime-l1-1-0.dll!_exit
+0x140002020,0x1400082c8,import,api-ms-win-crt-runtime-l1-1-0.dll!_initialize_narrow_environment
+0x140002028,0x1400082d0,import,api-ms-win-crt-runtime-l1-1-0.dll!_seh_filter_exe
+0x140002030,0x1400082d8,import,api-ms-win-crt-runtime-l1-1-0.dll!_initterm
+0x140002038,0x1400082e0,import,api-ms-win-crt-runtime-l1-1-0.dll!_initterm_e
+0x140002040,0x1400082e8,import,api-ms-win-crt-runtime-l1-1-0.dll!_set_app_type
+0x140002048,0x1400082f0,import,api-ms-win-crt-runtime-l1-1-0.dll!_set_invalid_parameter_handler
+0x140002050,0x1400082f8,import,api-ms-win-crt-runtime-l1-1-0.dll!abort
+0x140002058,0x140008300,import,api-ms-win-crt-runtime-l1-1-0.dll!exit
+0x140002060,0x140008288,import,api-ms-win-crt-private-l1-1-0.dll!memcpy
+0x140002070,0x140008278,import,api-ms-win-crt-math-l1-1-0.dll!__setusermatherr
+0x140002080,0x140008268,import,api-ms-win-crt-locale-l1-1-0.dll!_configthreadlocale
+0x140002090,0x140008250,import,api-ms-win-crt-heap-l1-1-0.dll!_set_new_mode
+0x140002098,0x140008258,import,api-ms-win-crt-heap-l1-1-0.dll!malloc
+0x1400020a0,0x140008240,import,api-ms-win-crt-environment-l1-1-0.dll!__p__environ
+0x1400020b0,0x140008230,import,KERNEL32.dll!VirtualQuery
+0x1400020b8,0x140008228,import,KERNEL32.dll!VirtualProtect
+0x1400020c0,0x140008220,import,KERNEL32.dll!Sleep
+0x1400020c8,0x140008218,import,KERNEL32.dll!SetUnhandledExceptionFilter
+0x1400020d0,0x140008210,import,KERNEL32.dll!GetLastError

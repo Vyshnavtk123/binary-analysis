@@ -1,0 +1,17 @@
+INDEPENDENT DECOMPILER ENGINE 0.2.0 — START HERE
+
+1. Extract this directory.
+2. Open PowerShell here.
+3. Install dependencies:
+   py -m pip install -r requirements.txt
+4. Run unit tests:
+   py -m pytest -q
+5. Analyze a Windows executable:
+   py .\independent_decompiler_v6.py "C:\path\to\program.exe" --out "analysis_output" --fast-output
+6. Open analysis_output\summary.json, functions.json, pseudocode.c.txt,
+   value_flow.jsonl, and dataflow_summary.json.
+
+This update adds bounded forward symbolic data-flow over registers and stack slots.
+It is still a research prototype. Pseudocode is heuristic and may not compile or
+faithfully reflect the original source. Check the warnings and verify important
+findings against assembly and test binaries.

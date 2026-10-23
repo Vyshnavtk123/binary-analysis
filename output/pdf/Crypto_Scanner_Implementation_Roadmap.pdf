@@ -1,0 +1,207 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3258 >>
+stream
+0.080 0.490 0.550 rg BT /F2 11.0 Tf 54.0 742.0 Td (CRYPTO SCANNER) Tj ET
+0.070 0.160 0.290 rg BT /F2 26.0 Tf 54.0 725.0 Td (Implementation Roadmap) Tj ET
+0.310 0.380 0.460 rg BT /F1 11.0 Tf 54.0 694.0 Td (Priorities for improving static crypto analysis of Go executables) Tj ET
+0.920 0.960 0.985 rg 52 601.0 508 74.0 re f
+0.080 0.490 0.550 rg 52 601.0 4 74.0 re f
+0.070 0.160 0.290 rg BT /F2 10.0 Tf 66.0 654.0 Td (Goal) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 641.0 Td (Recover auditable algorithm evidence from an executable, connect crypto routines to) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 628.5 Td (application code where static analysis supports it, and preserve the limits of each) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 616.0 Td (finding.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 588.0 Td (1. Indirect-call and Go interface analysis) Tj ET
+0.080 0.490 0.550 rg 54 563.8 119 17 re f
+1.000 1.000 1.000 rg BT /F2 8.0 Tf 60.0 566.8 Td (HIGHEST PRIORITY) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 548.8 Td (Extend the direct-call graph to resolve indirect calls such as call rax, calls through memory) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 535.0 Td (addresses, Go function values, and interface method dispatch.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 517.2 Td (- Track candidate targets using register data flow and Go type/interface metadata.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 503.2 Td (- When a target cannot be resolved, record unresolved_indirect_call; do not invent a) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 490.2 Td (relationship.) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 476.2 Td (Expected result: fewer missed relationships between application functions and crypto functions.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 453.0 Td (2. Improve Go symbol and inlining recovery) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 431.8 Td (Go binaries can retain useful function and line information in symbol tables. Go's debug/gosym) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 418.0 Td (package supports Go symbol and line tables.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 400.2 Td (- Handle stripped binaries and missing symbol records.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 386.2 Td (- Recover inline-function metadata where available.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 372.2 Td (- Support differences between Go compiler versions.) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 358.2 Td (Expected result: better coverage when recognizable names are missing or crypto operations are inlined.) Tj ET
+0.920 0.960 0.985 rg 52 282.1 508 61.0 re f
+0.080 0.490 0.550 rg 52 282.1 4 61.0 re f
+0.070 0.160 0.290 rg BT /F2 10.0 Tf 66.0 322.1 Td (Analysis rule) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 309.1 Td (A crypto function can be present or inlined without a simple direct call to a named symbol.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 296.6 Td (Missing symbols must remain unknown rather than becoming guessed algorithm findings.) Tj ET
+0.82 0.86 0.90 RG 0.6 w 52 42 m 560 42 l S
+0.310 0.380 0.460 rg BT /F1 8 Tf 54 27 Td (Crypto Scanner Implementation Roadmap) Tj ET
+0.310 0.380 0.460 rg BT /F1 8 Tf 520 27 Td (Page 1 of 3) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4884 >>
+stream
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 739.0 Td (3. Expand the crypto signature database) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 717.8 Td (Create a central rule registry for Go standard-library cryptography and third-party libraries. Add) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 704.0 Td (rules for AES, RSA, ECDSA, ECDH, hashes, HMAC, KDFs, AEAD modes, and post-quantum implementations) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 690.2 Td (such as ML-KEM and ML-DSA when their symbols can be identified.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.7 Tf 54.0 672.4 Td (Each rule should record:) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 658.0 Td (- Symbol pattern) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 644.0 Td (- Algorithm family, operation, variant, and aliases) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 630.0 Td (- Required evidence level) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.4 Tf 54.0 616.0 Td (Expected result: fewer missed algorithms and fewer incorrect mappings from generic names such as cipher,) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.4 Tf 54.0 603.0 Td (key, or crypto.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 579.0 Td (4. Algorithm-use classification and stronger evidence) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.7 Tf 54.0 557.8 Td (Report one of these states for each algorithm:) Tj ET
+0.090 0.300 0.470 rg 54 515.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 515.4 508 29.0 re S
+1.000 1.000 1.000 rg BT /F2 8.8 Tf 59.0 532.4 Td (State) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 515.4 m 199 544.4 l S
+1.000 1.000 1.000 rg BT /F2 8.8 Tf 204.0 532.4 Td (Meaning) Tj ET
+0.950 0.965 0.980 rg 54 486.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 486.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 503.4 Td (string_only) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 486.4 m 199 515.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 503.4 Td (A matching readable string was found.) Tj ET
+1.000 1.000 1.000 rg 54 457.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 457.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 474.4 Td (symbol_present) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 457.4 m 199 486.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 474.4 Td (A corresponding function symbol was identified.) Tj ET
+0.950 0.965 0.980 rg 54 428.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 428.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 445.4 Td (call_site_found) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 428.4 m 199 457.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 445.4 Td (A call instruction targets a recognized function.) Tj ET
+1.000 1.000 1.000 rg 54 399.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 399.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 416.4 Td (statically_reachable) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 399.4 m 199 428.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 416.4 Td (A recovered call path exists from an identified application root.) Tj ET
+0.950 0.965 0.980 rg 54 370.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 370.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 387.4 Td (runtime_observed) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 370.4 m 199 399.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 387.4 Td (Execution was independently observed during a test.) Tj ET
+1.000 1.000 1.000 rg 54 341.4 508 29.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 341.4 508 29.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 358.4 Td (unknown) Tj ET
+0.78 0.82 0.87 RG 0.5 w 199 341.4 m 199 370.4 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 204.0 358.4 Td (Available analysis cannot establish the state.) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 331.4 Td (Keep static reachability separate from runtime observation. A reachable function is not necessarily) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 318.3 Td (executed in every run.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 294.2 Td (5. Improve the CBOM export) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 272.9 Td (- Deduplicate algorithm components while preserving evidence locations and call) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 259.9 Td (relationships.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 245.9 Td (- Include the executable's SHA-256, analyzer version, evidence type, function address,) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 232.9 Td (caller/callee, and analysis limitations.) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.5 Tf 66.0 218.9 Td (- Validate against a supported CycloneDX schema and test import into Q-Risk.) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.0 Tf 54.0 204.9 Td (CycloneDX CBOMs can represent algorithms, protocols, certificates, keys, tokens, and secrets, including) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.0 Tf 54.0 192.5 Td (relationships to software components.) Tj ET
+0.82 0.86 0.90 RG 0.6 w 52 42 m 560 42 l S
+0.310 0.380 0.460 rg BT /F1 8 Tf 54 27 Td (Crypto Scanner Implementation Roadmap) Tj ET
+0.310 0.380 0.460 rg BT /F1 8 Tf 520 27 Td (Page 2 of 3) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4623 >>
+stream
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 739.0 Td (6. Add a repeatable accuracy test suite) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 717.8 Td (Build small known test executables and record expected scanner results:) Tj ET
+0.090 0.300 0.470 rg 54 668.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 668.0 508 34.0 re S
+1.000 1.000 1.000 rg BT /F2 8.8 Tf 59.0 690.0 Td (Fixture) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 668.0 m 244 702.0 l S
+1.000 1.000 1.000 rg BT /F2 8.8 Tf 249.0 690.0 Td (What it checks) Tj ET
+0.950 0.965 0.980 rg 54 634.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 634.0 508 34.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 656.0 Td (AES use) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 634.0 m 244 668.0 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 249.0 656.0 Td (Known positive algorithm and call evidence.) Tj ET
+1.000 1.000 1.000 rg 54 600.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 600.0 508 34.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 622.0 Td (RSA use) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 600.0 m 244 634.0 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 249.0 622.0 Td (Known positive public-key evidence.) Tj ET
+0.950 0.965 0.980 rg 54 566.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 566.0 508 34.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 588.0 Td (String only: crypto/aes) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 566.0 m 244 600.0 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 249.0 588.0 Td (False-positive control; must not claim a linked function.) Tj ET
+1.000 1.000 1.000 rg 54 532.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 532.0 508 34.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 554.0 Td (Unreachable crypto code) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 532.0 m 244 566.0 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 249.0 554.0 Td (Separates symbol presence from static reachability.) Tj ET
+0.950 0.965 0.980 rg 54 498.0 508 34.0 re f
+0.78 0.82 0.87 RG 0.5 w 54 498.0 508 34.0 re S
+0.100 0.140 0.200 rg BT /F2 8.8 Tf 59.0 520.0 Td (Indirect crypto call) Tj ET
+0.78 0.82 0.87 RG 0.5 w 244 498.0 m 244 532.0 l S
+0.100 0.140 0.200 rg BT /F1 8.8 Tf 249.0 520.0 Td (Checks function-pointer call resolution.) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 488.0 Td (Measure true positives, false positives, and missed findings. More findings alone do not prove better) Tj ET
+0.310 0.380 0.460 rg BT /F1 9.5 Tf 54.0 474.8 Td (accuracy.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 447.7 Td (Recommended implementation order) Tj ET
+0.950 0.965 0.980 rg 52 384.5 508 42 re f
+0.090 0.300 0.470 rg BT /F2 10.5 Tf 64 401.5 Td (Direct calls -> Indirect calls -> Call-graph reachability) Tj ET
+0.090 0.300 0.470 rg BT /F2 10.5 Tf 64 387.5 Td (-> Algorithm classification -> CBOM validation -> Accuracy testing) Tj ET
+0.920 0.960 0.985 rg 52 289.5 508 87.0 re f
+0.080 0.490 0.550 rg 52 289.5 4 87.0 re f
+0.070 0.160 0.290 rg BT /F2 10.0 Tf 66.0 355.5 Td (Recommended next task) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 342.5 Td (Implement indirect-call resolution in the existing crypto analysis and supporting) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 330.0 Td (disassembly/data-flow modules, with cases for register-indirect calls, memory-indirect) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 317.5 Td (calls, unresolved targets, and reachability. Keep the current project structure and extend) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 305.0 Td (its CBOM output.) Tj ET
+0.090 0.300 0.470 rg BT /F2 15.0 Tf 54.0 276.5 Td (Q-Risk comparison: use the right success criterion) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 255.2 Td (Do not require exact equality with a repository CBOM. A repository scan can include source code,) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 241.4 Td (tests, databases, and reports that cannot be reconstructed from the executable. Compare the) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 227.6 Td (algorithms represented in each artifact, retain evidence types for every match, and investigate) Tj ET
+0.100 0.140 0.200 rg BT /F1 10.0 Tf 54.0 213.8 Td (disagreements.) Tj ET
+0.920 0.960 0.985 rg 52 140.0 508 61.0 re f
+0.080 0.490 0.550 rg 52 140.0 4 61.0 re f
+0.070 0.160 0.290 rg BT /F2 10.0 Tf 66.0 180.0 Td (Principle) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 167.0 Td (A string match, linked symbol, static call path, and runtime execution are different kinds) Tj ET
+0.100 0.140 0.200 rg BT /F1 9.2 Tf 66.0 154.5 Td (of evidence. Keep them distinct in reports and CBOM output.) Tj ET
+0.82 0.86 0.90 RG 0.6 w 52 42 m 560 42 l S
+0.310 0.380 0.460 rg BT /F1 8 Tf 54 27 Td (Crypto Scanner Implementation Roadmap) Tj ET
+0.310 0.380 0.460 rg BT /F1 8 Tf 520 27 Td (Page 3 of 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000003470 00000 n 
+0000003606 00000 n 
+0000008542 00000 n 
+0000008678 00000 n 
+0000013353 00000 n 
+0000013489 00000 n 
+0000013558 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+13608
+%%EOF

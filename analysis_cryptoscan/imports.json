@@ -1,0 +1,190 @@
+[
+  {
+    "address": "0xccf380",
+    "symbol": "kernel32.dll!WriteFile"
+  },
+  {
+    "address": "0xccf388",
+    "symbol": "kernel32.dll!WriteConsoleW"
+  },
+  {
+    "address": "0xccf390",
+    "symbol": "kernel32.dll!WerSetFlags"
+  },
+  {
+    "address": "0xccf398",
+    "symbol": "kernel32.dll!WerGetFlags"
+  },
+  {
+    "address": "0xccf3a0",
+    "symbol": "kernel32.dll!WaitForMultipleObjects"
+  },
+  {
+    "address": "0xccf3a8",
+    "symbol": "kernel32.dll!WaitForSingleObject"
+  },
+  {
+    "address": "0xccf3b0",
+    "symbol": "kernel32.dll!VirtualQuery"
+  },
+  {
+    "address": "0xccf3b8",
+    "symbol": "kernel32.dll!VirtualFree"
+  },
+  {
+    "address": "0xccf3c0",
+    "symbol": "kernel32.dll!VirtualAlloc"
+  },
+  {
+    "address": "0xccf3c8",
+    "symbol": "kernel32.dll!TlsAlloc"
+  },
+  {
+    "address": "0xccf3d0",
+    "symbol": "kernel32.dll!SwitchToThread"
+  },
+  {
+    "address": "0xccf3d8",
+    "symbol": "kernel32.dll!SuspendThread"
+  },
+  {
+    "address": "0xccf3e0",
+    "symbol": "kernel32.dll!SetWaitableTimer"
+  },
+  {
+    "address": "0xccf3e8",
+    "symbol": "kernel32.dll!SetProcessPriorityBoost"
+  },
+  {
+    "address": "0xccf3f0",
+    "symbol": "kernel32.dll!SetEvent"
+  },
+  {
+    "address": "0xccf3f8",
+    "symbol": "kernel32.dll!SetErrorMode"
+  },
+  {
+    "address": "0xccf400",
+    "symbol": "kernel32.dll!SetConsoleCtrlHandler"
+  },
+  {
+    "address": "0xccf408",
+    "symbol": "kernel32.dll!RtlVirtualUnwind"
+  },
+  {
+    "address": "0xccf410",
+    "symbol": "kernel32.dll!RtlLookupFunctionEntry"
+  },
+  {
+    "address": "0xccf418",
+    "symbol": "kernel32.dll!ResumeThread"
+  },
+  {
+    "address": "0xccf420",
+    "symbol": "kernel32.dll!RaiseFailFastException"
+  },
+  {
+    "address": "0xccf428",
+    "symbol": "kernel32.dll!PostQueuedCompletionStatus"
+  },
+  {
+    "address": "0xccf430",
+    "symbol": "kernel32.dll!LoadLibraryW"
+  },
+  {
+    "address": "0xccf438",
+    "symbol": "kernel32.dll!LoadLibraryExW"
+  },
+  {
+    "address": "0xccf440",
+    "symbol": "kernel32.dll!SetThreadContext"
+  },
+  {
+    "address": "0xccf448",
+    "symbol": "kernel32.dll!GetThreadContext"
+  },
+  {
+    "address": "0xccf450",
+    "symbol": "kernel32.dll!GetSystemInfo"
+  },
+  {
+    "address": "0xccf458",
+    "symbol": "kernel32.dll!GetSystemDirectoryA"
+  },
+  {
+    "address": "0xccf460",
+    "symbol": "kernel32.dll!GetStdHandle"
+  },
+  {
+    "address": "0xccf468",
+    "symbol": "kernel32.dll!GetQueuedCompletionStatusEx"
+  },
+  {
+    "address": "0xccf470",
+    "symbol": "kernel32.dll!GetProcessAffinityMask"
+  },
+  {
+    "address": "0xccf478",
+    "symbol": "kernel32.dll!GetProcAddress"
+  },
+  {
+    "address": "0xccf480",
+    "symbol": "kernel32.dll!GetErrorMode"
+  },
+  {
+    "address": "0xccf488",
+    "symbol": "kernel32.dll!GetEnvironmentStringsW"
+  },
+  {
+    "address": "0xccf490",
+    "symbol": "kernel32.dll!GetCurrentThreadId"
+  },
+  {
+    "address": "0xccf498",
+    "symbol": "kernel32.dll!GetConsoleMode"
+  },
+  {
+    "address": "0xccf4a0",
+    "symbol": "kernel32.dll!FreeEnvironmentStringsW"
+  },
+  {
+    "address": "0xccf4a8",
+    "symbol": "kernel32.dll!ExitProcess"
+  },
+  {
+    "address": "0xccf4b0",
+    "symbol": "kernel32.dll!DuplicateHandle"
+  },
+  {
+    "address": "0xccf4b8",
+    "symbol": "kernel32.dll!CreateWaitableTimerExW"
+  },
+  {
+    "address": "0xccf4c0",
+    "symbol": "kernel32.dll!CreateThread"
+  },
+  {
+    "address": "0xccf4c8",
+    "symbol": "kernel32.dll!CreateIoCompletionPort"
+  },
+  {
+    "address": "0xccf4d0",
+    "symbol": "kernel32.dll!CreateFileA"
+  },
+  {
+    "address": "0xccf4d8",
+    "symbol": "kernel32.dll!CreateEventA"
+  },
+  {
+    "address": "0xccf4e0",
+    "symbol": "kernel32.dll!CloseHandle"
+  },
+  {
+    "address": "0xccf4e8",
+    "symbol": "kernel32.dll!AddVectoredExceptionHandler"
+  },
+  {
+    "address": "0xccf4f0",
+    "symbol": "kernel32.dll!AddVectoredContinueHandler"
+  }
+]

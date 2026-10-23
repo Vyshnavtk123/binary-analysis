@@ -1,0 +1,30 @@
+Independent Decompiler Engine 0.1.1
+==================================
+
+Fixes based on the user's sample2.exe output:
+
+1. CFG leader fix: the PE entry point, exported functions and Windows x64
+   runtime-function starts now split linear-sweep blocks. This addresses the
+   observed case where the PE entry point had no decoded CFG blocks.
+2. String scan fix: executable sections are excluded from string extraction by
+   default, reducing machine-code bytes incorrectly reported as strings.
+3. Windows x64 function discovery: parse RUNTIME_FUNCTION records from the PE
+   exception directory (or .pdata fallback) as additional candidate starts.
+4. Summary output now reports the number of unwind records and confirms whether
+   executable sections were scanned for strings.
+5. Added a CFG regression test for an explicit entry point inside a linear sweep.
+
+Validation performed in this environment:
+- pytest: 9 tests passed.
+- Python compileall: passed.
+- Full PE end-to-end execution was not rerun here because pefile and capstone are
+  not installed in this build environment. Re-run on Windows after installing
+  requirements.txt.
+
+Important limits:
+- This is still static analysis and conservative register-level pseudocode, not
+  a complete source-recovery decompiler.
+- Linear sweep can decode embedded data as instructions.
+- Function candidates can still be false positives.
+- x64 .pdata metadata is helpful when present, but absent on some binaries and
+  does not resolve all indirect calls, tail calls, or obfuscated control flow.

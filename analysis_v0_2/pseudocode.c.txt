@@ -1,0 +1,1559 @@
+/* Independent static decompiler research engine. Output is heuristic pseudocode, not recovered original source. */
+/* Input: sample2.exe; architecture: x86-64; decoded instructions: 1241 */
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001000 at 0x140001000. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001000(void) {
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001010 at 0x140001010. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001010(uint64_t arg1, uint64_t arg2) {
+    uint64_t v_rax = 0;
+loc_140001010:
+    arg2 = 0;
+    arg1 = *(((uint64_t *)(arg1)));
+    v_rax = *(((uint32_t *)(arg1)));
+    v_rax = v_rax & 0x20ffffff;
+    /* condition flags set by cmp(v_rax, 0x20474343); consumed by a later branch */
+    if ((v_rax != 0x20474343)) goto loc_14000102C;
+loc_140001023:
+    arg2 = *(((uint32_t *)(arg1 + 4)));
+    arg2 = arg2 & 1;
+    arg2 = arg2 - 1;
+loc_14000102C:
+    v_rax = arg2;
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001030 at 0x140001030. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001030(uint64_t arg1) {
+loc_140001030:
+    arg1 = 0;
+    goto loc_140001FE0;
+loc_140001FE0:
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!fflush */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001040 at 0x140001040. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001040(uint64_t arg1, uint64_t arg2, uint64_t arg3) {
+    uint64_t v_r10 = 0;
+    uint64_t v_r9 = 0;
+    uint64_t v_rax = 0;
+loc_140001040:
+    /* stack pointer adjustment: 0x0000000140001040: sub      rsp, 0x48 */
+    v_r9 = *(((uint32_t *)(arg1 + 4)));
+    v_r10 = arg1;
+    v_r9 = v_r9 & 2;
+    if (condition_equal) goto loc_140001060;
+loc_140001051:
+    v_r9 = 1;
+loc_140001057:
+    v_rax = v_r9;
+    /* stack pointer adjustment: 0x000000014000105A: add      rsp, 0x48 */
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001060:
+    *(((uint64_t *)(rsp + 0x30))) = arg1;
+    arg1 = *(((uint32_t *)(arg1)));
+    arg2 = address_of([rsp + 0x30]);
+    *(((uint32_t *)(rsp + 0x2c))) = v_r9;
+    *(((uint64_t *)(rsp + 0x38))) = arg3;
+    *(((uint64_t *)(rsp + 0x50))) = v_r10;
+    _seh_filter_exe(/* arguments unresolved */);
+    v_r9 = *(((uint32_t *)(rsp + 0x2c)));
+    /* condition flags set by cmp(v_rax, -1); consumed by a later branch */
+    if ((v_rax == -1)) goto loc_140001057;
+loc_14000108A:
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    v_r10 = *(((uint64_t *)(rsp + 0x50)));
+    if (((v_rax & v_rax) == 0)) goto loc_140001051;
+loc_140001093:
+    arg1 = *(((uint32_t *)(v_r10)));
+    _exit(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400010A0 at 0x1400010A0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400010A0(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_r10 = 0;
+    uint64_t v_r11 = 0;
+    uint64_t v_r12 = 0;
+    uint64_t v_r13 = 0;
+    uint64_t v_r14 = 0;
+    uint64_t v_r15 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+loc_1400010A0:
+    /* machine-level stack operation: push r15 */
+    /* machine-level stack operation: push r14 */
+    /* machine-level stack operation: push r13 */
+    /* machine-level stack operation: push r12 */
+    /* machine-level stack operation: push rbp */
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x00000001400010AC: sub      rsp, 0x58 */
+    v_rax = qword ptr gs:[0x30];
+    v_rsi = *(((uint64_t *)(v_rax + 8)));
+    v_rbx = (uintptr_t)0x140004370;
+    v_rdi = (uintptr_t)0x140008220;
+    goto loc_1400010E0;
+loc_1400010D0:
+    /* condition flags set by cmp(v_rsi, v_rax); consumed by a later branch */
+    if ((v_rsi == v_rax)) goto loc_140001180;
+loc_1400010D9:
+    arg1 = 0x3e8;
+    call_indirect(rdi); /* destination unresolved */
+loc_1400010E0:
+    v_rax = 0;
+    /* unmodeled instruction: 0x00000001400010E2: lock cmpxchg qword ptr [rbx], rsi */
+    if (condition_not_equal) goto loc_1400010D0;
+loc_1400010E9:
+    v_r14 = 0;
+loc_1400010EC:
+    v_r12 = (uintptr_t)0x140004380;
+    /* condition flags set by cmp(*(((uint32_t *)(v_r12))), 1); consumed by a later branch */
+    if ((*(((uint32_t *)(v_r12))) == 1)) goto loc_14000144F;
+loc_1400010FE:
+    v_r11 = *(((uint32_t *)(v_r12)));
+    /* condition flags set by test(v_r11, v_r11); consumed by a later branch */
+    if (((v_r11 & v_r11) == 0)) goto loc_1400011B0;
+loc_14000110B:
+    (uintptr_t)0x140007000 = 1;
+loc_140001115:
+    /* condition flags set by test(v_r14, v_r14); consumed by a later branch */
+    if (((v_r14 & v_r14) == 0)) goto loc_1400011A0;
+loc_14000111E:
+    v_rax = (uintptr_t)0x1400070F0;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_140001136;
+loc_14000112A:
+    arg3 = 0;
+    arg2 = 2;
+    arg1 = 0;
+    call_indirect(rax); /* destination unresolved */
+loc_140001136:
+    sub_140001F10(/* arguments unresolved */);
+    arg3 = (uintptr_t)0x140007008;
+    arg1 = (uintptr_t)0x140007018;
+    *(((uint64_t *)(v_rax))) = arg3;
+    arg2 = (uintptr_t)0x140007010;
+    sub_1400014DF(/* arguments unresolved */);
+    arg1 = (uintptr_t)0x140007004;
+    /* condition flags set by test(arg1, arg1); consumed by a later branch */
+    if (((arg1 & arg1) == 0)) goto loc_140001448;
+loc_140001165:
+    arg2 = (uintptr_t)0x140007000;
+    /* condition flags set by test(arg2, arg2); consumed by a later branch */
+    if (((arg2 & arg2) == 0)) goto loc_140001190;
+loc_14000116F:
+    /* stack pointer adjustment: 0x000000014000116F: add      rsp, 0x58 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    rbp = stack_pop(); /* reconstructed stack operation */
+    v_r12 = stack_pop(); /* reconstructed stack operation */
+    v_r13 = stack_pop(); /* reconstructed stack operation */
+    v_r14 = stack_pop(); /* reconstructed stack operation */
+    v_r15 = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001180:
+    v_r14 = 1;
+    goto loc_1400010EC;
+loc_140001190:
+    *(((uint32_t *)(rsp + 0x3c))) = v_rax;
+    _cexit(/* arguments unresolved */);
+    v_rax = *(((uint32_t *)(rsp + 0x3c)));
+    goto loc_14000116F;
+loc_1400011A0:
+    v_rax = 0;
+    /* unmodeled instruction: 0x00000001400011A2: xchg     qword ptr [rbx], rax */
+    goto loc_14000111E;
+loc_1400011B0:
+    arg1 = 2;
+    *(((uint32_t *)(v_r12))) = 1;
+    __acrt_iob_func(/* arguments unresolved */);
+    arg4 = 0;
+    arg3 = 4;
+    arg2 = 0;
+    arg1 = v_rax;
+    setvbuf(/* arguments unresolved */);
+    arg1 = (uintptr_t)0x140001030;
+    _crt_atexit(/* arguments unresolved */);
+    v_rsi = v_rax;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) != 0)) goto loc_140001434;
+loc_1400011EB:
+    sub_1400018F0(/* arguments unresolved */);
+    arg1 = (uintptr_t)0x140001000;
+    _set_invalid_parameter_handler(/* arguments unresolved */);
+    sub_140001CE0(/* arguments unresolved */);
+    v_rax = (uintptr_t)0x140004310;
+    /* condition flags set by cmp(*(((uint16_t *)(v_rax))), 0x5a4d); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rax))) != 0x5a4d)) goto loc_140001250;
+loc_14000120F:
+    arg2 = (uint64_t)(*(((uint32_t *)(v_rax + 0x3c))));
+    v_rax = v_rax + arg2;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax))), 0x4550); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rax))) != 0x4550)) goto loc_140001250;
+loc_14000121E:
+    arg2 = (uint64_t)(*(((uint16_t *)(v_rax + 0x18))));
+    /* condition flags set by cmp(arg2, 0x10b); consumed by a later branch */
+    if ((arg2 == 0x10b)) goto loc_140001415;
+loc_14000122D:
+    /* condition flags set by cmp(arg2, 0x20b); consumed by a later branch */
+    if ((arg2 != 0x20b)) goto loc_140001250;
+loc_140001234:
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax + 0x84))), 0xe); consumed by a later branch */
+    if ((((uint64_t)(*(((uint32_t *)(v_rax + 0x84))))) <= ((uint64_t)(0xe)))) goto loc_140001250;
+loc_14000123D:
+    arg4 = *(((uint32_t *)(v_rax + 0xf8)));
+    v_rsi = 0;
+    /* condition flags set by test(arg4, arg4); consumed by a later branch */
+    v_rsi = (uint8_t)(condition_ne);
+loc_140001250:
+    v_rax = (uintptr_t)0x140004360;
+    (uintptr_t)0x140007004 = v_rsi;
+    arg3 = *(((uint32_t *)(v_rax)));
+    /* condition flags set by test(arg3, arg3); consumed by a later branch */
+    if (((arg3 & arg3) != 0)) goto loc_140001398;
+loc_140001269:
+    arg1 = 1;
+    _set_app_type(/* arguments unresolved */);
+loc_140001273:
+    __p__fmode(/* arguments unresolved */);
+    arg2 = (uintptr_t)0x1400043F0;
+    arg2 = *(((uint32_t *)(arg2)));
+    *(((uint32_t *)(v_rax))) = arg2;
+    __p__commode(/* arguments unresolved */);
+    arg2 = (uintptr_t)0x1400043D0;
+    arg2 = *(((uint32_t *)(arg2)));
+    *(((uint32_t *)(v_rax))) = arg2;
+    sub_140001610(/* arguments unresolved */);
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_sign) goto loc_140001389;
+loc_1400012A0:
+    v_rax = (uintptr_t)0x1400042F0;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax))), 1); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rax))) == 1)) goto loc_140001404;
+loc_1400012B0:
+    v_rax = (uintptr_t)0x140004340;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax))), -1); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rax))) == -1)) goto loc_1400013F5;
+loc_1400012C0:
+    arg2 = (uintptr_t)0x1400043C0;
+    arg1 = (uintptr_t)0x1400043B0;
+    _initterm_e(/* arguments unresolved */);
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) != 0)) goto loc_14000143E;
+loc_1400012DB:
+    v_rax = (uintptr_t)0x140004410;
+    arg3 = (uintptr_t)0x140007008;
+    arg2 = (uintptr_t)0x140007010;
+    arg1 = (uintptr_t)0x140007018;
+    v_rax = *(((uint32_t *)(v_rax)));
+    *(((uint32_t *)(rsp + 0x4c))) = v_rax;
+    v_rax = (uintptr_t)0x1400043E0;
+    arg4 = *(((uint32_t *)(v_rax)));
+    v_rax = address_of([rsp + 0x4c]);
+    *(((uint64_t *)(rsp + 0x20))) = v_rax;
+    sub_140001F50(/* arguments unresolved */);
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_sign) goto loc_140001389;
+loc_14000131A:
+    rbp = (uintptr_t)0x140007018;
+    arg1 = address_of([rbp + 1]);
+    arg1 = arg1;
+    arg1 = arg1 << 3;
+    malloc(/* arguments unresolved */);
+    v_r13 = v_rax;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_140001389;
+loc_140001337:
+    /* condition flags set by test(rbp, rbp); consumed by a later branch */
+    if (condition_less_or_equal) goto loc_1400013B5;
+loc_14000133B:
+    v_r15 = (uintptr_t)0x140007010;
+    v_rsi = 1;
+    goto loc_140001369;
+loc_140001350:
+    arg2 = *(((uint64_t *)(v_r15 + v_rsi*8 - 8)));
+    arg3 = v_rdi;
+    arg1 = v_rax;
+    memcpy(/* arguments unresolved */);
+    /* condition flags set by cmp(rbp, v_rsi); consumed by a later branch */
+    if ((rbp == v_rsi)) goto loc_1400013B0;
+loc_140001365:
+    v_rsi = v_rsi + 1;
+loc_140001369:
+    arg1 = *(((uint64_t *)(v_r15 + v_rsi*8 - 8)));
+    strlen(/* arguments unresolved */);
+    v_rdi = address_of([v_rax + 1]);
+    arg1 = v_rdi;
+    malloc(/* arguments unresolved */);
+    *(((uint64_t *)(v_r13 + v_rsi*8 - 8))) = v_rax;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) != 0)) goto loc_140001350;
+loc_140001389:
+    arg1 = 8;
+    sub_140001F20(/* arguments unresolved */);
+loc_140001398:
+    arg1 = 2;
+    _set_app_type(/* arguments unresolved */);
+    goto loc_140001273;
+loc_1400013B0:
+    v_rax = address_of([v_r13 + rbp*8]);
+loc_1400013B5:
+    *(((uint64_t *)(v_rax))) = 0;
+    arg1 = (uintptr_t)0x140001010;
+    (uintptr_t)0x140007010 = v_r13;
+    SetUnhandledExceptionFilter(/* ABI arguments not fully recovered */); /* import: KERNEL32.dll!SetUnhandledExceptionFilter */
+    arg2 = (uintptr_t)0x1400043A0;
+    arg1 = (uintptr_t)0x140004390;
+    _initterm(/* arguments unresolved */);
+    sub_1400015F0(/* arguments unresolved */);
+    *(((uint32_t *)(v_r12))) = 2;
+    goto loc_140001115;
+loc_1400013F5:
+    arg1 = 0xffffffff;
+    _configthreadlocale(/* arguments unresolved */);
+    goto loc_1400012C0;
+loc_140001404:
+    arg1 = (uintptr_t)0x140001620;
+    sub_140001CD0(/* arguments unresolved */);
+    goto loc_1400012B0;
+loc_140001415:
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax + 0x74))), 0xe); consumed by a later branch */
+    if ((((uint64_t)(*(((uint32_t *)(v_rax + 0x74))))) <= ((uint64_t)(0xe)))) goto loc_140001250;
+loc_14000141F:
+    v_r10 = *(((uint32_t *)(v_rax + 0xe8)));
+    v_rsi = 0;
+    /* condition flags set by test(v_r10, v_r10); consumed by a later branch */
+    v_rsi = (uint8_t)(condition_ne);
+    goto loc_140001250;
+loc_140001434:
+    arg1 = 0x1a;
+    sub_140001F20(/* arguments unresolved */);
+loc_14000143E:
+    arg1 = 0xa;
+    sub_140001F20(/* arguments unresolved */);
+loc_140001448:
+    arg1 = v_rax;
+    exit(/* arguments unresolved */);
+loc_14000144F:
+    arg1 = 0x1f;
+    sub_140001F20(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001460 at 0x140001460. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001460(void) {
+    uint64_t v_rax = 0;
+    v_rax = (uintptr_t)0x140004360;
+    *(((uint32_t *)(v_rax))) = 1;
+    goto address_1400010A0;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001480 at 0x140001480. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001480(void) {
+    uint64_t v_rax = 0;
+    v_rax = (uintptr_t)0x140004360;
+    *(((uint32_t *)(v_rax))) = 0;
+    goto address_1400010A0;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400014A0 at 0x1400014A0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400014A0(void) {
+    goto address_140002010;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400014B0 at 0x1400014B0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400014B0(void) {
+    uint64_t v_rcx = 0;
+    v_rcx = (uintptr_t)0x1400014C0;
+    goto address_1400014A0;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400014C0 at 0x1400014C0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400014C0(void) {
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400014D0 at 0x1400014D0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400014D0(uint64_t arg1) {
+    uint64_t stack_arg_10 = 0;
+    uint64_t v_rax = 0;
+    /* machine-level stack operation: push rbp */
+    rbp = rsp;
+    stack_arg_10 = arg1;
+    v_rax = stack_arg_10;
+    v_rax = v_rax * v_rax;
+    rbp = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400014DF at 0x1400014DF. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400014DF(void) {
+    uint64_t local_4 = 0;
+    uint64_t local_8 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rcx = 0;
+    uint64_t v_rdx = 0;
+loc_1400014DF:
+    /* machine-level stack operation: push rbp */
+    rbp = rsp;
+    /* stack pointer adjustment: 0x00000001400014E3: sub      rsp, 0x30 */
+    sub_1400015F0(/* arguments unresolved */);
+    local_4 = 6;
+    v_rax = local_4;
+    v_rcx = v_rax;
+    sub_1400014D0(/* arguments unresolved */);
+    local_8 = v_rax;
+    /* condition flags set by cmp(local_8, 0x1e); consumed by a later branch */
+    if ((local_8 <= 0x1e)) goto loc_140001519;
+loc_140001506:
+    v_rax = local_8;
+    v_rcx = "Large: %d";
+    v_rdx = v_rax;
+    sub_140001E50(/* arguments unresolved */);
+    goto loc_14000152A;
+loc_140001519:
+    v_rax = local_8;
+    v_rcx = "Small: %d";
+    v_rdx = v_rax;
+    sub_140001E50(/* arguments unresolved */);
+loc_14000152A:
+    v_rax = 0;
+    /* stack pointer adjustment: 0x000000014000152F: add      rsp, 0x30 */
+    rbp = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001540 at 0x140001540. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001540(void) {
+    uint64_t v_rax = 0;
+    uint64_t v_rdx = 0;
+loc_140001540:
+    /* stack pointer adjustment: 0x0000000140001540: sub      rsp, 0x28 */
+    v_rax = (uintptr_t)0x140003000;
+    v_rdx = *(((uint64_t *)(v_rax)));
+    /* condition flags set by test(v_rdx, v_rdx); consumed by a later branch */
+    if (((v_rdx & v_rdx) == 0)) goto loc_14000157C;
+loc_140001553:
+loc_140001560:
+    v_rax = v_rax + 8;
+    (uintptr_t)0x140003000 = v_rax;
+    call_indirect(rdx); /* destination unresolved */
+    v_rax = (uintptr_t)0x140003000;
+    v_rdx = *(((uint64_t *)(v_rax)));
+    /* condition flags set by test(v_rdx, v_rdx); consumed by a later branch */
+    if (((v_rdx & v_rdx) != 0)) goto loc_140001560;
+loc_14000157C:
+    /* stack pointer adjustment: 0x000000014000157C: add      rsp, 0x28 */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001590 at 0x140001590. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001590(void) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rcx = 0;
+    uint64_t v_rsi = 0;
+loc_140001590:
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001592: sub      rsp, 0x28 */
+    v_rsi = (uintptr_t)0x140004300;
+    v_rbx = *(((uint64_t *)(v_rsi)));
+    /* condition flags set by cmp(v_rbx, -1); consumed by a later branch */
+    if ((v_rbx == -1)) goto loc_1400015D0;
+loc_1400015A6:
+    /* condition flags set by test(v_rbx, v_rbx); consumed by a later branch */
+    if (((v_rbx & v_rbx) == 0)) goto loc_1400015B9;
+loc_1400015AB:
+loc_1400015B0:
+    call_indirect(qword ptr [rsi + rbx*8]); /* destination unresolved */
+    v_rbx = v_rbx - 1;
+    if (condition_not_equal) goto loc_1400015B0;
+loc_1400015B9:
+    v_rcx = (uintptr_t)0x140001540;
+    /* stack pointer adjustment: 0x00000001400015C0: add      rsp, 0x28 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    goto address_1400014A0;
+loc_1400015D0:
+    v_rax = 0;
+loc_1400015E0:
+    v_rbx = v_rax;
+    v_rax = v_rax + 1;
+    /* condition flags set by cmp(*(((uint64_t *)(v_rsi + v_rax*8))), 0); consumed by a later branch */
+    if ((*(((uint64_t *)(v_rsi + v_rax*8))) != 0)) goto loc_1400015E0;
+loc_1400015EE:
+    goto loc_1400015A6;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400015F0 at 0x1400015F0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400015F0(void) {
+    uint64_t v_rax = 0;
+loc_1400015F0:
+    v_rax = (uintptr_t)0x140007020;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_140001600;
+loc_1400015FA:
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001600:
+    (uintptr_t)0x140007020 = 1;
+    goto address_140001590;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001610 at 0x140001610. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001610(void) {
+    uint64_t v_rax = 0;
+    v_rax = 0;
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001620 at 0x140001620. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001620(uint64_t arg1) {
+    uint64_t v_r8 = 0;
+    uint64_t v_r9 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdx = 0;
+    uint64_t v_rsi = 0;
+loc_140001620:
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001622: sub      rsp, 0x78 */
+    /* unmodeled instruction: 0x0000000140001626: movups   xmmword ptr [rsp + 0x40], xmm6 */
+    /* unmodeled instruction: 0x000000014000162B: movups   xmmword ptr [rsp + 0x50], xmm7 */
+    /* unmodeled instruction: 0x0000000140001630: movups   xmmword ptr [rsp + 0x60], xmm8 */
+    /* condition flags set by cmp(*(((uint32_t *)(arg1))), 6); consumed by a later branch */
+    if ((((uint64_t)(*(((uint32_t *)(arg1))))) > ((uint64_t)(6)))) goto loc_14000170C;
+loc_14000163F:
+    v_rax = *(((uint32_t *)(arg1)));
+    v_rdx = (uintptr_t)0x140004154;
+    v_rax = (uint64_t)(*(((uint32_t *)(v_rdx + v_rax*4))));
+    v_rax = v_rax + v_rdx;
+    goto_indirect(rax);
+loc_14000165F:
+    /* unmodeled instruction: 0x000000014000165F: movsd    xmm8, qword ptr [rcx + 0x20] */
+    /* unmodeled instruction: 0x0000000140001665: movsd    xmm7, qword ptr [rcx + 0x18] */
+    /* unmodeled instruction: 0x000000014000166A: movsd    xmm6, qword ptr [rcx + 0x10] */
+    v_rsi = *(((uint64_t *)(arg1 + 8)));
+    arg1 = 2;
+    __acrt_iob_func(/* arguments unresolved */);
+    /* unmodeled instruction: 0x000000014000167D: movsd    qword ptr [rsp + 0x30], xmm8 */
+    v_r8 = v_rbx;
+    v_rdx = "_matherr(): %s in %s(%g, %g)  (retval=%g)";
+    /* unmodeled instruction: 0x000000014000168E: movsd    qword ptr [rsp + 0x28], xmm7 */
+    v_r9 = v_rsi;
+    arg1 = v_rax;
+    /* unmodeled instruction: 0x000000014000169A: movsd    qword ptr [rsp + 0x20], xmm6 */
+    sub_140001EB0(/* arguments unresolved */);
+    /* unmodeled instruction: 0x00000001400016A6: movups   xmm6, xmmword ptr [rsp + 0x40] */
+    /* unmodeled instruction: 0x00000001400016AB: movups   xmm7, xmmword ptr [rsp + 0x50] */
+    v_rax = 0;
+    /* unmodeled instruction: 0x00000001400016B2: movups   xmm8, xmmword ptr [rsp + 0x60] */
+    /* stack pointer adjustment: 0x00000001400016B8: add      rsp, 0x78 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+loc_14000170C:
+    v_rbx = "Unknown error";
+    goto loc_14000165F;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001720 at 0x140001720. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001720(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rsi = 0;
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001722: sub      rsp, 0x38 */
+    v_rbx = arg1;
+    v_rax = address_of([rsp + 0x58]);
+    arg1 = 2;
+    *(((uint64_t *)(rsp + 0x60))) = arg3;
+    *(((uint64_t *)(rsp + 0x68))) = arg4;
+    *(((uint64_t *)(rsp + 0x58))) = arg2;
+    *(((uint64_t *)(rsp + 0x28))) = v_rax;
+    __acrt_iob_func(/* arguments unresolved */);
+    arg2 = "Mingw-w64 runtime failure:";
+    arg1 = v_rax;
+    sub_140001EB0(/* arguments unresolved */);
+    v_rsi = *(((uint64_t *)(rsp + 0x28)));
+    arg1 = 2;
+    __acrt_iob_func(/* arguments unresolved */);
+    arg2 = v_rbx;
+    arg3 = v_rsi;
+    arg1 = v_rax;
+    sub_140001E10(/* arguments unresolved */);
+    abort(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001780 at 0x140001780. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001780(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+loc_140001780:
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001783: sub      rsp, 0x50 */
+    v_rsi = (uintptr_t)0x140007084;
+    v_rbx = arg1;
+    /* condition flags set by test(v_rsi, v_rsi); consumed by a later branch */
+    if (condition_less_or_equal) goto loc_1400018B0;
+loc_140001798:
+    v_rax = (uintptr_t)0x140007088;
+    arg4 = 0;
+    v_rax = v_rax + 0x18;
+loc_1400017B0:
+    arg3 = *(((uint64_t *)(v_rax)));
+    /* condition flags set by cmp(v_rbx, arg3); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) < ((uint64_t)(arg3)))) goto loc_1400017CB;
+loc_1400017B8:
+    arg2 = *(((uint64_t *)(v_rax + 8)));
+    arg2 = *(((uint32_t *)(arg2 + 8)));
+    arg3 = arg3 + arg2;
+    /* condition flags set by cmp(v_rbx, arg3); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) < ((uint64_t)(arg3)))) goto loc_140001855;
+loc_1400017CB:
+    arg4 = arg4 + 1;
+    v_rax = v_rax + 0x28;
+    /* condition flags set by cmp(arg4, v_rsi); consumed by a later branch */
+    if ((arg4 != v_rsi)) goto loc_1400017B0;
+loc_1400017D8:
+    arg1 = v_rbx;
+    sub_140001CF0(/* arguments unresolved */);
+    v_rdi = v_rax;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_1400018D2;
+loc_1400017EC:
+    v_rax = (uintptr_t)0x140007088;
+    v_rbx = address_of([v_rsi + v_rsi*4]);
+    v_rbx = v_rbx << 3;
+    v_rax = v_rax + v_rbx;
+    *(((uint64_t *)(v_rax + 0x20))) = v_rdi;
+    *(((uint32_t *)(v_rax))) = 0;
+    sub_140001DA0(/* arguments unresolved */);
+    arg2 = *(((uint32_t *)(v_rdi + 0xc)));
+    arg3 = 0x30;
+    arg1 = address_of([v_rax + arg2]);
+    v_rax = (uintptr_t)0x140007088;
+    arg2 = address_of([rsp + 0x20]);
+    *(((uint64_t *)(v_rax + v_rbx + 0x18))) = arg1;
+    VirtualQuery(/* ABI arguments not fully recovered */); /* import: KERNEL32.dll!VirtualQuery */
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_1400018B7;
+loc_14000183A:
+    v_rax = *(((uint32_t *)(rsp + 0x44)));
+    arg2 = address_of([v_rax - 4]);
+    arg2 = arg2 & 0xfffffffb;
+    if (condition_equal) goto loc_14000184E;
+loc_140001846:
+    arg2 = address_of([v_rax - 0x40]);
+    arg2 = arg2 & 0xffffffbf;
+    if (condition_not_equal) goto loc_140001860;
+loc_14000184E:
+    (uintptr_t)0x140007084 = (uintptr_t)0x140007084 + 1;
+loc_140001855:
+    /* stack pointer adjustment: 0x0000000140001855: add      rsp, 0x50 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001860:
+    /* condition flags set by cmp(v_rax, 2); consumed by a later branch */
+    arg1 = *(((uint64_t *)(rsp + 0x20)));
+    arg2 = *(((uint64_t *)(rsp + 0x38)));
+    arg3 = 0x40;
+    v_rax = 4;
+    if (condition_e) arg3 = 4;
+    v_rbx = v_rbx + (uintptr_t)0x140007088;
+    *(((uint64_t *)(v_rbx + 8))) = arg1;
+    arg4 = v_rbx;
+    *(((uint64_t *)(v_rbx + 0x10))) = arg2;
+    VirtualProtect(/* ABI arguments not fully recovered */); /* import: KERNEL32.dll!VirtualProtect */
+    /* condition flags set by test(4, 4); consumed by a later branch */
+    if (((4 & 4) != 0)) goto loc_14000184E;
+loc_140001898:
+    GetLastError(/* ABI arguments not fully recovered */); /* import: KERNEL32.dll!GetLastError */
+    arg1 = "  VirtualProtect failed with code 0x%x";
+    arg2 = v_rax;
+    sub_140001720(/* arguments unresolved */);
+loc_1400018B0:
+    v_rsi = 0;
+    goto loc_1400017D8;
+loc_1400018B7:
+    v_rax = (uintptr_t)0x140007088;
+    arg2 = *(((uint32_t *)(v_rdi + 8)));
+    arg1 = "  VirtualQuery failed for %d bytes at address %p";
+    arg3 = *(((uint64_t *)(v_rax + v_rbx + 0x18)));
+    sub_140001720(/* arguments unresolved */);
+loc_1400018D2:
+    arg2 = v_rbx;
+    arg1 = "Address %p has no image-section";
+    sub_140001720(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400018F0 at 0x1400018F0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400018F0(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t local_8 = 0;
+    uint64_t v_r10 = 0;
+    uint64_t v_r12 = 0;
+    uint64_t v_r13 = 0;
+    uint64_t v_r14 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+loc_1400018F0:
+    /* machine-level stack operation: push rbp */
+    /* machine-level stack operation: push r14 */
+    /* machine-level stack operation: push r13 */
+    /* machine-level stack operation: push r12 */
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x00000001400018FA: sub      rsp, 0x40 */
+    rbp = address_of([rsp + 0x40]);
+    v_rsi = (uintptr_t)0x140007080;
+    /* condition flags set by test(v_rsi, v_rsi); consumed by a later branch */
+    if (((v_rsi & v_rsi) == 0)) goto loc_140001920;
+loc_14000190D:
+    rsp = rbp;
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    v_r12 = stack_pop(); /* reconstructed stack operation */
+    v_r13 = stack_pop(); /* reconstructed stack operation */
+    v_r14 = stack_pop(); /* reconstructed stack operation */
+    rbp = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001920:
+    (uintptr_t)0x140007080 = 1;
+    sub_140001D70(/* arguments unresolved */);
+    /* unmodeled instruction: 0x000000014000192F: cdqe */
+    v_rax = address_of([v_rax + v_rax*4]);
+    v_rax = address_of([v_rax*8 + 0xf]);
+    v_rax = v_rax & 0xfffffffffffffff0;
+    sub_140001DD0(/* arguments unresolved */);
+    v_r13 = (uintptr_t)0x140004320;
+    v_rbx = (uintptr_t)0x140004330;
+    /* stack pointer adjustment: 0x0000000140001954: sub      rsp, rax */
+    (uintptr_t)0x140007084 = 0;
+    v_rax = address_of([rsp + 0x30]);
+    (uintptr_t)0x140007088 = v_rax;
+    v_rax = v_r13;
+    v_rax = v_rax - v_rbx;
+    /* condition flags set by cmp(v_rax, 7); consumed by a later branch */
+    if ((v_rax <= 7)) goto loc_14000190D;
+loc_140001979:
+    /* condition flags set by cmp(v_rax, 0xb); consumed by a later branch */
+    if ((v_rax > 0xb)) goto loc_140001AF0;
+loc_140001983:
+    arg2 = *(((uint32_t *)(v_rbx)));
+    /* condition flags set by test(arg2, arg2); consumed by a later branch */
+    if (((arg2 & arg2) != 0)) goto loc_140001B05;
+loc_14000198D:
+    v_rax = *(((uint32_t *)(v_rbx + 4)));
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) != 0)) goto loc_140001B05;
+loc_140001998:
+    arg2 = *(((uint32_t *)(v_rbx + 8)));
+    /* condition flags set by cmp(arg2, 1); consumed by a later branch */
+    if ((arg2 != 1)) goto loc_140001C83;
+loc_1400019A4:
+    v_rbx = v_rbx + 0xc;
+    v_rdi = (uintptr_t)0x140004310;
+    /* condition flags set by cmp(v_rbx, v_r13); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) < ((uint64_t)(v_r13)))) goto loc_140001A2D;
+loc_1400019B4:
+    goto loc_14000190D;
+loc_1400019C0:
+    /* condition flags set by cmp(arg2, 8); consumed by a later branch */
+    if ((arg2 == 8)) goto loc_140001B58;
+loc_1400019C9:
+    /* condition flags set by cmp(arg2, 0x10); consumed by a later branch */
+    if ((arg2 != 0x10)) goto loc_140001C6F;
+loc_1400019D2:
+    v_rax = (uint64_t)(*(((uint16_t *)(v_r14))));
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_no_sign) goto loc_140001C10;
+loc_1400019DF:
+    v_rax = v_rax | 0xffffffffffff0000;
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+    local_8 = v_rax;
+    /* condition flags set by cmp(v_rax, -0x8000); consumed by a later branch */
+    if ((v_rax < -0x8000)) goto loc_140001C26;
+loc_1400019FB:
+    /* condition flags set by cmp(v_rax, 0xffff); consumed by a later branch */
+    if ((v_rax > 0xffff)) goto loc_140001C26;
+loc_140001A07:
+    arg1 = v_r14;
+    v_r12 = address_of([rbp - 8]);
+    sub_140001780(/* arguments unresolved */);
+    arg3 = 2;
+    arg2 = v_r12;
+    arg1 = v_r14;
+    memcpy(/* arguments unresolved */);
+loc_140001A24:
+    v_rbx = v_rbx + 0xc;
+    /* condition flags set by cmp(v_rbx, v_r13); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) >= ((uint64_t)(v_r13)))) goto loc_140001A90;
+loc_140001A2D:
+    arg1 = *(((uint32_t *)(v_rbx)));
+    v_r14 = *(((uint32_t *)(v_rbx + 4)));
+    arg2 = (uint64_t)(*(((uint8_t *)(v_rbx + 8))));
+    arg1 = arg1 + v_rdi;
+    v_r14 = v_r14 + v_rdi;
+    arg4 = *(((uint64_t *)(arg1)));
+    /* condition flags set by cmp(arg2, 0x20); consumed by a later branch */
+    if ((arg2 == 0x20)) goto loc_140001BB0;
+loc_140001A49:
+    if (condition_unsigned_below_or_equal) goto loc_1400019C0;
+loc_140001A4F:
+    /* condition flags set by cmp(arg2, 0x40); consumed by a later branch */
+    if ((arg2 != 0x40)) goto loc_140001C6F;
+loc_140001A58:
+    v_rax = *(((uint64_t *)(v_r14)));
+    v_r12 = address_of([rbp - 8]);
+    v_rbx = v_rbx + 0xc;
+    v_rax = v_rax - arg1;
+    arg1 = v_r14;
+    v_rax = v_rax + arg4;
+    local_8 = v_rax;
+    sub_140001780(/* arguments unresolved */);
+    arg3 = 8;
+    arg2 = v_r12;
+    arg1 = v_r14;
+    memcpy(/* arguments unresolved */);
+    /* condition flags set by cmp(v_rbx, v_r13); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) < ((uint64_t)(v_r13)))) goto loc_140001A2D;
+loc_140001A8B:
+loc_140001A90:
+    v_rax = (uintptr_t)0x140007084;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_less_or_equal) goto loc_14000190D;
+loc_140001A9E:
+    v_rdi = (uintptr_t)0x140008228;
+    v_rbx = 0;
+loc_140001AB0:
+    v_rax = (uintptr_t)0x140007088;
+    v_rax = v_rax + v_rbx;
+    arg3 = *(((uint32_t *)(v_rax)));
+    /* condition flags set by test(arg3, arg3); consumed by a later branch */
+    if (((arg3 & arg3) == 0)) goto loc_140001ACF;
+loc_140001AC2:
+    arg2 = *(((uint64_t *)(v_rax + 0x10)));
+    arg1 = *(((uint64_t *)(v_rax + 8)));
+    arg4 = v_r12;
+    call_indirect(rdi); /* destination unresolved */
+loc_140001ACF:
+    v_rsi = v_rsi + 1;
+    v_rbx = v_rbx + 0x28;
+    /* condition flags set by cmp(v_rsi, (uintptr_t)0x140007084); consumed by a later branch */
+    if ((v_rsi < (uintptr_t)0x140007084)) goto loc_140001AB0;
+loc_140001ADE:
+    rsp = rbp;
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    v_r12 = stack_pop(); /* reconstructed stack operation */
+    v_r13 = stack_pop(); /* reconstructed stack operation */
+    v_r14 = stack_pop(); /* reconstructed stack operation */
+    rbp = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001AF0:
+    arg4 = *(((uint32_t *)(v_rbx)));
+    /* condition flags set by test(arg4, arg4); consumed by a later branch */
+    if (((arg4 & arg4) != 0)) goto loc_140001B05;
+loc_140001AF8:
+    arg3 = *(((uint32_t *)(v_rbx + 4)));
+    /* condition flags set by test(arg3, arg3); consumed by a later branch */
+    if (((arg3 & arg3) == 0)) goto loc_140001C5B;
+loc_140001B05:
+    /* condition flags set by cmp(v_rbx, v_r13); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) >= ((uint64_t)(v_r13)))) goto loc_14000190D;
+loc_140001B0E:
+    v_r14 = (uintptr_t)0x140004310;
+    v_r12 = address_of([rbp - 8]);
+loc_140001B20:
+    v_rdi = *(((uint32_t *)(v_rbx + 4)));
+    v_rax = *(((uint32_t *)(v_rbx)));
+    v_rbx = v_rbx + 8;
+    v_rax = v_rax + *(((uint32_t *)(v_r14 + v_rdi)));
+    arg1 = address_of([v_rdi + v_r14]);
+    local_8 = v_rax;
+    sub_140001780(/* arguments unresolved */);
+    arg3 = 4;
+    arg2 = v_r12;
+    arg1 = address_of([v_rdi + v_r14]);
+    memcpy(/* arguments unresolved */);
+    /* condition flags set by cmp(v_rbx, v_r13); consumed by a later branch */
+    if ((((uint64_t)(v_rbx)) < ((uint64_t)(v_r13)))) goto loc_140001B20;
+loc_140001B50:
+    goto loc_140001A90;
+loc_140001B58:
+    v_rax = (uint64_t)(*(((uint8_t *)(v_r14))));
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_no_sign) goto loc_140001C50;
+loc_140001B64:
+    v_rax = v_rax | 0xffffffffffffff00;
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+loc_140001B70:
+    local_8 = v_rax;
+    /* condition flags set by cmp(v_rax, -0x80); consumed by a later branch */
+    if ((v_rax < -0x80)) goto loc_140001C26;
+loc_140001B7E:
+    /* condition flags set by cmp(v_rax, 0xff); consumed by a later branch */
+    if ((v_rax > 0xff)) goto loc_140001C26;
+loc_140001B8A:
+    arg1 = v_r14;
+    v_r12 = address_of([rbp - 8]);
+    sub_140001780(/* arguments unresolved */);
+    arg3 = 1;
+    arg2 = v_r12;
+    arg1 = v_r14;
+    memcpy(/* arguments unresolved */);
+    goto loc_140001A24;
+loc_140001BB0:
+    v_rax = *(((uint32_t *)(v_r14)));
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (condition_no_sign) goto loc_140001C40;
+loc_140001BBB:
+    v_r10 = 0xffffffff00000000;
+    v_rax = v_rax | 18446744069414584320;
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+loc_140001BCE:
+    arg1 = 0xffffffff;
+    local_8 = v_rax;
+    /* condition flags set by cmp(v_rax, 4294967295); consumed by a later branch */
+    if ((v_rax > 4294967295)) goto loc_140001C26;
+loc_140001BDC:
+    /* condition flags set by cmp(v_rax, -0x80000000); consumed by a later branch */
+    if ((v_rax < -0x80000000)) goto loc_140001C26;
+loc_140001BE4:
+    arg1 = v_r14;
+    v_r12 = address_of([rbp - 8]);
+    sub_140001780(/* arguments unresolved */);
+    arg3 = 4;
+    arg2 = v_r12;
+    arg1 = v_r14;
+    memcpy(/* arguments unresolved */);
+    goto loc_140001A24;
+loc_140001C10:
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+    local_8 = v_rax;
+    /* condition flags set by cmp(v_rax, -0x8000); consumed by a later branch */
+    if ((v_rax >= -0x8000)) goto loc_1400019FB;
+loc_140001C26:
+    *(((uint64_t *)(rsp + 0x20))) = v_rax;
+    arg3 = v_r14;
+    arg1 = "%d bit pseudo relocation at %p out of range, targeting %p, yielding the value %p.";
+    sub_140001720(/* arguments unresolved */);
+loc_140001C40:
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+    goto loc_140001BCE;
+loc_140001C50:
+    v_rax = v_rax - arg1;
+    v_rax = v_rax + arg4;
+    goto loc_140001B70;
+loc_140001C5B:
+    arg1 = *(((uint32_t *)(v_rbx + 8)));
+    /* condition flags set by test(arg1, arg1); consumed by a later branch */
+    if (((arg1 & arg1) != 0)) goto loc_140001998;
+loc_140001C66:
+    v_rbx = v_rbx + 0xc;
+    goto loc_140001983;
+loc_140001C6F:
+    arg1 = "  Unknown pseudo relocation bit size %d.";
+    local_8 = 0;
+    sub_140001720(/* arguments unresolved */);
+loc_140001C83:
+    arg1 = "  Unknown pseudo relocation protocol version %d.";
+    sub_140001720(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001C90 at 0x140001C90. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001C90(uint64_t arg1, uint64_t arg2) {
+    uint64_t v_rax = 0;
+loc_140001C90:
+    /* stack pointer adjustment: 0x0000000140001C90: sub      rsp, 0x58 */
+    v_rax = (uintptr_t)0x140007090;
+    /* condition flags set by test(v_rax, v_rax); consumed by a later branch */
+    if (((v_rax & v_rax) == 0)) goto loc_140001CC9;
+loc_140001CA0:
+    /* unmodeled instruction: 0x0000000140001CA0: movsd    xmm0, qword ptr [rsp + 0x80] */
+    /* unmodeled instruction: 0x0000000140001CA9: unpcklpd xmm2, xmm3 */
+    *(((uint32_t *)(rsp + 0x20))) = arg1;
+    arg1 = address_of([rsp + 0x20]);
+    *(((uint64_t *)(rsp + 0x28))) = arg2;
+    /* unmodeled instruction: 0x0000000140001CBB: movups   xmmword ptr [rsp + 0x30], xmm2 */
+    /* unmodeled instruction: 0x0000000140001CC0: movsd    qword ptr [rsp + 0x40], xmm0 */
+    call_indirect(rax); /* destination unresolved */
+loc_140001CC9:
+    /* stack pointer adjustment: 0x0000000140001CC9: add      rsp, 0x58 */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001CD0 at 0x140001CD0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001CD0(uint64_t arg1) {
+loc_140001CD0:
+    (uintptr_t)0x140007090 = arg1;
+    goto loc_140002070;
+loc_140002070:
+    /* tail-call/import jump: api-ms-win-crt-math-l1-1-0.dll!__setusermatherr */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001CE0 at 0x140001CE0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001CE0(void) {
+    /* unmodeled instruction: 0x0000000140001CE0: fninit */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001CF0 at 0x140001CF0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001CF0(uint64_t arg1) {
+    uint64_t v_r8 = 0;
+    uint64_t v_r9 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rdx = 0;
+loc_140001CF0:
+    v_rax = (uintptr_t)0x140004310;
+    /* condition flags set by cmp(*(((uint16_t *)(v_rax))), 0x5a4d); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rax))) != 0x5a4d)) goto loc_140001D0D;
+loc_140001CFE:
+    v_rdx = (uint64_t)(*(((uint32_t *)(v_rax + 0x3c))));
+    v_rdx = v_rdx + v_rax;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rdx))), 0x4550); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rdx))) == 0x4550)) goto loc_140001D10;
+loc_140001D0D:
+    v_rax = 0;
+loc_140001D0F:
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001D10:
+    /* condition flags set by cmp(*(((uint16_t *)(v_rdx + 0x18))), 0x20b); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rdx + 0x18))) != 0x20b)) goto loc_140001D0D;
+loc_140001D18:
+    v_r8 = (uint64_t)(*(((uint16_t *)(v_rdx + 6))));
+    /* condition flags set by test(v_r8, v_r8); consumed by a later branch */
+    if (((v_r8 & v_r8) == 0)) goto loc_140001D0D;
+loc_140001D23:
+    arg1 = arg1 - v_rax;
+    v_rax = (uint64_t)(*(((uint16_t *)(v_rdx + 0x14))));
+    v_rax = address_of([v_rdx + v_rax + 0x18]);
+    v_rdx = address_of([v_r8 - 1]);
+    v_rdx = address_of([v_rdx + v_rdx*4]);
+    v_r9 = address_of([v_rax + v_rdx*8 + 0x28]);
+loc_140001D40:
+    v_r8 = *(((uint32_t *)(v_rax + 0xc)));
+    v_rdx = v_r8;
+    /* condition flags set by cmp(arg1, v_r8); consumed by a later branch */
+    if ((((uint64_t)(arg1)) < ((uint64_t)(v_r8)))) goto loc_140001D54;
+loc_140001D4C:
+    v_rdx = v_rdx + *(((uint32_t *)(v_rax + 8)));
+    /* condition flags set by cmp(arg1, v_rdx); consumed by a later branch */
+    if ((((uint64_t)(arg1)) < ((uint64_t)(v_rdx)))) goto loc_140001D0F;
+loc_140001D54:
+    v_rax = v_rax + 0x28;
+    /* condition flags set by cmp(v_rax, v_r9); consumed by a later branch */
+    if ((v_rax != v_r9)) goto loc_140001D40;
+loc_140001D5D:
+    v_rax = 0;
+    goto loc_140001D0F;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001D70 at 0x140001D70. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001D70(void) {
+    uint64_t v_rax = 0;
+    uint64_t v_rdx = 0;
+loc_140001D70:
+    v_rax = (uintptr_t)0x140004310;
+    /* condition flags set by cmp(*(((uint16_t *)(v_rax))), 0x5a4d); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rax))) != 0x5a4d)) goto loc_140001D8D;
+loc_140001D7E:
+    v_rdx = (uint64_t)(*(((uint32_t *)(v_rax + 0x3c))));
+    v_rax = v_rax + v_rdx;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rax))), 0x4550); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rax))) == 0x4550)) goto loc_140001D90;
+loc_140001D8D:
+    v_rax = 0;
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001D90:
+    /* condition flags set by cmp(*(((uint16_t *)(v_rax + 0x18))), 0x20b); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rax + 0x18))) != 0x20b)) goto loc_140001D8D;
+loc_140001D98:
+    v_rax = (uint64_t)(*(((uint16_t *)(v_rax + 6))));
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001DA0 at 0x140001DA0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001DA0(void) {
+    uint64_t v_rax = 0;
+    uint64_t v_rdx = 0;
+loc_140001DA0:
+    v_rax = (uintptr_t)0x140004310;
+    /* condition flags set by cmp(*(((uint16_t *)(v_rax))), 0x5a4d); consumed by a later branch */
+    if ((*(((uint16_t *)(v_rax))) != 0x5a4d)) goto loc_140001DBD;
+loc_140001DAE:
+    v_rdx = (uint64_t)(*(((uint32_t *)(v_rax + 0x3c))));
+    v_rdx = v_rdx + v_rax;
+    /* condition flags set by cmp(*(((uint32_t *)(v_rdx))), 0x4550); consumed by a later branch */
+    if ((*(((uint32_t *)(v_rdx))) == 0x4550)) goto loc_140001DC0;
+loc_140001DBD:
+    v_rax = 0;
+    return /* return-register/type recovery is not yet reliable */;
+loc_140001DC0:
+    /* condition flags set by cmp(*(((uint16_t *)(v_rdx + 0x18))), 0x20b); consumed by a later branch */
+    v_rdx = 0;
+    if (condition_ne) v_rax = 0;
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001DD0 at 0x140001DD0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001DD0(uint64_t arg1) {
+    uint64_t v_rax = 0;
+loc_140001DD0:
+    /* machine-level stack operation: push rcx */
+    /* machine-level stack operation: push rax */
+    /* condition flags set by cmp(v_rax, 0x1000); consumed by a later branch */
+    arg1 = address_of([rsp + 0x18]);
+    if ((((uint64_t)(v_rax)) < ((uint64_t)(0x1000)))) goto loc_140001DF8;
+loc_140001DDF:
+    arg1 = arg1 - 0x1000;
+    *(((uint64_t *)(arg1))) = *(((uint64_t *)(arg1))) | 0;
+    v_rax = v_rax - 0x1000;
+    /* condition flags set by cmp(v_rax, 0x1000); consumed by a later branch */
+    if ((((uint64_t)(v_rax)) > ((uint64_t)(0x1000)))) goto loc_140001DDF;
+loc_140001DF8:
+    arg1 = arg1 - v_rax;
+    *(((uint64_t *)(arg1))) = *(((uint64_t *)(arg1))) | 0;
+    v_rax = stack_pop(); /* reconstructed stack operation */
+    arg1 = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001E10 at 0x140001E10. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001E10(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001E13: sub      rsp, 0x30 */
+    v_rbx = arg1;
+    v_rsi = arg2;
+    v_rdi = arg3;
+    sub_140001F00(/* arguments unresolved */);
+    arg4 = 0;
+    arg3 = v_rsi;
+    arg2 = v_rbx;
+    arg1 = *(((uint64_t *)(v_rax)));
+    *(((uint64_t *)(rsp + 0x20))) = v_rdi;
+    __stdio_common_vfprintf(/* arguments unresolved */);
+    /* stack pointer adjustment: 0x0000000140001E3B: add      rsp, 0x30 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001E50 at 0x140001E50. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001E50(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001E53: sub      rsp, 0x40 */
+    v_rbx = arg1;
+    v_rsi = address_of([rsp + 0x68]);
+    arg1 = 1;
+    *(((uint64_t *)(rsp + 0x68))) = arg2;
+    *(((uint64_t *)(rsp + 0x70))) = arg3;
+    *(((uint64_t *)(rsp + 0x78))) = arg4;
+    *(((uint64_t *)(rsp + 0x38))) = v_rsi;
+    __acrt_iob_func(/* arguments unresolved */);
+    v_rdi = v_rax;
+    sub_140001F00(/* arguments unresolved */);
+    arg4 = 0;
+    arg3 = v_rbx;
+    arg2 = v_rdi;
+    arg1 = *(((uint64_t *)(v_rax)));
+    *(((uint64_t *)(rsp + 0x20))) = v_rsi;
+    __stdio_common_vfprintf(/* arguments unresolved */);
+    /* stack pointer adjustment: 0x0000000140001E9B: add      rsp, 0x40 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001EB0 at 0x140001EB0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001EB0(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001EB3: sub      rsp, 0x40 */
+    v_rdi = address_of([rsp + 0x70]);
+    v_rbx = arg1;
+    v_rsi = arg2;
+    *(((uint64_t *)(rsp + 0x70))) = arg3;
+    *(((uint64_t *)(rsp + 0x78))) = arg4;
+    *(((uint64_t *)(rsp + 0x38))) = v_rdi;
+    sub_140001F00(/* arguments unresolved */);
+    arg4 = 0;
+    arg3 = v_rsi;
+    arg2 = v_rbx;
+    arg1 = *(((uint64_t *)(v_rax)));
+    *(((uint64_t *)(rsp + 0x20))) = v_rdi;
+    __stdio_common_vfprintf(/* arguments unresolved */);
+    /* stack pointer adjustment: 0x0000000140001EEC: add      rsp, 0x40 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001F00 at 0x140001F00. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001F00(void) {
+    uint64_t v_rax = 0;
+    v_rax = (uintptr_t)0x140003040;
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001F10 at 0x140001F10. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001F10(void) {
+    uint64_t v_rax = 0;
+    v_rax = (uintptr_t)0x140004350;
+    v_rax = *(((uint64_t *)(v_rax)));
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001F20 at 0x140001F20. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001F20(uint64_t arg1) {
+    uint64_t v_r8 = 0;
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdx = 0;
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001F21: sub      rsp, 0x20 */
+    v_rbx = arg1;
+    arg1 = 2;
+    __acrt_iob_func(/* arguments unresolved */);
+    v_r8 = v_rbx;
+    v_rdx = "runtime error %d";
+    arg1 = v_rax;
+    sub_140001EB0(/* arguments unresolved */);
+    arg1 = 0xff;
+    _exit(/* arguments unresolved */);
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_140001F50 at 0x140001F50. Check control flow and types manually. */
+#include <stdint.h>
+void sub_140001F50(uint64_t arg1, uint64_t arg2, uint64_t arg3, uint64_t arg4) {
+    uint64_t v_rax = 0;
+    uint64_t v_rbx = 0;
+    uint64_t v_rdi = 0;
+    uint64_t v_rsi = 0;
+    /* machine-level stack operation: push rbp */
+    /* machine-level stack operation: push rdi */
+    /* machine-level stack operation: push rsi */
+    /* machine-level stack operation: push rbx */
+    /* stack pointer adjustment: 0x0000000140001F54: sub      rsp, 0x28 */
+    rbp = arg4;
+    v_rsi = arg2;
+    v_rbx = arg3;
+    v_rdi = arg1;
+    _initialize_narrow_environment(/* arguments unresolved */);
+    /* condition flags set by cmp(rbp, 1); consumed by a later branch */
+    arg1 = 1;
+    /* unmodeled instruction: 0x0000000140001F71: sbb      ecx, -1 */
+    _configure_narrow_argv(/* arguments unresolved */);
+    __p___argc(/* arguments unresolved */);
+    v_rax = *(((uint32_t *)(v_rax)));
+    *(((uint32_t *)(v_rdi))) = v_rax;
+    __p___argv(/* arguments unresolved */);
+    v_rax = *(((uint64_t *)(v_rax)));
+    *(((uint64_t *)(v_rsi))) = v_rax;
+    __p__environ(/* arguments unresolved */);
+    v_rax = *(((uint64_t *)(v_rax)));
+    *(((uint64_t *)(v_rbx))) = v_rax;
+    v_rax = *(((uint64_t *)(rsp + 0x70)));
+    arg1 = *(((uint32_t *)(v_rax)));
+    _set_new_mode(/* arguments unresolved */);
+    v_rax = 0;
+    /* stack pointer adjustment: 0x0000000140001FA6: add      rsp, 0x28 */
+    v_rbx = stack_pop(); /* reconstructed stack operation */
+    v_rsi = stack_pop(); /* reconstructed stack operation */
+    v_rdi = stack_pop(); /* reconstructed stack operation */
+    rbp = stack_pop(); /* reconstructed stack operation */
+    return /* return-register/type recovery is not yet reliable */;
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate strlen at 0x140001FB0. Check control flow and types manually. */
+#include <stdint.h>
+void strlen(void) {
+    /* tail-call/import jump: api-ms-win-crt-string-l1-1-0.dll!strlen */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __acrt_iob_func at 0x140001FC0. Check control flow and types manually. */
+#include <stdint.h>
+void __acrt_iob_func(void) {
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!__acrt_iob_func */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __p__commode at 0x140001FC8. Check control flow and types manually. */
+#include <stdint.h>
+void __p__commode(void) {
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!__p__commode */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __p__fmode at 0x140001FD0. Check control flow and types manually. */
+#include <stdint.h>
+void __p__fmode(void) {
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!__p__fmode */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __stdio_common_vfprintf at 0x140001FD8. Check control flow and types manually. */
+#include <stdint.h>
+void __stdio_common_vfprintf(void) {
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!__stdio_common_vfprintf */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate setvbuf at 0x140001FE8. Check control flow and types manually. */
+#include <stdint.h>
+void setvbuf(void) {
+    /* tail-call/import jump: api-ms-win-crt-stdio-l1-1-0.dll!setvbuf */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __p___argc at 0x140001FF0. Check control flow and types manually. */
+#include <stdint.h>
+void __p___argc(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!__p___argc */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __p___argv at 0x140001FF8. Check control flow and types manually. */
+#include <stdint.h>
+void __p___argv(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!__p___argv */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _cexit at 0x140002000. Check control flow and types manually. */
+#include <stdint.h>
+void _cexit(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_cexit */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _configure_narrow_argv at 0x140002008. Check control flow and types manually. */
+#include <stdint.h>
+void _configure_narrow_argv(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_configure_narrow_argv */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _crt_atexit at 0x140002010. Check control flow and types manually. */
+#include <stdint.h>
+void _crt_atexit(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_crt_atexit */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _exit at 0x140002018. Check control flow and types manually. */
+#include <stdint.h>
+void _exit(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_exit */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _initialize_narrow_environment at 0x140002020. Check control flow and types manually. */
+#include <stdint.h>
+void _initialize_narrow_environment(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_initialize_narrow_environment */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _seh_filter_exe at 0x140002028. Check control flow and types manually. */
+#include <stdint.h>
+void _seh_filter_exe(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_seh_filter_exe */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _initterm at 0x140002030. Check control flow and types manually. */
+#include <stdint.h>
+void _initterm(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_initterm */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _initterm_e at 0x140002038. Check control flow and types manually. */
+#include <stdint.h>
+void _initterm_e(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_initterm_e */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _set_app_type at 0x140002040. Check control flow and types manually. */
+#include <stdint.h>
+void _set_app_type(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_set_app_type */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _set_invalid_parameter_handler at 0x140002048. Check control flow and types manually. */
+#include <stdint.h>
+void _set_invalid_parameter_handler(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!_set_invalid_parameter_handler */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate abort at 0x140002050. Check control flow and types manually. */
+#include <stdint.h>
+void abort(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!abort */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate exit at 0x140002058. Check control flow and types manually. */
+#include <stdint.h>
+void exit(void) {
+    /* tail-call/import jump: api-ms-win-crt-runtime-l1-1-0.dll!exit */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate memcpy at 0x140002060. Check control flow and types manually. */
+#include <stdint.h>
+void memcpy(void) {
+    /* tail-call/import jump: api-ms-win-crt-private-l1-1-0.dll!memcpy */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _configthreadlocale at 0x140002080. Check control flow and types manually. */
+#include <stdint.h>
+void _configthreadlocale(void) {
+    /* tail-call/import jump: api-ms-win-crt-locale-l1-1-0.dll!_configthreadlocale */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate _set_new_mode at 0x140002090. Check control flow and types manually. */
+#include <stdint.h>
+void _set_new_mode(void) {
+    /* tail-call/import jump: api-ms-win-crt-heap-l1-1-0.dll!_set_new_mode */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate malloc at 0x140002098. Check control flow and types manually. */
+#include <stdint.h>
+void malloc(void) {
+    /* tail-call/import jump: api-ms-win-crt-heap-l1-1-0.dll!malloc */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate __p__environ at 0x1400020A0. Check control flow and types manually. */
+#include <stdint.h>
+void __p__environ(void) {
+    /* tail-call/import jump: api-ms-win-crt-environment-l1-1-0.dll!__p__environ */
+}
+
+/* Independent decompiler output: heuristic C-like reconstruction. */
+/* Function candidate sub_1400020E0 at 0x1400020E0. Check control flow and types manually. */
+#include <stdint.h>
+void sub_1400020E0(void) {
+    goto address_1400014B0;
+}
+
